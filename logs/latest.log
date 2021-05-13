@@ -1,0 +1,315 @@
+[14:18:43] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:18:44] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:18:44] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:18:44] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:18:44] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:18:44] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:18:44] [main/INFO]: Reloading ResourceManager: Default
+[14:18:46] [Worker-Main-2/INFO]: Loaded 7 recipes
+[14:18:47] [Worker-Main-2/INFO]: Loaded 927 advancements
+[14:18:50] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[14:18:50] [Server thread/INFO]: Loading properties
+[14:18:50] [Server thread/INFO]: Default game type: SURVIVAL
+[14:18:50] [Server thread/INFO]: Generating keypair
+[14:18:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:18:50] [Server thread/INFO]: Using epoll channel type
+[14:18:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:18:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:18:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:18:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:18:51] [Server thread/INFO]: Preparing level "world"
+[14:18:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:18:55] [Server thread/INFO]: Preparing spawn area: 0%
+[14:18:55] [Server thread/INFO]: Preparing spawn area: 0%
+[14:18:55] [Server thread/INFO]: Preparing spawn area: 0%
+[14:18:55] [Server thread/INFO]: Preparing spawn area: 0%
+[14:18:55] [Server thread/INFO]: Preparing spawn area: 0%
+[14:18:55] [Server thread/INFO]: Preparing spawn area: 0%
+[14:18:55] [Server thread/INFO]: Preparing spawn area: 0%
+[14:18:55] [Server thread/INFO]: Preparing spawn area: 0%
+[14:18:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:18:55] [Server thread/INFO]: Preparing spawn area: 27%
+[14:19:01] [Worker-Main-2/INFO]: Preparing spawn area: 54%
+[14:19:01] [Worker-Main-2/INFO]: Preparing spawn area: 54%
+[14:19:01] [Worker-Main-2/INFO]: Preparing spawn area: 54%
+[14:19:01] [Worker-Main-2/INFO]: Preparing spawn area: 54%
+[14:19:01] [Worker-Main-2/INFO]: Preparing spawn area: 54%
+[14:19:01] [Worker-Main-2/INFO]: Preparing spawn area: 54%
+[14:19:01] [Worker-Main-2/INFO]: Preparing spawn area: 54%
+[14:19:01] [Worker-Main-2/INFO]: Preparing spawn area: 54%
+[14:19:01] [Worker-Main-2/INFO]: Preparing spawn area: 54%
+[14:19:01] [Worker-Main-2/INFO]: Preparing spawn area: 54%
+[14:19:01] [Worker-Main-2/INFO]: Preparing spawn area: 54%
+[14:19:01] [Worker-Main-2/INFO]: Preparing spawn area: 54%
+[14:19:02] [Worker-Main-2/INFO]: Preparing spawn area: 97%
+[14:19:02] [Worker-Main-2/INFO]: Preparing spawn area: 97%
+[14:19:03] [Worker-Main-2/INFO]: Preparing spawn area: 97%
+[14:19:03] [Worker-Main-2/INFO]: Preparing spawn area: 97%
+[14:19:04] [Worker-Main-2/INFO]: Preparing spawn area: 97%
+[14:19:04] [Worker-Main-2/INFO]: Preparing spawn area: 98%
+[14:19:05] [Server thread/INFO]: Preparing spawn area: 99%
+[14:19:05] [Server thread/INFO]: Time elapsed: 14548 ms
+[14:19:05] [Server thread/INFO]: Done (14.687s)! For help, type "help"
+[14:19:15] [Server thread/INFO]: DOMDAE[/223.205.248.31:60275] logged in with entity id 168 at (-114.5, 71.0, 93.5)
+[14:19:15] [Server thread/INFO]: DOMDAE joined the game
+[14:19:23] [Server thread/INFO]: oat431[/1.47.44.187:38642] logged in with entity id 177 at (-102.5, 67.0, 94.5)
+[14:19:23] [Server thread/INFO]: oat431 joined the game
+[14:19:26] [Server thread/INFO]: Vector2588[/171.4.234.177:60734] logged in with entity id 183 at (-119.5, 63.0, 111.5)
+[14:19:26] [Server thread/INFO]: Vector2588 joined the game
+[14:19:35] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=0, y=0, z=0} fx{x=-114, y=67, z=109}
+[14:19:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=0, y=0, z=0} fx{x=-115, y=67, z=109}
+[14:19:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=0, y=0, z=0} fx{x=-115, y=67, z=109}
+[14:19:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=0, y=0, z=0} fx{x=-116, y=67, z=109}
+[14:20:01] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=0, y=0, z=0} fx{x=-120, y=73, z=100}
+[14:20:02] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=0, y=0, z=0} fx{x=-120, y=74, z=100}
+[14:20:46] [Server thread/INFO]: Set the time to 0
+[14:20:53] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-129, y=73, z=98} fx{x=-120, y=73, z=100}
+[14:21:05] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-129, y=72, z=98} fx{x=-121, y=71, z=99}
+[14:21:05] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-129, y=73, z=98} fx{x=-128, y=71, z=97}
+[14:21:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-129, y=72, z=98} fx{x=-124, y=71, z=100}
+[14:21:08] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-129, y=72, z=98} fx{x=-127, y=71, z=100}
+[14:21:10] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-129, y=72, z=98} fx{x=-128, y=71, z=101}
+[14:21:12] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-129, y=72, z=98} fx{x=-128, y=71, z=102}
+[14:21:14] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=0, y=0, z=0} fx{x=-120, y=75, z=100}
+[14:21:15] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-130, y=71, z=102} fx{x=-128, y=71, z=102}
+[14:21:15] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-130, y=71, z=102} fx{x=-128, y=71, z=102}
+[14:21:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-130, y=71, z=102} fx{x=-127, y=71, z=102}
+[14:21:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-130, y=71, z=102} fx{x=-126, y=71, z=102}
+[14:21:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-130, y=71, z=102} fx{x=-125, y=71, z=103}
+[14:21:21] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=0, y=0, z=0} fx{x=-120, y=73, z=100}
+[14:21:21] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=0, y=0, z=0} fx{x=-117, y=70, z=100}
+[14:21:21] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=0, y=0, z=0} fx{x=-118, y=69, z=100}
+[14:21:21] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=0, y=0, z=0} fx{x=-119, y=69, z=99}
+[14:21:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=0, y=0, z=0} fx{x=-121, y=70, z=99}
+[14:21:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=0, y=0, z=0} fx{x=-119, y=70, z=99}
+[14:21:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=0, y=0, z=0} fx{x=-120, y=69, z=99}
+[14:21:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=0, y=0, z=0} fx{x=-118, y=70, z=99}
+[14:21:25] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=0, y=0, z=0} fx{x=-117, y=70, z=98}
+[14:21:25] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=0, y=0, z=0} fx{x=-119, y=70, z=97}
+[14:21:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-132, y=71, z=105} fx{x=-120, y=71, z=99}
+[14:21:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-132, y=71, z=105} fx{x=-120, y=71, z=98}
+[14:21:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-132, y=71, z=105} fx{x=-120, y=71, z=98}
+[14:21:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-132, y=71, z=105} fx{x=-120, y=71, z=99}
+[14:21:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-132, y=71, z=105} fx{x=-120, y=71, z=99}
+[14:21:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=0, y=0, z=0} fx{x=-122, y=71, z=97}
+[14:21:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-132, y=71, z=105} fx{x=-120, y=71, z=99}
+[14:21:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-132, y=71, z=105} fx{x=-120, y=71, z=99}
+[14:21:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-132, y=71, z=105} fx{x=-120, y=71, z=99}
+[14:21:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-132, y=71, z=105} fx{x=-120, y=71, z=99}
+[14:21:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-132, y=71, z=105} fx{x=-120, y=71, z=99}
+[14:21:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-132, y=71, z=105} fx{x=-120, y=71, z=99}
+[14:21:43] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-138, y=72, z=104} fx{x=-128, y=76, z=100}
+[14:23:33] [Server thread/INFO]: blackneko1234[/184.22.65.83:31142] logged in with entity id 948 at (-102.5, 67.0, 98.5)
+[14:23:33] [Server thread/INFO]: blackneko1234 joined the game
+[14:28:40] [Server thread/INFO]: blackneko1234 has made the advancement [Stone Age]
+[14:29:12] [Server thread/INFO]: <oat431> -424 218
+[14:30:19] [Server thread/INFO]: DOMDAE has made the advancement [A Seedy Place]
+[14:30:28] [Server thread/INFO]: Vector2588 has made the advancement [What a Deal!]
+[14:31:28] [Server thread/INFO]: blackneko1234 has made the advancement [Sweet Dreams]
+[14:33:20] [Server thread/INFO]: DOMDAE has made the advancement [Stone Age]
+[14:33:21] [Server thread/INFO]: Vector2588 has made the advancement [Stone Age]
+[14:33:54] [Server thread/INFO]: DOMDAE has made the advancement [Getting an Upgrade]
+[14:33:57] [Server thread/INFO]: Vector2588 has made the advancement [Getting an Upgrade]
+[14:34:28] [Server thread/INFO]: Vector2588 lost connection: Timed out
+[14:34:28] [Server thread/INFO]: Vector2588 left the game
+[14:34:28] [Server thread/WARN]: handleDisconnection() called twice
+[14:34:41] [Server thread/INFO]: oat431 has made the advancement [Monster Hunter]
+[14:34:42] [Server thread/INFO]: Vector2588[/171.4.234.177:60847] logged in with entity id 4334 at (-477.51834443976844, 66.0, 212.3000000119209)
+[14:34:42] [Server thread/INFO]: Vector2588 joined the game
+[14:35:23] [Server thread/INFO]: blackneko1234 has made the advancement [Getting an Upgrade]
+[14:35:36] [Server thread/INFO]: oat431 was blown up by Creeper
+[14:37:15] [Server thread/INFO]: oat431 has made the advancement [Ice Bucket Challenge]
+[14:37:18] [Server thread/INFO]: Villager bfj['Villager'/1878, l='ServerLevel[world]', x=-467.65, y=70.80, z=221.15] died, message: 'Villager was slain by Zombie'
+[14:37:36] [Server thread/INFO]: oat431 was slain by Spider
+[14:38:04] [Server thread/INFO]: Mr.Kuu[/183.88.135.123:52611] logged in with entity id 5983 at (-111.5, 64.0, 110.5)
+[14:38:04] [Server thread/INFO]: Mr.Kuu joined the game
+[14:39:25] [Server thread/INFO]: blackneko1234 has made the advancement [Acquire Hardware]
+[14:39:30] [Server thread/INFO]: Vector2588 was slain by Zombie
+[14:39:38] [Server thread/INFO]: DOMDAE has made the advancement [Monster Hunter]
+[14:40:03] [Server thread/INFO]: Mr.Kuu was blown up by Creeper
+[14:40:37] [Server thread/INFO]: Mr.Kuu has made the advancement [Monster Hunter]
+[14:40:48] [Server thread/INFO]: blackneko1234 has made the advancement [Monster Hunter]
+[14:41:09] [Server thread/INFO]: <Vector2588> kouy
+[14:41:22] [Server thread/INFO]: blackneko1234 was blown up by Creeper
+[14:41:50] [Server thread/INFO]: oat431 has made the advancement [A Seedy Place]
+[14:43:34] [Server thread/INFO]: Vector2588 was slain by oat431
+[14:44:18] [Server thread/INFO]: oat431 has made the advancement [Stone Age]
+[14:45:36] [Server thread/INFO]: oat431 has made the advancement [Acquire Hardware]
+[14:46:00] [Server thread/INFO]: oat431 has made the advancement [Getting an Upgrade]
+[14:46:02] [Server thread/INFO]: Mr.Kuu has made the advancement [Stone Age]
+[14:46:10] [Server thread/INFO]: oat431 has made the advancement [Isn't It Iron Pick]
+[14:47:23] [Server thread/INFO]: Mr.Kuu has made the advancement [Getting an Upgrade]
+[14:48:15] [Server thread/INFO]: DOMDAE has made the advancement [Isn't It Iron Pick]
+[14:48:29] [Server thread/INFO]: Vector2588 lost connection: Timed out
+[14:48:29] [Server thread/INFO]: Vector2588 left the game
+[14:48:41] [Server thread/INFO]: Vector2588[/171.4.234.177:64814] logged in with entity id 9739 at (-472.930849766273, 67.0, 208.78553692520015)
+[14:48:41] [Server thread/INFO]: Vector2588 joined the game
+[14:55:12] [Server thread/INFO]: DOMDAE was shot by Skeleton
+[14:55:12] [Server thread/INFO]: Vector2588 lost connection: Timed out
+[14:55:12] [Server thread/INFO]: Vector2588 left the game
+[14:55:14] [Server thread/INFO]: blackneko1234 has made the advancement [Isn't It Iron Pick]
+[14:55:17] [Server thread/INFO]: Vector2588[/171.4.234.177:64218] logged in with entity id 11480 at (-489.69999998807907, 11.0, 125.52522905592909)
+[14:55:17] [Server thread/INFO]: Vector2588 joined the game
+[14:59:03] [Server thread/INFO]: Vector2588 lost connection: Timed out
+[14:59:03] [Server thread/INFO]: Vector2588 left the game
+[14:59:13] [Server thread/INFO]: Mr.Kuu has made the advancement [Acquire Hardware]
+[14:59:22] [Server thread/INFO]: Vector2588[/171.4.234.177:50626] logged in with entity id 12485 at (-476.300000011921, 66.0, 212.68198123721697)
+[14:59:22] [Server thread/INFO]: Vector2588 joined the game
+[14:59:42] [Server thread/INFO]: Mr.Kuu has made the advancement [Isn't It Iron Pick]
+[15:01:06] [Server thread/INFO]: <Vector2588> gu
+[15:01:13] [Server thread/INFO]: <Vector2588> +1
+[15:01:16] [Server thread/INFO]: <oat431> 0
+[15:01:16] [Server thread/INFO]: <DOMDAE> 1
+[15:01:21] [Server thread/INFO]: <blackneko1234> 1
+[15:01:25] [Server thread/INFO]: <Mr.Kuu> 1
+[15:01:34] [Server thread/INFO]: oat431 was shot by Skeleton
+[15:01:51] [Server thread/INFO]: DOMDAE has made the advancement [Acquire Hardware]
+[15:09:07] [Server thread/WARN]: DOMDAE moved too quickly! -3.203705674636126,1.1677966466332492,9.880829303184555
+[15:09:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2095ms or 41 ticks behind
+[15:09:30] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-742, y=72, z=431} fx{x=-742, y=70, z=429}
+[15:10:04] [Server thread/INFO]: <Vector2588> XYZ -745 ,71 ,448
+[15:10:31] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-769, y=73, z=469} fx{x=-769, y=71, z=468}
+[15:10:31] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-769, y=73, z=469} fx{x=-769, y=71, z=468}
+[15:10:31] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-769, y=73, z=469} fx{x=-769, y=71, z=468}
+[15:11:13] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-779, y=71, z=443} fx{x=-779, y=71, z=444}
+[15:11:13] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-779, y=71, z=443} fx{x=-779, y=71, z=444}
+[15:12:09] [Server thread/INFO]: Vector2588 lost connection: Timed out
+[15:12:09] [Server thread/INFO]: Vector2588 left the game
+[15:12:18] [Server thread/INFO]: blackneko1234 was shot by Skeleton
+[15:12:38] [Server thread/INFO]: blackneko1234 lost connection: Disconnected
+[15:12:38] [Server thread/INFO]: blackneko1234 left the game
+[15:13:05] [Server thread/INFO]: Vector2588[/171.4.234.177:50705] logged in with entity id 18497 at (-745.6468176646612, 71.0, 436.69999998807907)
+[15:13:05] [Server thread/INFO]: Vector2588 joined the game
+[15:14:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2231ms or 44 ticks behind
+[15:20:28] [Server thread/INFO]: DOMDAE was slain by Zombie
+[15:20:32] [Server thread/INFO]: Mr.Kuu was slain by Zombie
+[15:22:10] [Server thread/INFO]: Vector2588 has made the advancement [Monster Hunter]
+[15:23:04] [Server thread/INFO]: oat431 was slain by Zombie
+[15:23:08] [Server thread/INFO]: Mr.Kuu was shot by Skeleton
+[15:24:12] [Server thread/WARN]: DOMDAE moved too quickly! -8.093663121551572,-2.380023674395531,-5.469301835221927
+[15:24:12] [Server thread/WARN]: oat431 moved too quickly! -0.592574757369448,-7.623369501761346,-6.788818365104817
+[15:24:12] [Server thread/WARN]: Mr.Kuu moved too quickly! -0.6367175887201029,-5.871554777320384,-8.253428389945952
+[15:24:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2756ms or 55 ticks behind
+[15:25:33] [Server thread/INFO]: <Vector2588> ./time set day
+[15:25:36] [Server thread/INFO]: <Vector2588> 5555
+[15:28:28] [Server thread/INFO]: Mr.Kuu was shot by Skeleton
+[15:29:14] [Server thread/WARN]: Mr.Kuu moved too quickly! 0.0010628321004446661,-7.231523797587016,-7.165432721881075
+[15:32:14] [Server thread/INFO]: <oat431> -476 124
+[15:34:54] [Server thread/INFO]: oat431 has made the advancement [Diamonds!]
+[15:35:14] [Server thread/INFO]: Mr.Kuu has made the advancement [Diamonds!]
+[15:36:00] [Server thread/WARN]: Mr.Kuu moved wrongly!
+[15:37:45] [Server thread/INFO]: DOMDAE has made the advancement [Sweet Dreams]
+[15:37:46] [Server thread/INFO]: Vector2588 has made the advancement [Sweet Dreams]
+[15:51:48] [Server thread/INFO]: oat431 burned to death
+[15:52:13] [Server thread/INFO]: <Vector2588> sleep
+[15:52:16] [Server thread/INFO]: <Vector2588> quick
+[15:55:29] [Server thread/INFO]: DOMDAE was slain by Enderman
+[15:56:52] [Server thread/INFO]: oat431 tried to swim in lava
+[16:02:00] [Server thread/INFO]: oat431 was slain by Iron Golem
+[16:02:52] [Server thread/INFO]: <DOMDAE> -819 | 32
+[16:03:36] [Server thread/INFO]: <DOMDAE> -781 | 71
+[16:03:58] [Server thread/INFO]: <DOMDAE> -781 | 71 | 451
+[16:07:14] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-580, y=62, z=146} fx{x=-580, y=61, z=146}
+[16:08:56] [Server thread/INFO]: oat431 has made the advancement [Suit Up]
+[16:09:15] [Server thread/WARN]: DOMDAE moved too quickly! -0.2009259079303547,1.2491870787446828,-10.092079984266093
+[16:09:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2463ms or 49 ticks behind
+[16:09:29] [Server thread/INFO]: Mr.Kuu has made the advancement [Suit Up]
+[16:11:50] [Server thread/INFO]: Mr.Kuu has made the advancement [Sweet Dreams]
+[16:12:29] [Server thread/WARN]: Trying to add entity with duplicated UUID 483eb659-29b9-4e45-9a12-325b64b897a3. Existing minecraft:armor_stand#42508, new: minecraft:armor_stand#42508
+[16:12:52] [Server thread/INFO]: oat431 has made the advancement [Sweet Dreams]
+[16:13:04] [Server thread/INFO]: <Mr.Kuu> sleep noww
+[16:13:08] [Server thread/INFO]: <Mr.Kuu> kuy
+[16:13:09] [Server thread/INFO]: <Vector2588> rai wa
+[16:13:17] [Server thread/INFO]: <Mr.Kuu> haha
+[16:13:21] [Server thread/INFO]: <Mr.Kuu> a rai wa
+[16:13:28] [Server thread/INFO]: Vector2588 has made the advancement [Acquire Hardware]
+[16:13:39] [Server thread/INFO]: Vector2588 has made the advancement [Isn't It Iron Pick]
+[16:14:07] [Server thread/INFO]: DOMDAE has made the advancement [Suit Up]
+[16:14:16] [Server thread/WARN]: Mr.Kuu moved too quickly! -1.156438711325336,-8.0,6.011624961767495
+[16:17:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-776, y=70, z=333} fx{x=-775, y=71, z=334}
+[16:17:57] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-773, y=73, z=328} fx{x=-771, y=71, z=327}
+[16:19:41] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-766, y=72, z=458} fx{x=-765, y=70, z=459}
+[16:19:41] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-766, y=72, z=458} fx{x=-765, y=70, z=459}
+[16:21:05] [Server thread/INFO]: Vector2588 has made the advancement [Suit Up]
+[16:23:10] [Server thread/INFO]: Vector2588 has made the advancement [Not Today, Thank You]
+[16:23:10] [Server thread/INFO]: oat431 has made the advancement [Not Today, Thank You]
+[16:23:22] [Server thread/INFO]: Vector2588 has made the advancement [Voluntary Exile]
+[16:23:27] [Server thread/INFO]: oat431 has made the advancement [Voluntary Exile]
+[16:25:03] [Server thread/INFO]: Vector2588 was blown up by Creeper
+[16:25:20] [Server thread/WARN]: Fetching packet for removed entity bdy['Skeleton'/45186, l='ServerLevel[world]', x=-838.30, y=35.95, z=499.70]
+[16:25:53] [Server thread/INFO]: Vector2588 was slain by Zombie
+[16:36:35] [Server thread/INFO]: Vector2588 has made the advancement [A Seedy Place]
+[16:38:12] [Server thread/INFO]: Bonk07[/1.1.163.203:63664] logged in with entity id 47464 at (-101.5, 68.0, 96.5)
+[16:38:12] [Server thread/INFO]: Bonk07 joined the game
+[16:38:51] [Server thread/INFO]: <DOMDAE> -781 | 71 | 451
+[16:39:00] [Server thread/INFO]: No entity was found
+[16:39:02] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:39:02] [Server thread/INFO]: <--[HERE]
+[16:39:06] [Server thread/INFO]: <DOMDAE> -781 | 71 | 451
+[16:39:25] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:39:25] [Server thread/INFO]: /t/tp Bonk07 -781 71 451<--[HERE]
+[16:40:33] [Server thread/INFO]: DOMDAE hit the ground too hard
+[16:41:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-775, y=75, z=379} fx{x=-775, y=73, z=380}
+[16:47:46] [Server thread/INFO]: Villager bfj['Villager'/1748, l='ServerLevel[world]', x=-395.70, y=66.00, z=251.30] died, message: 'Villager was slain by Zombie'
+[16:47:50] [Server thread/INFO]: Bonk07 was slain by Zombie
+[16:49:17] [Server thread/WARN]: Bonk07 moved too quickly! -6.5306093088215675,-3.024424088213692,7.028120143590646
+[16:49:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2325ms or 46 ticks behind
+[16:50:18] [Server thread/INFO]: <DOMDAE> -397
+[16:50:28] [Server thread/INFO]: <DOMDAE> -397 | 66
+[16:51:25] [Server thread/INFO]: Villager bfj['Cleric'/1746, l='ServerLevel[world]', x=-479.05, y=75.00, z=287.51] died, message: 'Cleric was slain by Zombie'
+[16:54:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
+[16:55:41] [Server thread/INFO]: DOMDAE hit the ground too hard
+[16:56:53] [Server thread/INFO]: Bonk07 has made the advancement [Stone Age]
+[17:08:49] [Server thread/INFO]: Bonk07 has made the advancement [A Seedy Place]
+[17:09:59] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-770, y=72, z=473} fx{x=-770, y=71, z=473}
+[17:10:02] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-768, y=71, z=465} fx{x=-768, y=71, z=466}
+[17:10:31] [Server thread/INFO]: Bonk07 was shot by Skeleton
+[17:10:52] [Server thread/INFO]: Vector2588 was blown up by Creeper
+[17:18:36] [Server thread/INFO]: Vector2588 lost connection: Disconnected
+[17:18:36] [Server thread/INFO]: Vector2588 left the game
+[17:19:31] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-777, y=72, z=436} fx{x=-778, y=70, z=435}
+[17:20:09] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-762, y=70, z=431} fx{x=-763, y=69, z=430}
+[17:20:09] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-762, y=70, z=431} fx{x=-763, y=69, z=430}
+[17:20:10] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-764, y=71, z=428} fx{x=-765, y=69, z=428}
+[17:20:15] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-770, y=71, z=435} fx{x=-771, y=69, z=435}
+[17:25:08] [Server thread/INFO]: Mr.Kuu has made the advancement [A Seedy Place]
+[17:26:52] [Server thread/INFO]: oat431 was blown up by Creeper
+[17:28:16] [Server thread/INFO]: Bonk07 has made the advancement [Sweet Dreams]
+[17:31:59] [Server thread/INFO]: Bonk07 was slain by Zombie
+[17:40:41] [Server thread/INFO]: oat431 was shot by Pillager
+[17:47:15] [Server thread/INFO]: Bonk07 has made the advancement [Monster Hunter]
+[17:47:44] [Server thread/INFO]: Mr.Kuu lost connection: Disconnected
+[17:47:44] [Server thread/INFO]: Mr.Kuu left the game
+[17:48:20] [Server thread/INFO]: Bonk07 starved to death
+[17:50:18] [Server thread/INFO]: Bonk07 was slain by Spider
+[17:51:16] [Server thread/INFO]: Bonk07 was shot by Skeleton
+[17:56:57] [Server thread/INFO]: DOMDAE has made the advancement [The Parrots and the Bats]
+[18:24:02] [Server thread/INFO]: oat431 has made the advancement [Hot Stuff]
+[18:30:42] [Server thread/INFO]: Bonk07 lost connection: Disconnected
+[18:30:42] [Server thread/INFO]: Bonk07 left the game
+[18:35:09] [Server thread/INFO]: oat431 has made the advancement [We Need to Go Deeper]
+[18:35:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2466ms or 49 ticks behind
+[18:37:35] [Server thread/INFO]: DOMDAE has made the advancement [We Need to Go Deeper]
+[18:39:23] [Server thread/INFO]: oat431 has made the advancement [Ol' Betsy]
+[18:39:23] [Server thread/INFO]: oat431 has made the advancement [Take Aim]
+[18:42:02] [Server thread/INFO]: oat431 lost connection: Disconnected
+[18:42:02] [Server thread/INFO]: oat431 left the game
+[18:42:09] [Server thread/INFO]: DOMDAE lost connection: Disconnected
+[18:42:09] [Server thread/INFO]: DOMDAE left the game
+[18:42:20] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[18:42:20] [Server thread/INFO]: /save<--[HERE]
+[18:43:09] [Server thread/INFO]: Saving the game (this may take a moment!)
+[18:43:09] [Server thread/INFO]: Saved the game
+[18:43:19] [Server thread/INFO]: Stopping the server
+[18:43:19] [Server thread/INFO]: Stopping server
+[18:43:19] [Server thread/INFO]: Saving players
+[18:43:19] [Server thread/INFO]: Saving worlds
+[18:43:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:43:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:43:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18:43:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:43:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18:43:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:43:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:43:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:43:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
