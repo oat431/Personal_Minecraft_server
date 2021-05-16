@@ -1,53 +1,169 @@
-[13:34:08] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:34:09] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13:34:09] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13:34:09] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13:34:09] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13:34:09] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13:34:09] [main/INFO]: Reloading ResourceManager: Default
-[13:34:10] [Worker-Main-5/INFO]: Loaded 7 recipes
-[13:34:11] [Worker-Main-5/INFO]: Loaded 927 advancements
-[13:34:13] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[13:34:13] [Server thread/INFO]: Loading properties
-[13:34:13] [Server thread/INFO]: Default game type: SURVIVAL
-[13:34:13] [Server thread/INFO]: Generating keypair
-[13:34:13] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:34:13] [Server thread/INFO]: Using epoll channel type
-[13:34:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:34:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:34:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:34:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:34:13] [Server thread/INFO]: Preparing level "world"
-[13:34:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:34:15] [Server thread/INFO]: Preparing spawn area: 0%
-[13:34:15] [Server thread/INFO]: Preparing spawn area: 0%
-[13:34:15] [Server thread/INFO]: Preparing spawn area: 0%
-[13:34:15] [Server thread/INFO]: Preparing spawn area: 0%
-[13:34:15] [Server thread/INFO]: Preparing spawn area: 0%
-[13:34:20] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[13:34:20] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[13:34:20] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[13:34:20] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[13:34:20] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[13:34:20] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[13:34:20] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[13:34:20] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[13:34:20] [Server thread/INFO]: Preparing spawn area: 83%
-[13:34:20] [Worker-Main-6/INFO]: Preparing spawn area: 99%
-[13:34:21] [Server thread/INFO]: Time elapsed: 7385 ms
-[13:34:21] [Server thread/INFO]: Done (7.557s)! For help, type "help"
-[13:35:35] [Server thread/INFO]: Saving the game (this may take a moment!)
-[13:35:35] [Server thread/INFO]: Saved the game
-[13:35:47] [Server thread/INFO]: Stopping the server
-[13:35:47] [Server thread/INFO]: Stopping server
-[13:35:47] [Server thread/INFO]: Saving players
-[13:35:47] [Server thread/INFO]: Saving worlds
-[13:35:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13:35:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:35:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[13:35:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:35:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[13:35:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:35:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:35:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:35:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:50:22] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:50:23] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:50:23] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:50:23] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:50:23] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:50:23] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:50:23] [main/INFO]: Reloading ResourceManager: Default
+[15:50:24] [Worker-Main-4/INFO]: Loaded 7 recipes
+[15:50:24] [Worker-Main-4/INFO]: Loaded 927 advancements
+[15:50:27] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[15:50:27] [Server thread/INFO]: Loading properties
+[15:50:27] [Server thread/INFO]: Default game type: SURVIVAL
+[15:50:27] [Server thread/INFO]: Generating keypair
+[15:50:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:50:27] [Server thread/INFO]: Using epoll channel type
+[15:50:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:50:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:50:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:50:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:50:27] [Server thread/INFO]: Preparing level "world"
+[15:50:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:50:29] [Server thread/INFO]: Preparing spawn area: 0%
+[15:50:29] [Server thread/INFO]: Preparing spawn area: 0%
+[15:50:29] [Server thread/INFO]: Preparing spawn area: 0%
+[15:50:29] [Server thread/INFO]: Preparing spawn area: 0%
+[15:50:30] [Server thread/INFO]: Preparing spawn area: 0%
+[15:50:30] [Server thread/INFO]: Preparing spawn area: 27%
+[15:50:35] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[15:50:35] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[15:50:35] [Worker-Main-4/INFO]: Preparing spawn area: 83%
+[15:50:35] [Worker-Main-4/INFO]: Preparing spawn area: 83%
+[15:50:35] [Worker-Main-4/INFO]: Preparing spawn area: 83%
+[15:50:35] [Worker-Main-4/INFO]: Preparing spawn area: 83%
+[15:50:35] [Worker-Main-4/INFO]: Preparing spawn area: 83%
+[15:50:35] [Worker-Main-4/INFO]: Preparing spawn area: 83%
+[15:50:35] [Worker-Main-4/INFO]: Preparing spawn area: 83%
+[15:50:35] [Worker-Main-6/INFO]: Preparing spawn area: 99%
+[15:50:35] [Worker-Main-4/INFO]: Preparing spawn area: 99%
+[15:50:36] [Server thread/INFO]: Time elapsed: 8475 ms
+[15:50:36] [Server thread/INFO]: Done (8.673s)! For help, type "help"
+[15:50:46] [Server thread/INFO]: DOMDAE[/223.205.251.95:62754] logged in with entity id 60 at (-791.5532842136635, 66.0, 461.9163507155361)
+[15:50:46] [Server thread/INFO]: DOMDAE joined the game
+[15:50:52] [Server thread/INFO]: oat431[/1.46.70.201:47919] logged in with entity id 351 at (-769.1431195465361, 16.0, 487.6084144518314)
+[15:50:52] [Server thread/INFO]: oat431 joined the game
+[15:50:52] [Server thread/WARN]: Fetching packet for removed entity bcv['Cobblestone'/64, l='ServerLevel[world]', x=-787.94, y=66.00, z=459.13]
+[15:50:52] [Server thread/INFO]: Vector2588[/1.20.7.11:22103] logged in with entity id 354 at (-691.7903062553596, 72.0, 407.82807153987966)
+[15:50:52] [Server thread/INFO]: Vector2588 joined the game
+[15:50:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2341ms or 46 ticks behind
+[15:50:53] [Server thread/INFO]: blackneko1234[/184.22.64.70:10705] logged in with entity id 409 at (-717.2526354935487, 70.0, 422.04618520598996)
+[15:50:53] [Server thread/INFO]: blackneko1234 joined the game
+[15:50:54] [Server thread/INFO]: Bonk07[/1.1.174.57:56876] logged in with entity id 418 at (-672.5711248264153, 71.0, 389.17286430811765)
+[15:50:54] [Server thread/INFO]: Bonk07 joined the game
+[15:50:57] [Server thread/INFO]: blackneko1234 was blown up by Creeper
+[15:51:09] [Server thread/INFO]: Mr.Kuu[/183.88.135.123:58916] logged in with entity id 528 at (-739.3344052462395, 74.0, 471.7803795821779)
+[15:51:09] [Server thread/INFO]: Mr.Kuu joined the game
+[15:58:00] [Server thread/INFO]: blackneko1234 has made the advancement [Fishy Business]
+[16:04:50] [Server thread/WARN]: Fetching packet for removed entity bcv['Dirt'/3881, l='ServerLevel[world]', x=-719.46, y=71.93, z=401.35]
+[16:13:32] [Server thread/WARN]: Fetching packet for removed entity aqg['Experience Orb'/6222, l='ServerLevel[world]', x=-719.75, y=15.25, z=507.60]
+[16:16:46] [Server thread/WARN]: Fetching packet for removed entity bcv['Cobblestone'/7611, l='ServerLevel[world]', x=-653.37, y=13.42, z=509.88]
+[16:18:25] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-901, y=96, z=187} fx{x=-901, y=95, z=187}
+[16:18:40] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-912, y=98, z=172} fx{x=-911, y=97, z=172}
+[16:18:40] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-912, y=98, z=172} fx{x=-911, y=97, z=172}
+[16:18:56] [Server thread/INFO]: oat431 was impaled by Drowned
+[16:19:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-897, y=97, z=154} fx{x=-898, y=97, z=154}
+[16:19:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-897, y=97, z=154} fx{x=-898, y=97, z=154}
+[16:19:29] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-891, y=96, z=161} fx{x=-891, y=96, z=160}
+[16:20:05] [Server thread/INFO]: Vector2588 has made the advancement [Bee Our Guest]
+[16:21:00] [Server thread/INFO]: oat431 was impaled by Drowned
+[16:21:55] [Server thread/INFO]: <Vector2588> norn
+[16:22:02] [Server thread/INFO]: <Vector2588> Zzzz
+[16:22:57] [Server thread/INFO]: blackneko1234 lost connection: Disconnected
+[16:22:57] [Server thread/INFO]: blackneko1234 left the game
+[16:22:57] [Server thread/INFO]: DOMDAE lost connection: Disconnected
+[16:22:57] [Server thread/INFO]: DOMDAE left the game
+[16:23:22] [Server thread/INFO]: DOMDAE[/223.205.251.95:62911] logged in with entity id 10188 at (-827.0189531891244, 19.0, 575.3356188331435)
+[16:23:22] [Server thread/INFO]: DOMDAE joined the game
+[16:23:24] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/10239, l='ServerLevel[world]', x=-799.06, y=71.00, z=483.85]
+[16:23:24] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/10239, l='ServerLevel[world]', x=-799.06, y=71.00, z=483.85]
+[16:23:24] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/10239, l='ServerLevel[world]', x=-799.06, y=71.00, z=483.85]
+[16:23:24] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/10239, l='ServerLevel[world]', x=-799.06, y=71.00, z=483.85]
+[16:23:24] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/10239, l='ServerLevel[world]', x=-799.06, y=71.00, z=483.85]
+[16:23:27] [Server thread/INFO]: blackneko1234[/184.22.64.70:10766] logged in with entity id 10249 at (-826.2204757623525, 19.0, 573.1560589818974)
+[16:23:27] [Server thread/INFO]: blackneko1234 joined the game
+[16:24:18] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/10559, l='ServerLevel[world]', x=-802.05, y=71.00, z=485.72]
+[16:24:18] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/10559, l='ServerLevel[world]', x=-802.05, y=71.00, z=485.72]
+[16:24:18] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/10559, l='ServerLevel[world]', x=-802.05, y=71.00, z=485.72]
+[16:24:18] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/10559, l='ServerLevel[world]', x=-802.05, y=71.00, z=485.72]
+[16:24:18] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/10559, l='ServerLevel[world]', x=-802.05, y=71.00, z=485.72]
+[16:25:58] [Server thread/INFO]: oat431 was impaled by Drowned
+[16:26:58] [Server thread/INFO]: DOMDAE burned to death
+[16:29:04] [Server thread/INFO]: oat431 was impaled by Drowned
+[16:29:09] [Server thread/INFO]: Mr.Kuu was impaled by Drowned
+[16:30:04] [Server thread/INFO]: DOMDAE was slain by Zombie
+[16:30:27] [Server thread/INFO]: Mr.Kuu was impaled by Drowned
+[16:30:33] [Server thread/INFO]: oat431 was impaled by Drowned
+[16:31:49] [Server thread/INFO]: oat431 was impaled by Drowned
+[16:33:24] [Server thread/INFO]: Mr.Kuu was impaled by Drowned
+[16:33:44] [Server thread/INFO]: oat431 was impaled by Drowned
+[16:35:11] [Server thread/INFO]: oat431 was impaled by Drowned
+[16:35:54] [Server thread/INFO]: Mr.Kuu was impaled by Drowned
+[16:36:45] [Server thread/INFO]: oat431 was blown up by Creeper
+[16:36:53] [Server thread/INFO]: DOMDAE has made the advancement [Not Today, Thank You]
+[16:37:03] [Server thread/INFO]: blackneko1234 lost connection: Disconnected
+[16:37:03] [Server thread/INFO]: blackneko1234 left the game
+[16:37:18] [Server thread/INFO]: Vector2588 was slain by Zombie
+[16:37:53] [Server thread/INFO]: Mr.Kuu has made the advancement [Not Today, Thank You]
+[16:38:55] [Server thread/INFO]: oat431 has made the advancement [A Throwaway Joke]
+[16:42:05] [Server thread/INFO]: DOMDAE was slain by Zombie
+[16:43:00] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/16001, l='ServerLevel[world]', x=-800.50, y=71.00, z=481.00]
+[16:43:00] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/16001, l='ServerLevel[world]', x=-800.50, y=71.00, z=481.00]
+[16:43:00] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/16001, l='ServerLevel[world]', x=-800.50, y=71.00, z=481.00]
+[16:43:00] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/16001, l='ServerLevel[world]', x=-800.50, y=71.00, z=481.00]
+[16:43:00] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/16001, l='ServerLevel[world]', x=-800.50, y=71.00, z=481.00]
+[16:45:21] [Server thread/INFO]: DOMDAE has made the advancement [Hot Stuff]
+[16:46:59] [Server thread/INFO]: DOMDAE has made the advancement [Cover Me With Diamonds]
+[16:50:55] [Server thread/INFO]: oat431 was slain by Enderman
+[16:54:07] [Server thread/INFO]: <Vector2588> norn
+[16:54:08] [Server thread/INFO]: Bonk07 lost connection: Disconnected
+[16:54:08] [Server thread/INFO]: Bonk07 left the game
+[16:55:12] [Server thread/INFO]: Bonk07[/1.1.174.57:57739] logged in with entity id 18379 at (-882.7399036268545, 14.0, 449.57241882323825)
+[16:55:12] [Server thread/INFO]: Bonk07 joined the game
+[17:00:40] [Server thread/WARN]: DOMDAE moved too quickly! 4.829481465714608,2.1661092609382138,8.529860999112316
+[17:00:40] [Server thread/WARN]: oat431 moved too quickly! 8.629103424980912,-0.8291870918577047,5.963244995863533
+[17:03:31] [Server thread/INFO]: Vector2588 was slain by Mr.Kuu
+[17:05:17] [Server thread/INFO]: <DOMDAE> 218
+[17:05:33] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/24801, l='ServerLevel[world]', x=-802.21, y=71.00, z=480.48]
+[17:05:33] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/24801, l='ServerLevel[world]', x=-802.21, y=71.00, z=480.48]
+[17:05:33] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/24801, l='ServerLevel[world]', x=-802.21, y=71.00, z=480.48]
+[17:08:13] [Server thread/WARN]: Trying to add entity with duplicated UUID 8101b697-29f9-4118-8b37-50ef760fabad. Existing minecraft:armor_stand#27324, new: minecraft:armor_stand#27324
+[17:08:39] [Server thread/INFO]: <DOMDAE> -333
+[17:08:45] [Server thread/INFO]: <DOMDAE> -333 | 64
+[17:08:53] [Server thread/INFO]: <DOMDAE> -333 | 64 | 1027
+[17:09:19] [Server thread/INFO]: <DOMDAE> -333 | 64 | 1027
+[17:09:36] [Server thread/INFO]: Villager bfj['Villager'/27179, l='ServerLevel[world]', x=-387.30, y=52.00, z=1046.50] died, message: 'Villager was slain by Zombie'
+[17:11:36] [Server thread/INFO]: Villager bfj['Villager'/27065, l='ServerLevel[world]', x=-359.70, y=62.94, z=1039.50] died, message: 'Villager was slain by Zombie'
+[17:15:43] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-807, y=73, z=411} fx{x=-807, y=72, z=413}
+[17:17:27] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/32418, l='ServerLevel[world]', x=-802.92, y=71.00, z=486.17]
+[17:21:34] [Server thread/INFO]: Vector2588 was poked to death by a sweet berry bush
+[17:21:37] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/34123, l='ServerLevel[world]', x=-801.72, y=71.00, z=486.17]
+[17:21:37] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/34123, l='ServerLevel[world]', x=-801.72, y=71.00, z=486.17]
+[17:21:37] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/34123, l='ServerLevel[world]', x=-801.72, y=71.00, z=486.17]
+[17:23:00] [Server thread/INFO]: <Vector2588> -749
+[17:23:05] [Server thread/INFO]: <Vector2588> 71
+[17:23:09] [Server thread/INFO]: <Vector2588> 450
+[17:29:32] [Server thread/INFO]: Vector2588 lost connection: Disconnected
+[17:29:32] [Server thread/INFO]: Vector2588 left the game
+[17:29:38] [Server thread/INFO]: oat431 lost connection: Disconnected
+[17:29:38] [Server thread/INFO]: oat431 left the game
+[17:29:43] [Server thread/INFO]: Bonk07 lost connection: Disconnected
+[17:29:43] [Server thread/INFO]: Bonk07 left the game
+[17:29:44] [Server thread/INFO]: DOMDAE lost connection: Disconnected
+[17:29:44] [Server thread/INFO]: DOMDAE left the game
+[17:29:49] [Server thread/INFO]: Mr.Kuu lost connection: Disconnected
+[17:29:49] [Server thread/INFO]: Mr.Kuu left the game
+[17:30:00] [Server thread/INFO]: Saving the game (this may take a moment!)
+[17:30:00] [Server thread/INFO]: Saved the game
+[17:30:05] [Server thread/INFO]: Stopping the server
+[17:30:05] [Server thread/INFO]: Stopping server
+[17:30:05] [Server thread/INFO]: Saving players
+[17:30:05] [Server thread/INFO]: Saving worlds
+[17:30:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:30:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:30:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[17:30:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:30:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[17:30:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:30:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:30:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:30:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
