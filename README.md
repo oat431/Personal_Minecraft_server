@@ -11,10 +11,10 @@ Saving memory with my friend I guess?
 
 3. clone this repo
 
-4. run command "java -jar server.jar"
+4. change directory to the repo and run command "java -jar server.jar"
 
 5. give public IPv4 to your friend
 
-6. you are now go to go
+6. you are now good to go
 
 my personal recommand is Azure Virtual machine 8 Gbs
