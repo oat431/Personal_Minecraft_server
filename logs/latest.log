@@ -1,190 +1,191 @@
-[12:50:44] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12:50:44] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:50:44] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:50:44] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12:50:44] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:50:44] [main/INFO]: Reloading ResourceManager: Default
-[12:50:46] [Worker-Main-4/INFO]: Loaded 7 recipes
-[12:50:46] [Worker-Main-4/INFO]: Loaded 927 advancements
-[12:50:50] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[12:50:50] [Server thread/INFO]: Loading properties
-[12:50:50] [Server thread/INFO]: Default game type: SURVIVAL
-[12:50:50] [Server thread/INFO]: Generating keypair
-[12:50:50] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:50:50] [Server thread/INFO]: Using epoll channel type
-[12:50:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:50:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:50:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:50:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:50:50] [Server thread/INFO]: Preparing level "world"
-[12:50:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:50:53] [Server thread/INFO]: Preparing spawn area: 0%
-[12:50:53] [Server thread/INFO]: Preparing spawn area: 0%
-[12:50:53] [Server thread/INFO]: Preparing spawn area: 0%
-[12:50:53] [Server thread/INFO]: Preparing spawn area: 0%
-[12:50:53] [Server thread/INFO]: Preparing spawn area: 0%
-[12:50:53] [Server thread/INFO]: Preparing spawn area: 0%
-[12:50:54] [Server thread/INFO]: Preparing spawn area: 0%
-[12:50:54] [Server thread/INFO]: Preparing spawn area: 5%
-[12:50:55] [Server thread/INFO]: Preparing spawn area: 45%
-[12:51:01] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[12:51:01] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[12:51:01] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[12:51:01] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[12:51:01] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[12:51:01] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[12:51:01] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[12:51:01] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[12:51:01] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[12:51:01] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[12:51:01] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[12:51:01] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[12:51:01] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[12:51:02] [Worker-Main-5/INFO]: Preparing spawn area: 99%
-[12:51:02] [Server thread/INFO]: Preparing spawn area: 99%
-[12:51:02] [Server thread/INFO]: Time elapsed: 11771 ms
-[12:51:02] [Server thread/INFO]: Done (11.918s)! For help, type "help"
-[12:53:03] [Server thread/INFO]: Vector2588[/171.4.234.90:64485] logged in with entity id 43 at (-760.61954292181, 72.93612497923645, 454.8391500039956)
-[12:53:03] [Server thread/INFO]: Vector2588 joined the game
-[12:56:08] [Server thread/INFO]: Vector2588 was slain by Spider
-[12:57:16] [Server thread/INFO]: Bonk07[/182.52.93.194:54591] logged in with entity id 887 at (-731.3000000119209, 71.0, 412.21602746728666)
-[12:57:16] [Server thread/INFO]: Bonk07 joined the game
-[13:00:56] [Server thread/INFO]: konginwza[/58.11.16.108:2097] logged in with entity id 1368 at (-741.4234825709578, 71.0, 450.08829198992674)
-[13:00:56] [Server thread/INFO]: konginwza joined the game
-[13:05:37] [Server thread/INFO]: Mr.Kuu[/183.88.135.123:55001] logged in with entity id 2187 at (-740.6835493154429, 80.0, 472.15803074481994)
-[13:05:37] [Server thread/INFO]: Mr.Kuu joined the game
-[13:06:58] [Server thread/INFO]: <Vector2588> norn
-[13:08:17] [Server thread/INFO]: Vector2588 was shot by Skeleton
-[13:10:23] [Server thread/INFO]: Bonk07 was shot by Skeleton
-[13:11:14] [Server thread/INFO]: konginwza has made the advancement [We Need to Go Deeper]
-[13:11:31] [Server thread/INFO]: Bonk07 was shot by Skeleton
-[13:12:29] [Server thread/INFO]: Bonk07 was shot by Skeleton
-[13:14:45] [Server thread/INFO]: DOMDAE[/223.205.251.95:47719] logged in with entity id 4195 at (-786.3318497194128, 72.0, 461.5070686591129)
-[13:14:45] [Server thread/INFO]: DOMDAE joined the game
-[13:22:53] [Server thread/INFO]: Bonk07 burned to death
-[13:27:48] [Server thread/INFO]: DOMDAE has made the advancement [Fishy Business]
-[13:31:09] [Server thread/INFO]: Mr.Kuu has made the advancement [Best Friends Forever]
-[13:41:04] [Server thread/INFO]: Bonk07 was slain by Zombie
-[13:41:08] [Server thread/INFO]: konginwza fell from a high place
-[13:41:46] [Server thread/INFO]: konginwza was blown up by Creeper
-[13:42:31] [Server thread/INFO]: konginwza fell from a high place
-[13:43:47] [Server thread/INFO]: konginwza was shot by Skeleton
-[13:50:02] [Server thread/INFO]: Bonk07 lost connection: Disconnected
-[13:50:02] [Server thread/INFO]: Bonk07 left the game
-[13:51:10] [Server thread/INFO]: Vector2588 was shot by Skeleton
-[13:52:28] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/16156, l='ServerLevel[world]', x=-798.78, y=71.00, z=482.92]
-[13:52:28] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/16156, l='ServerLevel[world]', x=-798.78, y=71.00, z=482.92]
-[13:59:47] [Server thread/WARN]: Fetching packet for removed entity aqg['Experience Orb'/18840, l='ServerLevel[world]', x=-635.05, y=65.34, z=481.46]
-[14:00:41] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/19213, l='ServerLevel[world]', x=-798.10, y=71.00, z=485.29]
-[14:00:42] [Server thread/INFO]: konginwza was shot by Skeleton
-[14:01:07] [Server thread/INFO]: konginwza was shot by Skeleton
-[14:16:59] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/27295, l='ServerLevel[world]', x=-802.13, y=71.00, z=480.41]
-[14:16:59] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/27295, l='ServerLevel[world]', x=-802.13, y=71.00, z=480.41]
-[14:20:16] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/29166, l='ServerLevel[world]', x=-798.54, y=71.00, z=485.54]
-[14:20:16] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/29166, l='ServerLevel[world]', x=-798.54, y=71.00, z=485.54]
-[14:20:16] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/29166, l='ServerLevel[world]', x=-798.54, y=71.00, z=485.54]
-[14:24:11] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/30147, l='ServerLevel[world]', x=-799.06, y=71.00, z=485.17]
-[14:24:11] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/30147, l='ServerLevel[world]', x=-799.06, y=71.00, z=485.17]
-[14:24:11] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/30147, l='ServerLevel[world]', x=-799.06, y=71.00, z=485.17]
-[14:24:30] [Server thread/INFO]: konginwza lost connection: Disconnected
-[14:24:30] [Server thread/INFO]: konginwza left the game
-[14:30:14] [Server thread/INFO]: DOMDAE has made the advancement [Best Friends Forever]
-[14:31:59] [Server thread/INFO]: Mr.Kuu has made the advancement [Enchanter]
-[14:34:56] [Server thread/INFO]: <Vector2588> DOMDAE
-[14:35:17] [Server thread/INFO]: <Vector2588> ZZZzzz
-[14:35:24] [Server thread/INFO]: <DOMDAE> zzzzzzzzzzzzzzzz
-[14:35:53] [Server thread/INFO]: <Mr.Kuu> zzzz
-[14:40:53] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/38112, l='ServerLevel[world]', x=-798.50, y=71.00, z=485.49]
-[14:41:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -2.3257363386053385,0.0,-10.102487875267798
-[14:41:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -2.3614956068846595,0.0,-10.49833815955094
-[14:41:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -2.3889119542588446,0.0,-10.894318338409676
-[14:41:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -2.4061783751404846,0.0,-11.290008467945881
-[14:41:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -2.4119580317073996,0.0,-11.684920553585698
-[14:41:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -2.4053136867609055,0.0,-12.078547067224463
-[14:41:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -2.385641759754151,0.0,-12.470394543196107
-[14:41:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -2.352608433296325,0.0,-12.860003633426004
-[14:41:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -2.3061062836905535,0.0,-13.24696564087526
-[14:41:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -2.2462014201416878,0.0,-13.630925858691398
-[14:41:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -2.1731005644051606,0.0,-14.011588177317662
-[14:41:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -2.087121894652171,0.0,-14.388716101648015
-[14:41:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -1.988666165581094,0.0,-14.762128980051557
-[14:41:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -1.8781948162002209,0.0,-15.13169814483308
-[14:41:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -1.756210952286267,0.0,-15.497341613255003
-[14:41:27] [Server thread/INFO]: <Mr.Kuu> -732.208 x
-[14:42:57] [Server thread/INFO]: Vector2588 has made the advancement [Best Friends Forever]
-[14:43:55] [Server thread/WARN]: Horse (vehicle of Vector2588) moved wrongly! 0.28483790947802845
-[14:43:55] [Server thread/WARN]: Horse (vehicle of Vector2588) moved wrongly! 0.7720471913198139
-[14:46:23] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/41153, l='ServerLevel[world]', x=-802.73, y=71.00, z=480.29]
-[14:46:52] [Server thread/INFO]: <DOMDAE> zzzzzzzzzzzz
-[14:46:52] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/41307, l='ServerLevel[world]', x=-802.88, y=71.00, z=482.76]
-[14:46:53] [Server thread/INFO]: <DOMDAE> z
-[14:46:53] [Server thread/INFO]: <DOMDAE> z
-[14:46:53] [Server thread/INFO]: <DOMDAE> z
-[14:46:53] [Server thread/INFO]: <DOMDAE> z
-[14:46:53] [Server thread/INFO]: <DOMDAE> z
-[14:46:54] [Server thread/INFO]: <DOMDAE> z
-[14:46:54] [Server thread/INFO]: <DOMDAE> z
-[14:46:54] [Server thread/INFO]: <DOMDAE> z
-[14:46:54] [Server thread/INFO]: <DOMDAE> z
-[14:46:54] [Server thread/INFO]: <DOMDAE> z
-[14:46:55] [Server thread/INFO]: <DOMDAE> z
-[14:46:56] [Server thread/INFO]: <DOMDAE> zzzzzzzzzzzzzzzzzz
-[14:46:57] [Server thread/INFO]: <DOMDAE> zz
-[14:46:57] [Server thread/INFO]: <DOMDAE> z
-[14:46:57] [Server thread/INFO]: <DOMDAE> z
-[14:46:57] [Server thread/INFO]: DOMDAE lost connection: Kicked for spamming
-[14:46:57] [Server thread/INFO]: DOMDAE left the game
-[14:46:57] [Server thread/INFO]: <Vector2588> ZZZZzzz
-[14:46:57] [Server thread/WARN]: handleDisconnection() called twice
-[14:47:06] [Server thread/INFO]: DOMDAE[/223.205.251.95:48947] logged in with entity id 41334 at (646.5, 64.0, -1086.5)
-[14:47:06] [Server thread/INFO]: DOMDAE joined the game
-[14:47:12] [Server thread/INFO]: <DOMDAE> wtf
-[14:47:32] [Server thread/INFO]: <DOMDAE> norn
-[14:47:35] [Server thread/INFO]: <DOMDAE> di
-[14:47:36] [Server thread/INFO]: <DOMDAE> kub
-[14:47:37] [Server thread/INFO]: <Vector2588> raew
-[14:47:39] [Server thread/INFO]: <DOMDAE> ma di
-[14:47:41] [Server thread/INFO]: <Vector2588> char
-[14:47:45] [Server thread/INFO]: <DOMDAE> quick quick
-[14:47:45] [Server thread/INFO]: <Vector2588> norn
-[14:48:58] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/42867, l='ServerLevel[world]', x=-798.28, y=71.00, z=480.22]
-[14:51:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -8.198800590920996,0.0,6.398406626664041
-[14:51:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -8.514139075187188,0.0,6.644499189227986
-[14:51:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -8.82947755945338,0.0,6.890591751792044
-[14:51:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -9.144816043719572,0.0,7.136684314355989
-[14:51:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -9.460154527985765,0.0,7.3827768769200475
-[14:51:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -9.775493012251957,0.0,7.628869439483992
-[14:51:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -10.090831496518149,0.0,7.874962002048051
-[14:51:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -10.406169980784341,0.0,8.121054564611995
-[14:51:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -10.721508465050533,0.0,8.367147127176054
-[14:51:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -11.036846949316725,0.0,8.613239689739999
-[14:51:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -11.352185433582918,0.0,8.859332252304057
-[14:51:04] [Server thread/WARN]: Boat (vehicle of DOMDAE) moved too quickly! -11.66752391784911,0.0,9.105424814868002
-[15:12:37] [Server thread/INFO]: Mr.Kuu lost connection: Disconnected
-[15:12:37] [Server thread/INFO]: Mr.Kuu left the game
-[15:14:21] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/51511, l='ServerLevel[world]', x=-802.51, y=71.00, z=483.71]
-[15:14:21] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/51511, l='ServerLevel[world]', x=-802.51, y=71.00, z=483.71]
-[15:17:07] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/52109, l='ServerLevel[world]', x=-802.08, y=71.00, z=483.54]
-[15:19:50] [Server thread/INFO]: <DOMDAE> zzz
-[15:19:53] [Server thread/INFO]: <Vector2588> ZZZ
-[15:22:21] [Server thread/INFO]: DOMDAE lost connection: Disconnected
-[15:22:21] [Server thread/INFO]: DOMDAE left the game
-[15:22:29] [Server thread/INFO]: Vector2588 lost connection: Disconnected
-[15:22:29] [Server thread/INFO]: Vector2588 left the game
-[15:22:47] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[15:22:47] [Server thread/INFO]: /หฟ�/save-all<--[HERE]
-[15:22:58] [Server thread/INFO]: Saving the game (this may take a moment!)
-[15:22:58] [Server thread/INFO]: Saved the game
-[15:23:12] [Server thread/INFO]: Stopping the server
-[15:23:12] [Server thread/INFO]: Stopping server
-[15:23:12] [Server thread/INFO]: Saving players
-[15:23:12] [Server thread/INFO]: Saving worlds
-[15:23:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:23:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:23:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[15:23:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:23:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[15:23:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:23:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:23:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:23:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:35:17] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:35:18] [main/INFO]: Found new data pack file/bukkit, loading it automatically
+[11:35:18] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[11:35:20] [Worker-Main-2/INFO]: Loaded 7 recipes
+[11:35:24] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[11:35:24] [Server thread/INFO]: Loading properties
+[11:35:25] [Server thread/INFO]: This server is running CraftBukkit version 2991-Spigot-018b9a0-f3f3094 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[11:35:25] [Server thread/INFO]: Debug logging is disabled
+[11:35:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:35:25] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:35:25] [Server thread/INFO]: Default game type: SURVIVAL
+[11:35:25] [Server thread/INFO]: Generating keypair
+[11:35:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:35:26] [Server thread/INFO]: Using epoll channel type
+[11:35:27] [Server thread/INFO]: [MineChest] Loading MineChest v0.1.0-alpha.2
+[11:35:27] [Server thread/INFO]: [TreeMe] Loading TreeMe v1.4.3
+[11:35:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:35:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:35:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:35:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:35:27] [Server thread/INFO]: Preparing level "world"
+[11:35:27] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:35:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:35:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:35:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:35:27] [Server thread/INFO]: Max TNT Explosions: 100
+[11:35:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:35:27] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:35:27] [Server thread/INFO]: Mob Spawn Range: 6
+[11:35:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:35:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:35:27] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:35:27] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:35:27] [Server thread/INFO]: View Distance: 10
+[11:35:27] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:35:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:35:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:35:27] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:35:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:35:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:35:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:35:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:35:28] [Server thread/INFO]: Max TNT Explosions: 100
+[11:35:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:35:28] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:35:28] [Server thread/INFO]: Mob Spawn Range: 6
+[11:35:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:35:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:35:28] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:35:28] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:35:28] [Server thread/INFO]: View Distance: 10
+[11:35:28] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:35:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:35:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:35:28] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:35:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:35:28] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:35:28] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:35:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:35:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:35:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:35:28] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:35:28] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:35:28] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:35:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:35:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:35:28] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:35:28] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:35:28] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:35:28] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:35:28] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:35:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:35:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:35:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:35:28] [Server thread/INFO]: Max TNT Explosions: 100
+[11:35:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:35:28] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:35:28] [Server thread/INFO]: Mob Spawn Range: 6
+[11:35:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:35:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:35:28] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:35:28] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:35:28] [Server thread/INFO]: View Distance: 10
+[11:35:28] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:35:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:35:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:35:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:35:30] [Server thread/INFO]: Preparing spawn area: 0%
+[11:35:30] [Server thread/INFO]: Preparing spawn area: 0%
+[11:35:30] [Server thread/INFO]: Preparing spawn area: 0%
+[11:35:30] [Server thread/INFO]: Preparing spawn area: 0%
+[11:35:30] [Server thread/INFO]: Preparing spawn area: 0%
+[11:35:30] [Server thread/INFO]: Preparing spawn area: 0%
+[11:35:31] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[11:35:37] [Worker-Main-2/INFO]: Preparing spawn area: 19%
+[11:35:37] [Worker-Main-2/INFO]: Preparing spawn area: 19%
+[11:35:37] [Worker-Main-2/INFO]: Preparing spawn area: 19%
+[11:35:37] [Worker-Main-2/INFO]: Preparing spawn area: 19%
+[11:35:37] [Server thread/INFO]: Preparing spawn area: 19%
+[11:35:37] [Server thread/INFO]: Preparing spawn area: 19%
+[11:35:37] [Server thread/INFO]: Preparing spawn area: 19%
+[11:35:37] [Server thread/INFO]: Preparing spawn area: 19%
+[11:35:37] [Server thread/INFO]: Preparing spawn area: 19%
+[11:35:37] [Server thread/INFO]: Preparing spawn area: 19%
+[11:35:37] [Server thread/INFO]: Preparing spawn area: 19%
+[11:35:37] [Server thread/INFO]: Preparing spawn area: 19%
+[11:35:37] [Server thread/INFO]: Preparing spawn area: 19%
+[11:35:38] [Server thread/INFO]: Preparing spawn area: 72%
+[11:35:38] [Worker-Main-2/INFO]: Preparing spawn area: 93%
+[11:35:39] [Worker-Main-2/INFO]: Preparing spawn area: 93%
+[11:35:39] [Server thread/INFO]: Preparing spawn area: 93%
+[11:35:40] [Server thread/INFO]: Time elapsed: 11896 ms
+[11:35:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:35:41] [Server thread/INFO]: Preparing spawn area: 0%
+[11:35:41] [Server thread/INFO]: Preparing spawn area: 0%
+[11:35:41] [Server thread/INFO]: Preparing spawn area: 0%
+[11:35:41] [Server thread/INFO]: Preparing spawn area: 0%
+[11:35:42] [Server thread/INFO]: Preparing spawn area: 55%
+[11:35:42] [Worker-Main-2/INFO]: Preparing spawn area: 99%
+[11:35:43] [Worker-Main-2/INFO]: Preparing spawn area: 99%
+[11:35:43] [Server thread/INFO]: Time elapsed: 3545 ms
+[11:35:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:35:44] [Server thread/INFO]: Preparing spawn area: 0%
+[11:35:44] [Server thread/INFO]: Preparing spawn area: 0%
+[11:35:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:35:45] [Worker-Main-2/INFO]: Preparing spawn area: 37%
+[11:35:45] [Worker-Main-2/INFO]: Preparing spawn area: 54%
+[11:35:46] [Worker-Main-2/INFO]: Preparing spawn area: 60%
+[11:35:46] [Worker-Main-2/INFO]: Preparing spawn area: 65%
+[11:35:47] [Worker-Main-2/INFO]: Preparing spawn area: 75%
+[11:35:47] [Worker-Main-2/INFO]: Preparing spawn area: 83%
+[11:35:48] [Worker-Main-2/INFO]: Preparing spawn area: 93%
+[11:35:48] [Server thread/INFO]: Time elapsed: 4829 ms
+[11:35:48] [Server thread/INFO]: [MineChest] Enabling MineChest v0.1.0-alpha.2
+[11:35:48] [Server thread/INFO]: [MineChest] MineChest loaded!
+[11:35:48] [Server thread/INFO]: [TreeMe] Enabling TreeMe v1.4.3
+[11:35:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:35:48] [Server thread/INFO]: Done (20.991s)! For help, type "help"
+[11:37:01] [User Authenticator #1/INFO]: UUID of player oat431 is ec97e367-ae4a-33a1-a0d4-35a9b486178e
+[11:37:01] [Server thread/INFO]: oat431[/202.28.250.95:54390] logged in with entity id 197 at ([world]-759.5, 72.0, 477.5)
+[11:39:29] [Server thread/INFO]: oat431 lost connection: Disconnected
+[11:39:29] [Server thread/INFO]: oat431 left the game
+[11:39:44] [Server thread/INFO]: Saving the game (this may take a moment!)
+[11:39:46] [Server thread/INFO]: Saved the game
+[11:39:52] [Server thread/INFO]: Stopping the server
+[11:39:52] [Server thread/INFO]: Stopping server
+[11:39:52] [Server thread/INFO]: [TreeMe] Disabling TreeMe v1.4.3
+[11:39:52] [Server thread/INFO]: [MineChest] Disabling MineChest v0.1.0-alpha.2
+[11:39:52] [Server thread/INFO]: [MineChest] MineChest disabled!
+[11:39:52] [Server thread/INFO]: Saving players
+[11:39:52] [Server thread/INFO]: Saving worlds
+[11:39:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:39:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:39:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[11:39:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:39:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:39:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:39:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:39:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:39:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

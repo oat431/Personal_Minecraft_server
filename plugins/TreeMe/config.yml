@@ -1,0 +1,20 @@
+# Require an axe tool
+require_axe: true
+
+# Damage tool on chop
+damage_tool: true
+
+# Allow TreeMe in the nether
+allow_in_nether: true
+
+# Break leaves
+break_leaves:
+  nether: false
+  overworld: true
+
+# Replant trees that get chopped
+replant: true
+
+# Replant feature requires a sapling be present
+# in player's inventory
+replant_requires_sapling: true
