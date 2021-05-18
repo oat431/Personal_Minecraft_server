@@ -11,7 +11,7 @@ Saving memory with my friend I guess?
 
 3. clone this repo
 
-4. change directory to the repo and run command "java -jar server.jar"
+4. change directory to the repo and run command "java -jar spigot.jar --nogui"
 
 5. give public IPv4 to your friend
 
