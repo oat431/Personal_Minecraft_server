@@ -553,6 +553,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2021-05-19 15:16:47 +0000",
       "minecraft:skeleton": "2021-05-13 17:16:39 +0000",
       "minecraft:spider": "2021-05-17 15:05:35 +0000",
       "minecraft:phantom": "2021-05-14 13:40:56 +0000",
@@ -642,6 +643,12 @@
   "minecraft:recipes/food/cooked_mutton_from_smoking": {
     "criteria": {
       "has_mutton": "2021-05-13 16:35:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2021-05-19 15:18:37 +0000"
     },
     "done": true
   },
@@ -2491,6 +2498,12 @@
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2021-05-13 14:41:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2021-05-19 15:50:31 +0000"
     },
     "done": true
   },

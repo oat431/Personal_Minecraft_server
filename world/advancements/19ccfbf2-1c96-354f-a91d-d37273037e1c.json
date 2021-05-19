@@ -65,6 +65,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone": {
+    "criteria": {
+      "has_vine": "2021-05-19 15:55:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
     "criteria": {
       "has_red_flower": "2021-05-16 17:27:34 +0000"
@@ -233,6 +239,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2021-05-19 15:39:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_blasting": {
     "criteria": {
       "has_iron_ore": "2021-05-13 15:33:09 +0000"
@@ -326,6 +338,12 @@
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2021-05-16 13:50:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2021-05-19 15:39:15 +0000"
     },
     "done": true
   },
@@ -1457,11 +1475,13 @@
       "cooked_beef": "2021-05-13 16:23:40 +0000",
       "baked_potato": "2021-05-14 15:18:05 +0000",
       "apple": "2021-05-13 16:09:27 +0000",
+      "potato": "2021-05-19 15:59:11 +0000",
       "cooked_cod": "2021-05-16 15:17:11 +0000",
       "mutton": "2021-05-13 15:02:43 +0000",
       "bread": "2021-05-13 14:32:21 +0000",
       "cooked_chicken": "2021-05-16 13:49:30 +0000",
-      "cooked_salmon": "2021-05-16 15:52:03 +0000"
+      "cooked_salmon": "2021-05-16 15:52:03 +0000",
+      "carrot": "2021-05-19 15:16:01 +0000"
     },
     "done": false
   },
@@ -1531,6 +1551,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2021-05-19 15:39:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
       "has_wheat": "2021-05-13 14:42:18 +0000"
@@ -1564,6 +1590,12 @@
   "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2021-05-13 15:56:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2021-05-19 15:39:15 +0000"
     },
     "done": true
   },
@@ -2005,6 +2037,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks": {
+    "criteria": {
+      "has_mossy_cobblestone": "2021-05-19 15:39:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2021-05-14 13:33:45 +0000"
@@ -2122,6 +2160,12 @@
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_sand": "2021-05-13 17:02:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2021-05-19 15:39:15 +0000"
     },
     "done": true
   },
@@ -2434,6 +2478,12 @@
   "minecraft:recipes/building_blocks/melon": {
     "criteria": {
       "has_melon": "2021-05-16 17:09:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2021-05-19 15:39:15 +0000"
     },
     "done": true
   },
