@@ -990,6 +990,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2021-05-22 16:09:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2021-05-13 16:32:57 +0000"
@@ -1193,6 +1199,7 @@
       "minecraft:birch_forest_hills": "2021-05-14 15:27:33 +0000",
       "minecraft:wooded_mountains": "2021-05-16 17:20:06 +0000",
       "minecraft:wooded_hills": "2021-05-13 16:15:31 +0000",
+      "minecraft:stone_shore": "2021-05-22 16:29:01 +0000",
       "minecraft:swamp": "2021-05-14 15:25:50 +0000",
       "minecraft:savanna": "2021-05-13 14:19:31 +0000",
       "minecraft:plains": "2021-05-13 16:18:19 +0000"
@@ -1716,6 +1723,7 @@
       "salmon": "2021-05-16 14:22:29 +0000",
       "melon_slice": "2021-05-13 14:55:16 +0000",
       "cooked_chicken": "2021-05-14 14:07:29 +0000",
+      "cooked_salmon": "2021-05-22 17:33:54 +0000",
       "carrot": "2021-05-18 16:56:36 +0000"
     },
     "done": false
@@ -2278,6 +2286,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2021-05-22 16:36:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2021-05-13 14:25:25 +0000"
@@ -2530,6 +2544,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2021-05-22 16:46:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2021-05-13 16:41:58 +0000"
@@ -2731,6 +2751,12 @@
   "minecraft:recipes/transportation/powered_rail": {
     "criteria": {
       "has_rail": "2021-05-14 14:39:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2021-05-22 16:36:13 +0000"
     },
     "done": true
   },
