@@ -557,6 +557,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2021-05-23 14:51:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2021-05-13 14:19:32 +0000"
@@ -617,6 +623,7 @@
       "minecraft:skeleton": "2021-05-13 15:40:47 +0000",
       "minecraft:spider": "2021-05-14 14:25:40 +0000",
       "minecraft:creeper": "2021-05-14 14:07:08 +0000",
+      "minecraft:witch": "2021-05-23 14:12:39 +0000",
       "minecraft:cave_spider": "2021-05-13 15:56:38 +0000",
       "minecraft:enderman": "2021-05-13 15:55:35 +0000",
       "minecraft:zombie": "2021-05-13 15:22:10 +0000",
@@ -640,6 +647,12 @@
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_redstone": "2021-05-16 13:46:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_banner": {
+    "criteria": {
+      "has_yellow_wool": "2021-05-23 14:51:10 +0000"
     },
     "done": true
   },
@@ -760,6 +773,12 @@
   "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2021-05-18 16:55:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2021-05-23 16:33:22 +0000"
     },
     "done": true
   },
@@ -970,6 +989,12 @@
   "minecraft:recipes/decorations/gray_carpet": {
     "criteria": {
       "has_gray_wool": "2021-05-13 15:02:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2021-05-23 14:51:37 +0000"
     },
     "done": true
   },
@@ -1302,6 +1327,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/yellow_carpet": {
+    "criteria": {
+      "has_yellow_wool": "2021-05-23 14:51:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stripped_oak_wood": {
     "criteria": {
       "has_log": "2021-05-16 17:16:47 +0000"
@@ -1323,6 +1354,12 @@
   "minecraft:recipes/transportation/tnt_minecart": {
     "criteria": {
       "has_minecart": "2021-05-22 09:20:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2021-05-23 16:33:22 +0000"
     },
     "done": true
   },
@@ -1470,15 +1507,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
-    "criteria": {
-      "has_sandstone": "2021-05-23 10:33:12 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2021-05-23 07:19:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2021-05-23 10:33:12 +0000"
     },
     "done": true
   },
@@ -1668,6 +1705,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2021-05-23 16:33:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2021-05-13 16:13:28 +0000"
@@ -1840,6 +1883,7 @@
     "criteria": {
       "minecraft:sheep": "2021-05-23 10:39:37 +0000",
       "minecraft:cow": "2021-05-23 06:42:53 +0000",
+      "minecraft:horse": "2021-05-23 16:43:10 +0000",
       "minecraft:rabbit": "2021-05-23 10:38:50 +0000"
     },
     "done": false
@@ -2570,6 +2614,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2021-05-23 16:03:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_stone": "2021-05-13 14:36:45 +0000"
@@ -2612,6 +2662,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2021-05-23 14:51:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
       "has_iron_nugget": "2021-05-18 15:50:51 +0000"
@@ -2627,6 +2683,12 @@
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2021-05-13 14:19:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2021-05-23 15:45:31 +0000"
     },
     "done": true
   },
