@@ -239,6 +239,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2021-05-23 11:06:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_oak_planks": {
     "criteria": {
       "has_log": "2021-05-22 07:38:00 +0000"
@@ -437,6 +443,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2021-05-23 06:47:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2021-05-22 08:37:06 +0000"
@@ -579,6 +591,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2021-05-23 10:45:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
     "criteria": {
       "has_red_flower": "2021-05-22 08:35:04 +0000"
@@ -681,6 +699,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2021-05-23 10:10:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
     "criteria": {
       "has_red_dye": "2021-05-22 14:48:22 +0000"
@@ -750,6 +774,12 @@
   "minecraft:recipes/building_blocks/acacia_wood": {
     "criteria": {
       "has_log": "2021-05-22 08:38:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2021-05-23 06:47:16 +0000"
     },
     "done": true
   },
@@ -1075,6 +1105,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2021-05-23 07:16:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2021-05-23 09:38:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
     "criteria": {
       "has_red_flower": "2021-05-22 07:40:40 +0000"
@@ -1183,6 +1225,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2021-05-23 10:45:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_wool": {
     "criteria": {
       "has_white_wool": "2021-05-22 06:57:59 +0000"
@@ -1192,6 +1240,12 @@
   "minecraft:recipes/building_blocks/acacia_stairs": {
     "criteria": {
       "has_planks": "2021-05-22 07:41:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_red_flower": "2021-05-23 11:06:44 +0000"
     },
     "done": true
   },
@@ -1410,9 +1464,12 @@
       "cooked_mutton": "2021-05-22 08:10:04 +0000",
       "cooked_beef": "2021-05-22 09:22:40 +0000",
       "baked_potato": "2021-05-22 10:10:29 +0000",
+      "apple": "2021-05-23 08:51:05 +0000",
+      "potato": "2021-05-23 10:54:46 +0000",
       "cooked_cod": "2021-05-22 17:25:05 +0000",
       "pumpkin_pie": "2021-05-22 13:13:21 +0000",
       "bread": "2021-05-22 06:52:00 +0000",
+      "melon_slice": "2021-05-23 07:20:07 +0000",
       "cooked_chicken": "2021-05-22 06:41:46 +0000",
       "carrot": "2021-05-22 06:36:31 +0000"
     },
@@ -1556,6 +1613,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2021-05-23 10:45:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/acacia_slab": {
     "criteria": {
       "has_planks": "2021-05-22 07:41:31 +0000"
@@ -1588,6 +1651,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:cow": "2021-05-23 10:29:00 +0000",
       "minecraft:rabbit": "2021-05-22 07:26:46 +0000"
     },
     "done": false
@@ -1790,6 +1854,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/safely_harvest_honey": {
+    "criteria": {
+      "safely_harvest_honey": "2021-05-23 09:39:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_granite": "2021-05-22 07:39:07 +0000"
@@ -1919,6 +1989,12 @@
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2021-05-22 10:27:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2021-05-23 09:38:45 +0000"
     },
     "done": true
   },
