@@ -287,6 +287,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2021-05-24 15:15:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2021-05-13 14:30:29 +0000"
@@ -470,6 +476,12 @@
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_chestplate": "2021-05-13 16:21:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_double_plant": "2021-05-24 14:56:05 +0000"
     },
     "done": true
   },
@@ -1683,6 +1695,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2021-05-24 15:07:38 +0000",
       "cooked_mutton": "2021-05-13 15:26:47 +0000",
       "sweet_berries": "2021-05-18 17:35:58 +0000",
       "cooked_beef": "2021-05-13 16:23:40 +0000",
@@ -1884,7 +1897,8 @@
       "minecraft:sheep": "2021-05-23 10:39:37 +0000",
       "minecraft:cow": "2021-05-23 06:42:53 +0000",
       "minecraft:horse": "2021-05-23 16:43:10 +0000",
-      "minecraft:rabbit": "2021-05-23 10:38:50 +0000"
+      "minecraft:rabbit": "2021-05-23 10:38:50 +0000",
+      "minecraft:bee": "2021-05-24 15:46:56 +0000"
     },
     "done": false
   },
@@ -2263,6 +2277,12 @@
   "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2021-05-23 10:33:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
+    "criteria": {
+      "has_red_flower": "2021-05-24 14:56:06 +0000"
     },
     "done": true
   },
@@ -2725,6 +2745,12 @@
   "minecraft:recipes/transportation/carrot_on_a_stick": {
     "criteria": {
       "has_carrot": "2021-05-17 14:38:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2021-05-24 15:15:24 +0000"
     },
     "done": true
   },
