@@ -83,21 +83,21 @@ messages:
 world-settings:
   default:
     baby-zombie-movement-modifier: 0.5
-    prevent-moving-into-unloaded-chunks: false
+    prevent-moving-into-unloaded-chunks: true
     use-vanilla-world-scoreboard-name-coloring: false
     max-auto-save-chunks-per-tick: 12
     delay-chunk-unloads-by: 10s
     count-all-mobs-for-spawning: false
     iron-golems-can-spawn-in-air: false
     water-over-lava-flow-speed: 5
-    use-faster-eigencraft-redstone: false
+    use-faster-eigencraft-redstone: true
     disable-ice-and-snow: false
     disable-thunder: false
     keep-spawn-loaded-range: 10
     seed-based-feature-search: true
     only-players-collide: false
     allow-vehicle-collisions: true
-    grass-spread-tick-rate: 1
+    grass-spread-tick-rate: 4
     allow-non-player-entities-on-scoreboards: false
     nether-ceiling-void-damage-height: 0
     parrots-are-unaffected-by-player-movement: false
@@ -199,8 +199,8 @@ world-settings:
     squid-spawn-height:
       maximum: 0.0
     despawn-ranges:
-      soft: 32
-      hard: 128
+      soft: 28
+      hard: 96
     max-growth-height:
       cactus: 3
       reeds: 3
@@ -223,7 +223,7 @@ world-settings:
       refresh-min: 12h
       refresh-max: 2d
     alt-item-despawn-rate:
-      enabled: false
+      enabled: true
       items:
         COBBLESTONE: 300
     mobs-can-always-pick-up-loot:
@@ -231,7 +231,7 @@ world-settings:
       skeletons: false
     hopper:
       cooldown-when-full: true
-      disable-move-event: false
+      disable-move-event: true
     lightning-strike-distance-limit:
       sound: -1
       impact-sound: -1
