@@ -85,7 +85,7 @@ world-settings:
     baby-zombie-movement-modifier: 0.5
     prevent-moving-into-unloaded-chunks: false
     use-vanilla-world-scoreboard-name-coloring: false
-    max-auto-save-chunks-per-tick: 24
+    max-auto-save-chunks-per-tick: 12
     delay-chunk-unloads-by: 10s
     count-all-mobs-for-spawning: false
     iron-golems-can-spawn-in-air: false
@@ -132,7 +132,7 @@ world-settings:
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
     should-remove-dragon: false
-    max-entity-collisions: 8
+    max-entity-collisions: 4
     phantoms-do-not-spawn-on-creative-players: true
     phantoms-only-attack-insomniacs: true
     fix-wither-targeting-bug: false
