@@ -1381,6 +1381,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2021-05-25 16:52:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2021-05-14 14:08:38 +0000"
@@ -1700,6 +1706,7 @@
       "sweet_berries": "2021-05-18 17:35:58 +0000",
       "cooked_beef": "2021-05-13 16:23:40 +0000",
       "baked_potato": "2021-05-14 15:18:05 +0000",
+      "porkchop": "2021-05-25 16:18:36 +0000",
       "apple": "2021-05-13 16:09:27 +0000",
       "potato": "2021-05-19 15:59:11 +0000",
       "cooked_cod": "2021-05-16 15:17:11 +0000",
@@ -2403,6 +2410,12 @@
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2021-05-23 07:19:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2021-05-25 16:52:06 +0000"
     },
     "done": true
   },

@@ -41,6 +41,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2021-05-25 16:14:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2021-05-23 14:51:37 +0000"
@@ -80,6 +86,12 @@
   "minecraft:recipes/building_blocks/yellow_concrete_powder": {
     "criteria": {
       "has_gravel": "2021-05-23 14:39:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2021-05-25 16:14:35 +0000"
     },
     "done": true
   },
@@ -167,6 +179,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2021-05-25 16:14:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2021-05-23 13:50:30 +0000"
@@ -194,6 +212,12 @@
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_iron_ingot": "2021-05-23 14:09:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2021-05-25 15:43:13 +0000"
     },
     "done": true
   },
@@ -230,6 +254,12 @@
   "minecraft:recipes/building_blocks/cracked_stone_bricks": {
     "criteria": {
       "has_stone_bricks": "2021-05-24 13:24:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2021-05-25 15:49:28 +0000"
     },
     "done": true
   },
@@ -270,7 +300,8 @@
       "pumpkin_pie": "2021-05-24 12:30:54 +0000",
       "bread": "2021-05-23 15:25:51 +0000",
       "rotten_flesh": "2021-05-24 13:11:09 +0000",
-      "cooked_chicken": "2021-05-23 13:41:13 +0000"
+      "cooked_chicken": "2021-05-23 13:41:13 +0000",
+      "cod": "2021-05-25 16:20:11 +0000"
     },
     "done": false
   },
@@ -289,6 +320,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2021-05-23 14:11:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2021-05-25 16:14:34 +0000"
     },
     "done": true
   },
@@ -670,6 +707,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2021-05-25 16:14:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2021-05-23 15:47:25 +0000"
@@ -687,6 +730,7 @@
       "minecraft:pillager": "2021-05-23 15:16:57 +0000",
       "minecraft:skeleton": "2021-05-23 15:30:38 +0000",
       "minecraft:spider": "2021-05-23 14:50:10 +0000",
+      "minecraft:creeper": "2021-05-25 16:19:28 +0000",
       "minecraft:zombie": "2021-05-23 14:55:35 +0000"
     },
     "done": false
@@ -721,6 +765,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2021-05-25 16:14:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_leggings": "2021-05-23 14:11:00 +0000"
@@ -742,6 +792,12 @@
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2021-05-23 15:47:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2021-05-25 16:14:34 +0000"
     },
     "done": true
   },
@@ -772,6 +828,12 @@
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2021-05-23 14:26:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2021-05-25 16:14:34 +0000"
     },
     "done": true
   },
@@ -814,6 +876,12 @@
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2021-05-23 13:50:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_spruce_planks": "2021-05-25 16:14:35 +0000"
     },
     "done": true
   },
@@ -961,6 +1029,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2021-05-25 16:14:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2021-05-23 14:52:27 +0000"
@@ -1087,6 +1161,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2021-05-25 16:14:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
       "has_oak_planks": "2021-05-23 14:11:00 +0000"
@@ -1191,7 +1271,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2021-05-25 15:41:19 +0000",
       "minecraft:forest": "2021-05-23 13:49:50 +0000",
+      "minecraft:mountains": "2021-05-25 15:48:09 +0000",
       "minecraft:taiga": "2021-05-23 13:51:39 +0000",
       "minecraft:taiga_hills": "2021-05-23 15:28:00 +0000",
       "minecraft:savanna_plateau": "2021-05-23 13:36:34 +0000",
@@ -1335,6 +1417,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2021-05-25 16:14:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_iron_ingot": "2021-05-23 14:09:10 +0000"
@@ -1344,6 +1432,12 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2021-05-24 13:24:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2021-05-25 16:14:35 +0000"
     },
     "done": true
   },
@@ -1404,6 +1498,12 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2021-05-23 14:11:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bonemeal": "2021-05-25 15:43:13 +0000"
     },
     "done": true
   },
