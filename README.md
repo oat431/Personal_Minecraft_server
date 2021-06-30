@@ -17,4 +17,6 @@ Saving memory with my friend I guess?
 
 6. you are now good to go
 
-my personal recommand is Azure Virtual machine 8 Gbs
+my personal recommand is Azure Virtual machine 8 Gbs and pick the nearest region of you (I choose Singapo)
+
+Waiting for 1.17 paper
