@@ -19,4 +19,4 @@ Saving memory with my friend, I guess?
 
 my personal recommendation is Azure Virtual machine 8 Gbs and picks the nearest region of you (I choose Singapore)
 
-Waiting for 1.17 paper
+Now it on 1.17.1 paper server launcher
