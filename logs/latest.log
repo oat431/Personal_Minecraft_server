@@ -1,273 +1,533 @@
-[14:53:59] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:53:59] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[14:54:00] [Worker-Main-1/INFO]: Loaded 7 recipes
-[14:54:03] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[14:54:03] [Server thread/INFO]: Loading properties
-[14:54:03] [Server thread/INFO]: This server is running Paper version git-Paper-715 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[14:54:03] [Server thread/INFO]: Debug logging is disabled
-[14:54:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:54:03] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:54:03] [Server thread/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
-[14:54:03] [Server thread/INFO]: Default game type: SURVIVAL
-[14:54:03] [Server thread/INFO]: Generating keypair
-[14:54:03] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:54:03] [Server thread/INFO]: Using epoll channel type
-[14:54:04] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[14:54:11] [Server thread/WARN]: Legacy plugin MoreFood v1.0 does not specify an api-version.
-[14:54:11] [Server thread/INFO]: [MoreFood] Loading MoreFood v1.0
-[14:54:11] [Server thread/INFO]: [MineChest] Loading MineChest v0.1.0-alpha.2
-[14:54:11] [Server thread/INFO]: [GlassDropper] Loading GlassDropper v2.1.1
-[14:54:11] [Server thread/INFO]: [TreeMe] Loading TreeMe v1.4.3
-[14:54:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:54:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:54:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:54:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:54:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:54:11] [Server thread/INFO]: Preparing level "world"
-[14:54:11] [Server thread/INFO]: -------- World Settings For [world] --------
-[14:54:11] [Server thread/INFO]: Experience Merge Radius: 6.0
-[14:54:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
-[14:54:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:54:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[14:54:11] [Server thread/INFO]: Max TNT Explosions: 100
-[14:54:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:54:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:54:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:54:11] [Server thread/INFO]: Item Merge Radius: 4.0
-[14:54:11] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:54:11] [Server thread/INFO]: View Distance: 8
-[14:54:11] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:54:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:54:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
-[14:54:11] [Server thread/INFO]: Mob Spawn Range: 6
-[14:54:11] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[14:54:11] [Server thread/INFO]: Experience Merge Radius: 6.0
-[14:54:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
-[14:54:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:54:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[14:54:11] [Server thread/INFO]: Max TNT Explosions: 100
-[14:54:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:54:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:54:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:54:11] [Server thread/INFO]: Item Merge Radius: 4.0
-[14:54:11] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:54:11] [Server thread/INFO]: View Distance: 8
-[14:54:11] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:54:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:54:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
-[14:54:11] [Server thread/INFO]: Mob Spawn Range: 6
-[14:54:11] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[14:54:11] [Server thread/INFO]: Experience Merge Radius: 6.0
-[14:54:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:54:11] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
-[14:54:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:54:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[14:54:11] [Server thread/INFO]: Max TNT Explosions: 100
-[14:54:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:54:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:54:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:54:11] [Server thread/INFO]: Item Merge Radius: 4.0
-[14:54:11] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:54:11] [Server thread/INFO]: View Distance: 8
-[14:54:11] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:54:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:54:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
-[14:54:11] [Server thread/INFO]: Mob Spawn Range: 6
-[14:54:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:54:12] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[14:54:12] [Server thread/INFO]: Preparing spawn area: 0%
-[14:54:12] [Server thread/INFO]: Preparing spawn area: 0%
-[14:54:12] [Server thread/INFO]: Time elapsed: 572 ms
-[14:54:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:54:12] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
-[14:54:13] [Server thread/INFO]: Time elapsed: 1055 ms
-[14:54:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:54:13] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[14:54:13] [Server thread/INFO]: Time elapsed: 259 ms
-[14:54:13] [Server thread/INFO]: [MoreFood] Enabling MoreFood v1.0*
-[14:54:13] [Server thread/INFO]: MoreFood started! Thank you for downloading that :3
-[14:54:13] [Server thread/INFO]: MoreFood: Milk Chocolate Bar created!
-[14:54:13] [Server thread/INFO]: MoreFood: Dark Chocolate Bar created!
-[14:54:13] [Server thread/INFO]: MoreFood: Hot Chocolate created!
-[14:54:13] [Server thread/INFO]: MoreFood: Chocolate Cake created!
-[14:54:13] [Server thread/INFO]: MoreFood: Coffee created!
-[14:54:13] [Server thread/INFO]: MoreFood: Coffee With Milk created!
-[14:54:13] [Server thread/INFO]: MoreFood: Energy Drink created!
-[14:54:13] [Server thread/INFO]: [MineChest] Enabling MineChest v0.1.0-alpha.2
-[14:54:13] [Server thread/INFO]: [MineChest] MineChest loaded!
-[14:54:13] [Server thread/INFO]: [GlassDropper] Enabling GlassDropper v2.1.1
-[14:54:13] [Server thread/INFO]: [TreeMe] Enabling TreeMe v1.4.3
-[14:54:14] [Server thread/INFO]: Running delayed init tasks
-[14:54:14] [Server thread/INFO]: Done (11.126s)! For help, type "help"
-[14:54:14] [Server thread/INFO]: Timings Reset
-[14:54:15] [Craft Scheduler Thread - 3/INFO]: [GlassDropper] There is not a new update available.
-[14:54:27] [User Authenticator #1/INFO]: UUID of player oat431 is ec97e367-ae4a-33a1-a0d4-35a9b486178e
-[14:54:28] [Server thread/INFO]: oat431 joined the game
-[14:54:28] [Server thread/INFO]: oat431[/1.47.197.231:54148] logged in with entity id 129 at ([world]-755.9705089715048, 72.0, 464.9195294819002)
-[16:23:42] [Server thread/INFO]: oat431 lost connection: Disconnected
-[16:23:42] [Server thread/INFO]: oat431 left the game
-[16:24:15] [Server thread/INFO]: Saving the game (this may take a moment!)
-[16:24:15] [Server thread/INFO]: Saved the game
-[16:24:22] [Server thread/INFO]: Made oat431 a server operator
-[16:24:26] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[16:24:31] [Server thread/INFO]: --------- Help: Index ---------------------------
-[16:24:31] [Server thread/INFO]: Use /help [n] to get page n of help.
-[16:24:31] [Server thread/INFO]: Aliases: Lists command aliases
-[16:24:31] [Server thread/INFO]: Bukkit: All commands for Bukkit
-[16:24:31] [Server thread/INFO]: Minecraft: All commands for Minecraft
-[16:24:31] [Server thread/INFO]: TreeMe: All commands for TreeMe
-[16:24:31] [Server thread/INFO]: /advancement: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /attribute: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /ban: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /ban-ip: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /banlist: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /bossbar: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /clear: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /clone: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /data: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /datapack: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /debug: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /deop: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /difficulty: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /effect: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /enchant: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /execute: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /experience: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /fill: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /forceload: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /function: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /gamemode: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /gamerule: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /give: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /help: Shows the help menu
-[16:24:31] [Server thread/INFO]: /kick: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /kill: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /list: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /locate: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /locatebiome: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /loot: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /me: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /msg: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /mspt: View server tick times
-[16:24:31] [Server thread/INFO]: /op: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /paper: Paper related commands
-[16:24:31] [Server thread/INFO]: /pardon: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /particle: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /playsound: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
-[16:24:31] [Server thread/INFO]: /recipe: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
-[16:24:31] [Server thread/INFO]: /replaceitem: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /restart: Restarts the server
-[16:24:31] [Server thread/INFO]: /save-all: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /save-off: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /save-on: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /say: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /schedule: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /scoreboard: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /seed: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /setblock: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /spectate: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /spigot: Spigot related commands
-[16:24:31] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /stop: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /stopsound: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /summon: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /tag: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /team: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /teammsg: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /teleport: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /tell: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /tellraw: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /time: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
-[16:24:31] [Server thread/INFO]: /title: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /tm: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /tp: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
-[16:24:31] [Server thread/INFO]: /treeme: Control personal usage of TreeMe
-[16:24:31] [Server thread/INFO]: /trigger: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
-[16:24:31] [Server thread/INFO]: /w: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /weather: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /whitelist: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /worldborder: A Mojang provided command.
-[16:24:31] [Server thread/INFO]: /xp: A Mojang provided command.
-[16:24:51] [Server thread/INFO]: Saving the game (this may take a moment!)
-[16:24:51] [Server thread/INFO]: Saved the game
-[16:24:55] [Server thread/INFO]: Stopping the server
-[16:24:56] [Server thread/INFO]: Stopping server
-[16:24:56] [Server thread/INFO]: [TreeMe] Disabling TreeMe v1.4.3
-[16:24:56] [Server thread/INFO]: [GlassDropper] Disabling GlassDropper v2.1.1
-[16:24:56] [Server thread/INFO]: [MineChest] Disabling MineChest v0.1.0-alpha.2
-[16:24:56] [Server thread/INFO]: [MineChest] MineChest disabled!
-[16:24:56] [Server thread/INFO]: [MoreFood] Disabling MoreFood v1.0
-[16:24:56] [Server thread/INFO]: MoreFood disabled. Thank you for using this :3
-[16:24:56] [Server thread/INFO]: Saving players
-[16:24:56] [Server thread/INFO]: Saving worlds
-[16:24:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:24:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:24:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[16:24:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:24:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[16:24:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:24:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:24:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:24:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:24:56] [Server thread/INFO]: Flushing Chunk IO
-[16:24:56] [Server thread/INFO]: Closing Thread Pool
-[16:24:56] [Server thread/INFO]: Closing Server
+[13:45:25] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:45:25] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[13:45:27] [Worker-Main-1/INFO]: Loaded 7 recipes
+[13:45:30] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[13:45:30] [Server thread/INFO]: Loading properties
+[13:45:30] [Server thread/INFO]: This server is running Paper version git-Paper-110 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT) (Git: b1cdc12)
+[13:45:30] [Server thread/INFO]: Debug logging is disabled
+[13:45:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:45:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:45:30] [Server thread/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[13:45:30] [Server thread/INFO]: Default game type: SURVIVAL
+[13:45:30] [Server thread/INFO]: Generating keypair
+[13:45:30] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:45:30] [Server thread/INFO]: Using epoll channel type
+[13:45:31] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[13:45:41] [Server thread/WARN]: Legacy plugin MoreFood v1.0 does not specify an api-version.
+[13:45:41] [Server thread/INFO]: [MoreFood] Loading MoreFood v1.0
+[13:45:41] [Server thread/INFO]: [MineChest] Loading MineChest v0.1.0-alpha.2
+[13:45:41] [Server thread/INFO]: [GlassDropper] Loading GlassDropper v2.1.1
+[13:45:41] [Server thread/INFO]: [TreeMe] Loading TreeMe v1.4.3
+[13:45:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:45:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:45:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:45:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:45:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:45:41] [Server thread/INFO]: Preparing level "world"
+[13:45:41] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:45:41] [Server thread/INFO]: Experience Merge Radius: 6.0
+[13:45:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
+[13:45:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:45:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[13:45:41] [Server thread/INFO]: Max TNT Explosions: 100
+[13:45:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:45:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:45:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:45:41] [Server thread/INFO]: Item Merge Radius: 4.0
+[13:45:41] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:45:41] [Server thread/INFO]: View Distance: 8
+[13:45:41] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[13:45:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:45:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[13:45:41] [Server thread/INFO]: Mob Spawn Range: 6
+[13:45:41] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:45:41] [Server thread/INFO]: Experience Merge Radius: 6.0
+[13:45:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
+[13:45:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:45:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[13:45:41] [Server thread/INFO]: Max TNT Explosions: 100
+[13:45:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:45:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:45:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:45:41] [Server thread/INFO]: Item Merge Radius: 4.0
+[13:45:41] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:45:41] [Server thread/INFO]: View Distance: 8
+[13:45:41] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[13:45:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:45:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[13:45:41] [Server thread/INFO]: Mob Spawn Range: 6
+[13:45:41] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:45:41] [Server thread/INFO]: Experience Merge Radius: 6.0
+[13:45:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[13:45:41] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
+[13:45:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:45:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[13:45:41] [Server thread/INFO]: Max TNT Explosions: 100
+[13:45:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:45:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:45:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:45:41] [Server thread/INFO]: Item Merge Radius: 4.0
+[13:45:41] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:45:41] [Server thread/INFO]: View Distance: 8
+[13:45:41] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[13:45:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:45:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[13:45:41] [Server thread/INFO]: Mob Spawn Range: 6
+[13:45:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:45:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:45:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:45:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:45:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:45:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:45:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:45:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:45:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:45:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:45:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:45:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:45:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:45:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:45:48] [Server thread/INFO]: Time elapsed: 6448 ms
+[13:45:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:45:53] [Paper Async Chunk Task Thread #0/ERROR]: No key dirt_provider in MapLike[{decorators:[],foliage_placer:{offset:0,radius:2,type:"minecraft:acacia_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:acacia_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:1,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:2,type:"minecraft:forking_trunk_placer"},trunk_provider:{state:{Name:"minecraft:acacia_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]; No key sapling_provider in MapLike[{decorators:[],foliage_placer:{offset:0,radius:2,type:"minecraft:acacia_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:acacia_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:1,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:2,type:"minecraft:forking_trunk_placer"},trunk_provider:{state:{Name:"minecraft:acacia_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]; No key foliage_provider in MapLike[{decorators:[],foliage_placer:{offset:0,radius:2,type:"minecraft:acacia_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:acacia_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:1,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:2,type:"minecraft:forking_trunk_placer"},trunk_provider:{state:{Name:"minecraft:acacia_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]
+[13:45:53] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[?:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-110]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:717) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:272) ~[?:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.QueueExecutorThread.pollTasks(QueueExecutorThread.java:105) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:38) ~[patched_1.17.1.jar:git-Paper-110]
+[13:45:53] [Paper Async Chunk Task Thread #0/ERROR]: No key dirt_provider in MapLike[{decorators:[],foliage_placer:{offset:0,radius:2,type:"minecraft:acacia_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:acacia_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:1,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:2,type:"minecraft:forking_trunk_placer"},trunk_provider:{state:{Name:"minecraft:acacia_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]; No key sapling_provider in MapLike[{decorators:[],foliage_placer:{offset:0,radius:2,type:"minecraft:acacia_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:acacia_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:1,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:2,type:"minecraft:forking_trunk_placer"},trunk_provider:{state:{Name:"minecraft:acacia_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]; No key foliage_provider in MapLike[{decorators:[],foliage_placer:{offset:0,radius:2,type:"minecraft:acacia_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:acacia_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:1,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:2,type:"minecraft:forking_trunk_placer"},trunk_provider:{state:{Name:"minecraft:acacia_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]
+[13:45:53] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[?:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-110]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:717) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:272) ~[?:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.QueueExecutorThread.pollTasks(QueueExecutorThread.java:105) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:38) ~[patched_1.17.1.jar:git-Paper-110]
+[13:45:53] [Paper Async Chunk Task Thread #0/ERROR]: No key dirt_provider in MapLike[{decorators:[],foliage_placer:{offset:0,radius:2,type:"minecraft:acacia_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:acacia_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:1,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:2,type:"minecraft:forking_trunk_placer"},trunk_provider:{state:{Name:"minecraft:acacia_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]; No key sapling_provider in MapLike[{decorators:[],foliage_placer:{offset:0,radius:2,type:"minecraft:acacia_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:acacia_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:1,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:2,type:"minecraft:forking_trunk_placer"},trunk_provider:{state:{Name:"minecraft:acacia_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]; No key foliage_provider in MapLike[{decorators:[],foliage_placer:{offset:0,radius:2,type:"minecraft:acacia_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:acacia_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:1,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:2,type:"minecraft:forking_trunk_placer"},trunk_provider:{state:{Name:"minecraft:acacia_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]
+[13:45:53] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[?:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-110]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:717) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:272) ~[?:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.QueueExecutorThread.pollTasks(QueueExecutorThread.java:105) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:38) ~[patched_1.17.1.jar:git-Paper-110]
+[13:45:53] [Paper Async Chunk Task Thread #0/ERROR]: No key dirt_provider in MapLike[{decorators:[],foliage_placer:{offset:0,radius:2,type:"minecraft:acacia_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:acacia_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:1,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:2,type:"minecraft:forking_trunk_placer"},trunk_provider:{state:{Name:"minecraft:acacia_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]; No key sapling_provider in MapLike[{decorators:[],foliage_placer:{offset:0,radius:2,type:"minecraft:acacia_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:acacia_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:1,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:2,type:"minecraft:forking_trunk_placer"},trunk_provider:{state:{Name:"minecraft:acacia_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]; No key foliage_provider in MapLike[{decorators:[],foliage_placer:{offset:0,radius:2,type:"minecraft:acacia_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:acacia_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:1,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:2,type:"minecraft:forking_trunk_placer"},trunk_provider:{state:{Name:"minecraft:acacia_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]
+[13:45:53] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[?:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-110]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:717) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:272) ~[?:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.QueueExecutorThread.pollTasks(QueueExecutorThread.java:105) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:38) ~[patched_1.17.1.jar:git-Paper-110]
+[13:45:54] [Paper Async Chunk Task Thread #0/ERROR]: No key dirt_provider in MapLike[{decorators:[],foliage_placer:{offset:0,radius:2,type:"minecraft:acacia_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:acacia_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:1,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:2,type:"minecraft:forking_trunk_placer"},trunk_provider:{state:{Name:"minecraft:acacia_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]; No key sapling_provider in MapLike[{decorators:[],foliage_placer:{offset:0,radius:2,type:"minecraft:acacia_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:acacia_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:1,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:2,type:"minecraft:forking_trunk_placer"},trunk_provider:{state:{Name:"minecraft:acacia_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]; No key foliage_provider in MapLike[{decorators:[],foliage_placer:{offset:0,radius:2,type:"minecraft:acacia_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:acacia_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:1,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:2,type:"minecraft:forking_trunk_placer"},trunk_provider:{state:{Name:"minecraft:acacia_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]
+[13:45:54] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[?:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-110]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:717) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:272) ~[?:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.QueueExecutorThread.pollTasks(QueueExecutorThread.java:105) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:38) ~[patched_1.17.1.jar:git-Paper-110]
+[13:45:54] [Paper Async Chunk Task Thread #0/ERROR]: No key dirt_provider in MapLike[{decorators:[],foliage_placer:{offset:0,radius:2,type:"minecraft:acacia_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:acacia_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:1,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:2,type:"minecraft:forking_trunk_placer"},trunk_provider:{state:{Name:"minecraft:acacia_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]; No key sapling_provider in MapLike[{decorators:[],foliage_placer:{offset:0,radius:2,type:"minecraft:acacia_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:acacia_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:1,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:2,type:"minecraft:forking_trunk_placer"},trunk_provider:{state:{Name:"minecraft:acacia_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]; No key foliage_provider in MapLike[{decorators:[],foliage_placer:{offset:0,radius:2,type:"minecraft:acacia_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:acacia_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:1,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:2,type:"minecraft:forking_trunk_placer"},trunk_provider:{state:{Name:"minecraft:acacia_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]
+[13:45:54] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[?:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-110]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:717) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:272) ~[?:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.QueueExecutorThread.pollTasks(QueueExecutorThread.java:105) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:38) ~[patched_1.17.1.jar:git-Paper-110]
+[13:45:57] [Server thread/INFO]: Time elapsed: 8585 ms
+[13:45:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:46:17] [Server thread/INFO]: Time elapsed: 20751 ms
+[13:46:17] [Server thread/INFO]: [MoreFood] Enabling MoreFood v1.0*
+[13:46:17] [Server thread/INFO]: MoreFood started! Thank you for downloading that :3
+[13:46:18] [Server thread/INFO]: MoreFood: Milk Chocolate Bar created!
+[13:46:18] [Server thread/INFO]: MoreFood: Dark Chocolate Bar created!
+[13:46:18] [Server thread/INFO]: MoreFood: Hot Chocolate created!
+[13:46:18] [Server thread/INFO]: MoreFood: Chocolate Cake created!
+[13:46:18] [Server thread/INFO]: MoreFood: Coffee created!
+[13:46:18] [Server thread/INFO]: MoreFood: Coffee With Milk created!
+[13:46:18] [Server thread/INFO]: MoreFood: Energy Drink created!
+[13:46:18] [Server thread/INFO]: [MineChest] Enabling MineChest v0.1.0-alpha.2
+[13:46:18] [Server thread/INFO]: [MineChest] MineChest loaded!
+[13:46:18] [Server thread/INFO]: [GlassDropper] Enabling GlassDropper v2.1.1
+[13:46:18] [Server thread/INFO]: [TreeMe] Enabling TreeMe v1.4.3
+[13:46:18] [Server thread/INFO]: Running delayed init tasks
+[13:46:18] [Server thread/INFO]: Done (48.282s)! For help, type "help"
+[13:46:18] [Server thread/INFO]: Timings Reset
+[13:46:18] [Server thread/INFO]: --------- Help: Index ---------------------------
+[13:46:18] [Server thread/INFO]: Use /help [n] to get page n of help.
+[13:46:18] [Server thread/INFO]: Aliases: Lists command aliases
+[13:46:18] [Server thread/INFO]: Bukkit: All commands for Bukkit
+[13:46:18] [Server thread/INFO]: Minecraft: All commands for Minecraft
+[13:46:18] [Server thread/INFO]: TreeMe: All commands for TreeMe
+[13:46:18] [Server thread/INFO]: /advancement: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /attribute: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /ban: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /ban-ip: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /banlist: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /bossbar: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /clear: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /clone: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /data: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /datapack: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /debug: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /deop: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /difficulty: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /effect: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /enchant: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /execute: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /experience: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /fill: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /forceload: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /function: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /gamemode: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /gamerule: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /give: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /help: Shows the help menu
+[13:46:18] [Server thread/INFO]: /item: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /kick: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /kill: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /list: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /locate: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /locatebiome: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /loot: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /me: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /msg: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /mspt: View server tick times
+[13:46:18] [Server thread/INFO]: /op: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /paper: Paper related commands
+[13:46:18] [Server thread/INFO]: /pardon: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /particle: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /perf: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /playsound: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
+[13:46:18] [Server thread/INFO]: /recipe: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
+[13:46:18] [Server thread/INFO]: /restart: Restarts the server
+[13:46:18] [Server thread/INFO]: /save-all: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /save-off: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /save-on: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /say: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /schedule: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /scoreboard: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /seed: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /setblock: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /spectate: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /spigot: Spigot related commands
+[13:46:18] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /stop: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /stopsound: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /summon: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /tag: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /team: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /teammsg: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /teleport: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /tell: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /tellraw: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /time: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
+[13:46:18] [Server thread/INFO]: /title: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /tm: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /tp: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
+[13:46:18] [Server thread/INFO]: /treeme: Control personal usage of TreeMe
+[13:46:18] [Server thread/INFO]: /trigger: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
+[13:46:18] [Server thread/INFO]: /w: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /weather: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /whitelist: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /worldborder: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /xp: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: --------- Help: Index ---------------------------
+[13:46:18] [Server thread/INFO]: Use /help [n] to get page n of help.
+[13:46:18] [Server thread/INFO]: Aliases: Lists command aliases
+[13:46:18] [Server thread/INFO]: Bukkit: All commands for Bukkit
+[13:46:18] [Server thread/INFO]: Minecraft: All commands for Minecraft
+[13:46:18] [Server thread/INFO]: TreeMe: All commands for TreeMe
+[13:46:18] [Server thread/INFO]: /advancement: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /attribute: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /ban: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /ban-ip: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /banlist: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /bossbar: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /clear: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /clone: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /data: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /datapack: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /debug: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /deop: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /difficulty: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /effect: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /enchant: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /execute: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /experience: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /fill: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /forceload: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /function: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /gamemode: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /gamerule: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /give: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /help: Shows the help menu
+[13:46:18] [Server thread/INFO]: /item: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /kick: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /kill: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /list: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /locate: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /locatebiome: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /loot: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /me: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /msg: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /mspt: View server tick times
+[13:46:18] [Server thread/INFO]: /op: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /paper: Paper related commands
+[13:46:18] [Server thread/INFO]: /pardon: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /particle: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /perf: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /playsound: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
+[13:46:18] [Server thread/INFO]: /recipe: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
+[13:46:18] [Server thread/INFO]: /restart: Restarts the server
+[13:46:18] [Server thread/INFO]: /save-all: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /save-off: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /save-on: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /say: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /schedule: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /scoreboard: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /seed: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /setblock: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /spectate: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /spigot: Spigot related commands
+[13:46:18] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /stop: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /stopsound: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /summon: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /tag: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /team: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /teammsg: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /teleport: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /tell: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /tellraw: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /time: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
+[13:46:18] [Server thread/INFO]: /title: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /tm: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /tp: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
+[13:46:18] [Server thread/INFO]: /treeme: Control personal usage of TreeMe
+[13:46:18] [Server thread/INFO]: /trigger: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
+[13:46:18] [Server thread/INFO]: /w: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /weather: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /whitelist: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /worldborder: A Mojang provided command.
+[13:46:18] [Server thread/INFO]: /xp: A Mojang provided command.
+[13:46:19] [Craft Scheduler Thread - 4/INFO]: [GlassDropper] There is not a new update available.
+[13:46:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6021ms or 120 ticks behind
+[13:46:41] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[13:46:43] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[13:46:43] [Server thread/INFO]: time<--[HERE]
+[13:46:51] [Server thread/INFO]: Seed: [3784286145027721260]
+[13:48:15] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[13:48:15] [Server thread/INFO]: whitelist<--[HERE]
+[13:54:02] [User Authenticator #1/INFO]: UUID of player oat431 is ec97e367-ae4a-33a1-a0d4-35a9b486178e
+[13:54:02] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/iron_ingot_from_blasting' in progress file ./world/advancements/ec97e367-ae4a-33a1-a0d4-35a9b486178e.json - it doesn't exist anymore?
+[13:54:02] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/iron_ingot' in progress file ./world/advancements/ec97e367-ae4a-33a1-a0d4-35a9b486178e.json - it doesn't exist anymore?
+[13:54:02] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/gold_ingot_from_blasting' in progress file ./world/advancements/ec97e367-ae4a-33a1-a0d4-35a9b486178e.json - it doesn't exist anymore?
+[13:54:02] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/gold_ingot' in progress file ./world/advancements/ec97e367-ae4a-33a1-a0d4-35a9b486178e.json - it doesn't exist anymore?
+[13:54:02] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/mossy_stone_bricks' in progress file ./world/advancements/ec97e367-ae4a-33a1-a0d4-35a9b486178e.json - it doesn't exist anymore?
+[13:54:02] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/honey_block' in progress file ./world/advancements/ec97e367-ae4a-33a1-a0d4-35a9b486178e.json - it doesn't exist anymore?
+[13:54:02] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:gold_ingot removed now.
+[13:54:02] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:mossy_stone_bricks removed now.
+[13:54:02] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:gold_ingot_from_blasting removed now.
+[13:54:02] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:iron_ingot removed now.
+[13:54:02] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:iron_ingot_from_blasting removed now.
+[13:54:02] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:gold_ingot removed now.
+[13:54:02] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:gold_ingot_from_blasting removed now.
+[13:54:02] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:iron_ingot removed now.
+[13:54:02] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:iron_ingot_from_blasting removed now.
+[13:54:07] [Server thread/INFO]: oat431 joined the game
+[13:54:07] [Server thread/INFO]: oat431[/1.47.135.24:14038] logged in with entity id 131 at ([world]-762.4472450961266, 79.0, 477.84385908734504)
+[14:01:51] [Paper Async Chunk Task Thread #0/ERROR]: No key dirt_provider in MapLike[{decorators:[],foliage_placer:{offset:{base:0,spread:2},radius:{base:2,spread:1},trunk_height:{base:1,spread:1},type:"minecraft:spruce_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:spruce_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:2,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:1,type:"minecraft:straight_trunk_placer"},trunk_provider:{state:{Name:"minecraft:spruce_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]; Input does not contain a key [type]: MapLike[{base:1,spread:1}]; Input does not contain a key [type]: MapLike[{base:0,spread:2}]; Input does not contain a key [type]: MapLike[{base:2,spread:1}]; No key sapling_provider in MapLike[{decorators:[],foliage_placer:{offset:{base:0,spread:2},radius:{base:2,spread:1},trunk_height:{base:1,spread:1},type:"minecraft:spruce_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:spruce_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:2,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:1,type:"minecraft:straight_trunk_placer"},trunk_provider:{state:{Name:"minecraft:spruce_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]; No key foliage_provider in MapLike[{decorators:[],foliage_placer:{offset:{base:0,spread:2},radius:{base:2,spread:1},trunk_height:{base:1,spread:1},type:"minecraft:spruce_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:spruce_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:2,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:1,type:"minecraft:straight_trunk_placer"},trunk_provider:{state:{Name:"minecraft:spruce_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]
+[14:01:51] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[?:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-110]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:717) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:272) ~[?:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.QueueExecutorThread.pollTasks(QueueExecutorThread.java:105) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:38) ~[patched_1.17.1.jar:git-Paper-110]
+[14:01:51] [Paper Async Chunk Task Thread #0/ERROR]: No key dirt_provider in MapLike[{decorators:[],foliage_placer:{offset:{base:0,spread:2},radius:{base:2,spread:1},trunk_height:{base:1,spread:1},type:"minecraft:spruce_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:spruce_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:2,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:1,type:"minecraft:straight_trunk_placer"},trunk_provider:{state:{Name:"minecraft:spruce_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]; Input does not contain a key [type]: MapLike[{base:1,spread:1}]; Input does not contain a key [type]: MapLike[{base:0,spread:2}]; Input does not contain a key [type]: MapLike[{base:2,spread:1}]; No key sapling_provider in MapLike[{decorators:[],foliage_placer:{offset:{base:0,spread:2},radius:{base:2,spread:1},trunk_height:{base:1,spread:1},type:"minecraft:spruce_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:spruce_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:2,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:1,type:"minecraft:straight_trunk_placer"},trunk_provider:{state:{Name:"minecraft:spruce_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]; No key foliage_provider in MapLike[{decorators:[],foliage_placer:{offset:{base:0,spread:2},radius:{base:2,spread:1},trunk_height:{base:1,spread:1},type:"minecraft:spruce_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:spruce_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:2,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:1,type:"minecraft:straight_trunk_placer"},trunk_provider:{state:{Name:"minecraft:spruce_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]
+[14:01:51] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[?:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-110]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:717) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:272) ~[?:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.QueueExecutorThread.pollTasks(QueueExecutorThread.java:105) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:38) ~[patched_1.17.1.jar:git-Paper-110]
+[14:01:51] [Paper Async Chunk Task Thread #0/ERROR]: No key dirt_provider in MapLike[{decorators:[],foliage_placer:{offset:{base:0,spread:2},radius:{base:2,spread:1},trunk_height:{base:1,spread:1},type:"minecraft:spruce_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:spruce_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:2,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:1,type:"minecraft:straight_trunk_placer"},trunk_provider:{state:{Name:"minecraft:spruce_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]; Input does not contain a key [type]: MapLike[{base:1,spread:1}]; Input does not contain a key [type]: MapLike[{base:0,spread:2}]; Input does not contain a key [type]: MapLike[{base:2,spread:1}]; No key sapling_provider in MapLike[{decorators:[],foliage_placer:{offset:{base:0,spread:2},radius:{base:2,spread:1},trunk_height:{base:1,spread:1},type:"minecraft:spruce_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:spruce_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:2,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:1,type:"minecraft:straight_trunk_placer"},trunk_provider:{state:{Name:"minecraft:spruce_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]; No key foliage_provider in MapLike[{decorators:[],foliage_placer:{offset:{base:0,spread:2},radius:{base:2,spread:1},trunk_height:{base:1,spread:1},type:"minecraft:spruce_foliage_placer"},heightmap:"OCEAN_FLOOR",ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:spruce_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,minimum_size:{limit:2,lower_size:0,type:"minecraft:two_layers_feature_size",upper_size:2},trunk_placer:{base_height:5,height_rand_a:2,height_rand_b:1,type:"minecraft:straight_trunk_placer"},trunk_provider:{state:{Name:"minecraft:spruce_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}}]
+[14:01:51] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[?:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-110]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:717) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:272) ~[?:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.QueueExecutorThread.pollTasks(QueueExecutorThread.java:105) ~[patched_1.17.1.jar:git-Paper-110]
+	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:38) ~[patched_1.17.1.jar:git-Paper-110]
+[14:45:25] [Server thread/INFO]: oat431 burned to death
+[14:48:17] [Server thread/INFO]: Villager EntityVillager['Villager'/9203, uuid='e7952afc-4fe4-43a7-b6f0-0d86ac50f1e1', l='ServerLevel[world]', x=-793.68, y=82.42, z=49.70, cpos=[-50, 3], tl=18585, v=true, rR=null] died, message: 'Villager was slain by Zombie'
+[16:02:05] [User Authenticator #2/INFO]: UUID of player Vector2588 is 19ccfbf2-1c96-354f-a91d-d37273037e1c
+[16:02:05] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/iron_ingot_from_blasting' in progress file ./world/advancements/19ccfbf2-1c96-354f-a91d-d37273037e1c.json - it doesn't exist anymore?
+[16:02:05] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/iron_ingot' in progress file ./world/advancements/19ccfbf2-1c96-354f-a91d-d37273037e1c.json - it doesn't exist anymore?
+[16:02:05] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/gold_ingot_from_blasting' in progress file ./world/advancements/19ccfbf2-1c96-354f-a91d-d37273037e1c.json - it doesn't exist anymore?
+[16:02:05] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/gold_ingot' in progress file ./world/advancements/19ccfbf2-1c96-354f-a91d-d37273037e1c.json - it doesn't exist anymore?
+[16:02:05] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/honey_block' in progress file ./world/advancements/19ccfbf2-1c96-354f-a91d-d37273037e1c.json - it doesn't exist anymore?
+[16:02:05] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/mossy_stone_bricks' in progress file ./world/advancements/19ccfbf2-1c96-354f-a91d-d37273037e1c.json - it doesn't exist anymore?
+[16:02:05] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/mossy_cobblestone' in progress file ./world/advancements/19ccfbf2-1c96-354f-a91d-d37273037e1c.json - it doesn't exist anymore?
+[16:02:05] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:gold_ingot removed now.
+[16:02:05] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:mossy_stone_bricks removed now.
+[16:02:05] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:mossy_cobblestone removed now.
+[16:02:05] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:gold_ingot_from_blasting removed now.
+[16:02:05] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:iron_ingot removed now.
+[16:02:05] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:iron_ingot_from_blasting removed now.
+[16:02:05] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:iron_ingot removed now.
+[16:02:05] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:gold_ingot removed now.
+[16:02:05] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:iron_ingot_from_blasting removed now.
+[16:02:05] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:gold_ingot_from_blasting removed now.
+[16:02:05] [Server thread/INFO]: Vector2588 joined the game
+[16:02:05] [Server thread/INFO]: Vector2588[/171.4.251.54:62379] logged in with entity id 22548 at ([world]-761.364252386928, 72.0, 466.0354882451599)
+[16:02:15] [Async Chat Thread - #0/INFO]: <Vector2588> kuy
+[16:06:10] [Server thread/INFO]: Vector2588 fell from a high place
+[16:11:26] [Server thread/INFO]: Vector2588 fell from a high place
+[16:12:07] [Server thread/INFO]: Vector2588 lost connection: Disconnected
+[16:12:07] [Server thread/INFO]: Vector2588 left the game
+[16:12:14] [Server thread/INFO]: oat431 lost connection: Disconnected
+[16:12:14] [Server thread/INFO]: oat431 left the game
+[16:12:29] [Server thread/INFO]: Saving the game (this may take a moment!)
+[16:12:29] [Server thread/INFO]: Saved the game
+[16:12:33] [Server thread/INFO]: Stopping the server
+[16:12:33] [Server thread/INFO]: Stopping server
+[16:12:33] [Server thread/INFO]: [TreeMe] Disabling TreeMe v1.4.3
+[16:12:33] [Server thread/INFO]: [GlassDropper] Disabling GlassDropper v2.1.1
+[16:12:33] [Server thread/INFO]: [MineChest] Disabling MineChest v0.1.0-alpha.2
+[16:12:33] [Server thread/INFO]: [MineChest] MineChest disabled!
+[16:12:33] [Server thread/INFO]: [MoreFood] Disabling MoreFood v1.0
+[16:12:33] [Server thread/INFO]: MoreFood disabled. Thank you for using this :3
+[16:12:33] [Server thread/INFO]: Saving players
+[16:12:34] [Server thread/INFO]: Saving worlds
+[16:12:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:12:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:12:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:12:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:12:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:12:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:12:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:12:34] [Server thread/INFO]: Flushing Chunk IO
+[16:12:34] [Server thread/INFO]: Closing Thread Pool
+[16:12:34] [Server thread/INFO]: Closing Server
