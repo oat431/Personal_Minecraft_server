@@ -66,7 +66,7 @@ world-settings:
     verbose: true
     enable-zombie-pigmen-portal-spawns: true
     item-despawn-rate: 6000
-    view-distance: default
+    view-distance: 4
     mob-spawn-range: 6
     hopper-amount: 1
     seed-village: 10387312
