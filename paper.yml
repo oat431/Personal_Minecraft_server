@@ -93,6 +93,7 @@ messages:
     authentication-servers-down: ''
 world-settings:
   default:
+    allow-player-cramming-damage: false
     map-item-frame-cursor-limit: 128
     seed-based-feature-search-loads-chunks: true
     fix-items-merging-through-walls: false
@@ -182,8 +183,8 @@ world-settings:
           per-player: false
           day: 5
     entity-per-chunk-save-limit:
-      experience_orb: 16 
-      snowball: 8 
+      experience_orb: 16
+      snowball: 8
       ender_pearl: 8
       arrow: 16
     viewdistances:
@@ -280,3 +281,10 @@ world-settings:
       ambient: -1
     unsupported-settings:
       fix-invulnerable-end-crystal-exploit: true
+    tick-rates:
+      sensor:
+        villager:
+          secondarypoisensor: 40
+      behavior:
+        villager:
+          validatenearbypoi: -1
