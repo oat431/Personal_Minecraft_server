@@ -114,12 +114,12 @@ world-settings:
     allow-vehicle-collisions: true
     grass-spread-tick-rate: 4
     allow-non-player-entities-on-scoreboards: false
-    nether-ceiling-void-damage-height: 0
+    nether-ceiling-void-damage-height: 127
     parrots-are-unaffected-by-player-movement: false
     disable-explosion-knockback: false
-    fix-climbing-bypassing-cramming-rule: false
+    fix-climbing-bypassing-cramming-rule: true
     skeleton-horse-thunder-spawn-chance: 0.01
-    armor-stands-do-collision-entity-lookups: true
+    armor-stands-do-collision-entity-lookups: false
     container-update-tick-rate: 1
     portal-search-radius: 128
     portal-create-radius: 16
@@ -132,16 +132,16 @@ world-settings:
     treasure-maps-return-already-discovered: false
     light-queue-size: 20
     auto-save-interval: -1
-    non-player-arrow-despawn-rate: 60
-    creative-arrow-despawn-rate: -1
+    non-player-arrow-despawn-rate: 20
+    creative-arrow-despawn-rate: 20
     spawner-nerfed-mobs-should-jump: false
     entities-target-with-follow-range: false
     zombie-villager-infection-chance: -1.0
     zombies-target-turtle-eggs: true
     all-chunks-are-slime-chunks: false
     optimize-explosions: true
-    remove-corrupt-tile-entities: false
-    per-player-mob-spawns: false
+    remove-corrupt-tile-entities: true
+    per-player-mob-spawns: true
     fixed-chunk-inhabited-time: -1
     experience-merge-max-value: -1
     falling-block-height-nerf: 0
@@ -151,12 +151,12 @@ world-settings:
     phantoms-do-not-spawn-on-creative-players: true
     phantoms-only-attack-insomniacs: true
     fix-wither-targeting-bug: false
-    armor-stands-tick: true
+    armor-stands-tick: false
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
     disable-creeper-lingering-effect: false
     filter-nbt-data-from-spawn-eggs-and-related: true
-    update-pathfinding-on-block-update: true
+    update-pathfinding-on-block-update: false
     disable-teleportation-suffocation-check: false
     ender-dragons-death-always-places-dragon-egg: false
     allow-using-signs-inside-spawn-protection: false
@@ -182,12 +182,12 @@ world-settings:
           per-player: false
           day: 5
     entity-per-chunk-save-limit:
-      experience_orb: -1
-      snowball: -1
-      ender_pearl: -1
-      arrow: -1
+      experience_orb: 16 
+      snowball: 8 
+      ender_pearl: 8
+      arrow: 16
     viewdistances:
-      no-tick-view-distance: -1
+      no-tick-view-distance: 7
     anti-xray:
       max-block-height: 64
       enabled: true
@@ -215,8 +215,8 @@ world-settings:
     squid-spawn-height:
       maximum: 0.0
     despawn-ranges:
-      soft: 28
-      hard: 96
+      soft: 30
+      hard: 56
     max-growth-height:
       cactus: 3
       reeds: 3
@@ -247,7 +247,7 @@ world-settings:
       skeletons: false
     hopper:
       cooldown-when-full: true
-      disable-move-event: true
+      disable-move-event: false
     lightning-strike-distance-limit:
       sound: -1
       impact-sound: -1
