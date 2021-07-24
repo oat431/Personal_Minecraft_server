@@ -67,7 +67,7 @@ world-settings:
     enable-zombie-pigmen-portal-spawns: true
     item-despawn-rate: 6000
     view-distance: 4
-    mob-spawn-range: 6
+    mob-spawn-range: 4
     hopper-amount: 1
     seed-village: 10387312
     seed-desert: 14357617
@@ -101,8 +101,8 @@ world-settings:
       misc: 32
       other: 64
     merge-radius:
-      item: 4.0
-      exp: 6.0
+      item: 3.5
+      exp: 4.0
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -121,8 +121,8 @@ world-settings:
       sweetberry-modifier: 100
       kelp-modifier: 100
     entity-activation-range:
-      water: 16
-      villagers: 32
+      water: 8
+      villagers: 16
       flying-monsters: 32
       villagers-work-immunity-after: 100
       villagers-work-immunity-for: 20
@@ -147,7 +147,7 @@ world-settings:
         flying-monsters-for: 100
     ticks-per:
       hopper-transfer: 8
-      hopper-check: 1
+      hopper-check: 8
     squid-spawn-range:
       min: 45.0
     max-tick-time:
