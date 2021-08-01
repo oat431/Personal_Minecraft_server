@@ -11,7 +11,7 @@ Saving memory with my friend, I guess?
 
 3. clone this repo
 
-4. change the directory to the repo and run the command "java -jar paper.jar --nogui."
+4. change the directory to the repo and run the command "java -jar tuinity.jar --nogui."
 
 5. give public IPv4 to your friend
 
