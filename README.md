@@ -1,4 +1,4 @@
-# Personal_Minecraft_server
+# Personal Minecraft server
 Saving memory with my friend, I guess?
 
 ## Guide if you want to open the server yourself
