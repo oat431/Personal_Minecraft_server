@@ -7,11 +7,11 @@ Saving memory with my friend, I guess?
 
 3. set up network security by adding port 25565 (Minecraft server default port)
 
-2. remote to the VM and install java (recommend JDK 16)
+2. remote to the VM and install java SDK 17
 
 3. clone this repo
 
-4. change the directory to the repo and run the command "java -jar tuinity.jar --nogui."
+4. change the directory to the repo and run the command "java -jar purpur.jar --nogui."
 
 5. give public IPv4 to your friend
 
