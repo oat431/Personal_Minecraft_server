@@ -19,4 +19,10 @@ Saving memory with my friend, I guess?
 
 my personal recommendation is Azure Virtual machine 8 Gbs and picks the nearest region of you (I choose Singapore)
 
-Now it on 1.18.1 Tuinity server launcher
+Now it on 1.18.2 Purpur server launcher
+
+## To run the minecraft server
+
+`java -Xms4G -Xmx4G -jar purpur.jar --nogui`
+
+## check out more purpur command [here](https://purpurmc.org/docs/Commands/)
