@@ -8,7 +8,7 @@
 # Discord: https://discord.gg/papermc
 # IRC: #paper @ irc.esper.net ( https://webchat.esper.net/?channels=paper ) 
 # Website: https://papermc.io/ 
-# Docs: https://paper.readthedocs.org/ 
+# Docs: https://docs.papermc.io/ 
 
 verbose: false
 messages:
@@ -33,8 +33,20 @@ timings:
   history-interval: 300
   history-length: 3600
   server-name: Unknown Server
-config-version: 24
+config-version: 25
 settings:
+  chunk-loading:
+    min-load-radius: 2
+    max-concurrent-sends: 2
+    autoconfig-send-distance: true
+    target-player-chunk-send-rate: 100.0
+    global-max-chunk-send-rate: -1.0
+    enable-frustum-priority: false
+    global-max-chunk-load-rate: -1.0
+    player-max-concurrent-loads: 20.0
+    global-max-concurrent-loads: 500.0
+  time-command-affects-all-worlds: false
+  use-dimension-type-for-custom-spawners: false
   send-full-pos-for-hard-colliding-entities: true
   track-plugin-scoreboards: false
   fix-entity-position-desync: true
@@ -81,6 +93,7 @@ settings:
     page-max: 2560
     total-multiplier: 0.98
   loggers:
+    use-rgb-for-named-text-colors: true
     deobfuscate-stacktraces: true
   unsupported-settings:
     allow-permanent-block-break-exploits: false
@@ -109,6 +122,12 @@ settings:
         action: DROP
 world-settings:
   default:
+    slime-spawn-height:
+      swamp-biome:
+        maximum: 70.0
+        minimum: 50.0
+      slime-chunk:
+        maximum: 40.0
     split-overstacked-loot: true
     grass-spread-tick-rate: 4
     map-item-frame-cursor-limit: 128
@@ -190,8 +209,8 @@ world-settings:
       flat-bedrock: false
     light-queue-size: 20
     auto-save-interval: -1
-    non-player-arrow-despawn-rate: 20 
-    creative-arrow-despawn-rate: 20 
+    non-player-arrow-despawn-rate: 20
+    creative-arrow-despawn-rate: 20
     spawner-nerfed-mobs-should-jump: true
     entities-target-with-follow-range: false
     all-chunks-are-slime-chunks: false
@@ -347,31 +366,31 @@ world-settings:
     alt-item-despawn-rate:
       enabled: true
       items:
-          COBBLESTONE: 300
-          NETHERRACK: 300
-          SAND: 300
-          RED_SAND: 300
-          GRAVEL: 300
-          DIRT: 300
-          GRASS: 300
-          PUMPKIN: 300
-          MELON_SLICE: 300
-          KELP: 300
-          BAMBOO: 300
-          SUGAR_CANE: 300
-          TWISTING_VINES: 300
-          WEEPING_VINES: 300
-          OAK_LEAVES: 300
-          SPRUCE_LEAVES: 300
-          BIRCH_LEAVES: 300
-          JUNGLE_LEAVES: 300
-          ACACIA_LEAVES: 300
-          DARK_OAK_LEAVES: 300
-          CACTUS: 300
-          DIORITE: 300
-          GRANITE: 300
-          ANDESITE: 300
-          SCAFFOLDING: 600
+        COBBLESTONE: 300
+        NETHERRACK: 300
+        SAND: 300
+        RED_SAND: 300
+        GRAVEL: 300
+        DIRT: 300
+        GRASS: 300
+        PUMPKIN: 300
+        MELON_SLICE: 300
+        KELP: 300
+        BAMBOO: 300
+        SUGAR_CANE: 300
+        TWISTING_VINES: 300
+        WEEPING_VINES: 300
+        OAK_LEAVES: 300
+        SPRUCE_LEAVES: 300
+        BIRCH_LEAVES: 300
+        JUNGLE_LEAVES: 300
+        ACACIA_LEAVES: 300
+        DARK_OAK_LEAVES: 300
+        CACTUS: 300
+        DIORITE: 300
+        GRANITE: 300
+        ANDESITE: 300
+        SCAFFOLDING: 600
     tick-rates:
       sensor:
         villager:
