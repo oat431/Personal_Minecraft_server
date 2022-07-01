@@ -13,6 +13,7 @@ settings:
   food-properties: {}
   disable-give-dropping: false
   enchantment:
+    clamp-levels: true
     allow-unsafe-enchant-command: false
     allow-infinity-and-mending-together: false
     allow-infinity-on-crossbow: false
@@ -116,16 +117,19 @@ settings:
     max-joins-per-second: false
     upnp-port-forwarding: false
   logger:
+    suppress-sent-expired-chat: false
     suppress-setblock-in-far-chunk-errors: false
     suppress-init-legacy-material-errors: false
     suppress-ignored-advancement-warnings: false
     suppress-unrecognized-recipe-errors: false
   tps-catchup: true
   server-mod-name: Purpur
-config-version: 27
+config-version: 29
 world-settings:
   default:
     blocks:
+      enchantment-table:
+        lapis-persists: false
       chest:
         open-with-solid-block-on-top: false
       stonecutter:
@@ -224,6 +228,7 @@ world-settings:
       powered-rail:
         activation-range: 8
       turtle_egg:
+        feather-fall-distance-affects-trampling: false
         break-from-exp-orbs: true
         break-from-items: true
         break-from-minecarts: true
@@ -272,6 +277,24 @@ world-settings:
       cactus:
         breaks-from-solid-neighbors: true
     mobs:
+      warden:
+        ridable: false
+        ridable-in-water: false
+        controllable: true
+      allay:
+        ridable: false
+        ridable-in-water: false
+        controllable: true
+      frog:
+        ridable: false
+        ridable-in-water: false
+        controllable: true
+        ridable-jump-height: 0.6499999761581421
+        breeding-delay-ticks: 6000
+      tadpole:
+        ridable: false
+        ridable-in-water: false
+        controllable: true
       elder_guardian:
         controllable: true
         ridable: false
@@ -595,6 +618,7 @@ world-settings:
         poppy-calms-anger: false
         always-drop-exp: false
       horse:
+        stand-when-hurt: true
         ridable-in-water: false
         attributes:
           max_health:
@@ -766,6 +790,7 @@ world-settings:
         takes-damage-from-water: false
         always-drop-exp: false
       skeleton:
+        feed-wither-roses: 0
         controllable: true
         ridable: false
         ridable-in-water: false
@@ -1181,6 +1206,12 @@ world-settings:
           minecraft:birch_log:
             into: minecraft:stripped_birch_log
             drops: {}
+          minecraft:mangrove_log:
+            drops: {}
+            into: minecraft:stripped_mangrove_log
+          minecraft:mangrove_wood:
+            drops: {}
+            into: minecraft:stripped_mangrove_wood
         waxables:
           minecraft:waxed_weathered_cut_copper_stairs:
             into: minecraft:weathered_cut_copper_stairs
@@ -1294,20 +1325,6 @@ world-settings:
         replant-nether-warts: false
     gameplay-mechanics:
       mob-last-hurt-by-player-time: 100
-      projectile-despawn-rates:
-        dragon_fireball: -1
-        egg: -1
-        ender_pearl: -1
-        experience_bottle: -1
-        firework_rocket: -1
-        fishing_bobber: -1
-        fireball: -1
-        llama_spit: -1
-        potion: -1
-        shulker_bullet: -1
-        small_fireball: -1
-        snowball: -1
-        wither_skull: -1
       projectile-offset:
         bow: 1.0
         crossbow: 1.0

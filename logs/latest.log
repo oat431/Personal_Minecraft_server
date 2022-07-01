@@ -1,180 +1,88 @@
-[10:15:46] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[10:15:48] [Worker-Main-1/INFO]: Loaded 7 recipes
-[10:15:49] [Server thread/INFO]: Starting minecraft server version 1.18.2
-[10:15:49] [Server thread/INFO]: Loading properties
-[10:15:49] [Server thread/INFO]: This server is running Purpur version git-Purpur-1599 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: 11e77a4 on HEAD)
-[10:15:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:15:49] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:15:49] [Server thread/WARN]: [Pufferfish] To improve performance, timings have been disabled by default
-[10:15:49] [Server thread/WARN]: [Pufferfish] You can still use timings by using /timings on, but they will not start on server startup unless you set timings.really-enabled to true in paper.yml
-[10:15:49] [Server thread/WARN]: [Pufferfish] If you would like to disable this message, either set timings.really-enabled to true or timings.enabled to false.
-[10:15:49] [Server thread/ERROR]: missing food properties...
-[10:15:49] [Server thread/WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
-[10:15:49] [Server thread/WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
-[10:15:49] [Server thread/INFO]: Default game type: SURVIVAL
-[10:15:49] [Server thread/INFO]: Generating keypair
-[10:15:49] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:15:49] [Server thread/INFO]: Using default channel type
-[10:15:49] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[10:15:49] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[10:15:50] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_18_R2.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[10:15:55] [Server thread/WARN]: Legacy plugin MoreFood v1.0 does not specify an api-version.
-[10:15:55] [Server thread/INFO]: [MoreFood] Loading MoreFood v1.0
-[10:15:55] [Server thread/INFO]: [MineChest] Loading MineChest v0.1.0-alpha.2
-[10:15:55] [Server thread/INFO]: [GlassDropper] Loading GlassDropper v2.1.1
-[10:15:55] [Server thread/INFO]: [TreeMe] Loading TreeMe v1.4.3
-[10:15:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[10:15:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10:15:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[10:15:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10:15:55] [Server thread/WARN]: You will not be offered any support as long as the server allows offline-mode players to join.
-[10:15:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[10:15:55] [Server thread/INFO]: Preparing level "world"
-[10:15:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:15:56] [Server thread/INFO]: Time elapsed: 424 ms
-[10:15:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[10:15:57] [Server thread/INFO]: Time elapsed: 117 ms
-[10:15:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[10:15:57] [Server thread/INFO]: Time elapsed: 115 ms
-[10:15:57] [Server thread/INFO]: [MoreFood] Enabling MoreFood v1.0*
-[10:15:57] [Server thread/INFO]: [MoreFood] MoreFood started! Thank you for downloading that :3
-[10:15:57] [Server thread/INFO]: [MoreFood] MoreFood: Milk Chocolate Bar created!
-[10:15:57] [Server thread/INFO]: [MoreFood] MoreFood: Dark Chocolate Bar created!
-[10:15:57] [Server thread/INFO]: [MoreFood] MoreFood: Hot Chocolate created!
-[10:15:57] [Server thread/INFO]: [MoreFood] MoreFood: Chocolate Cake created!
-[10:15:57] [Server thread/INFO]: [MoreFood] MoreFood: Coffee created!
-[10:15:57] [Server thread/INFO]: [MoreFood] MoreFood: Coffee With Milk created!
-[10:15:57] [Server thread/INFO]: [MoreFood] MoreFood: Energy Drink created!
-[10:15:57] [Server thread/INFO]: [MineChest] Enabling MineChest v0.1.0-alpha.2
-[10:15:57] [Server thread/INFO]: [MineChest] MineChest loaded!
-[10:15:57] [Server thread/INFO]: [GlassDropper] Enabling GlassDropper v2.1.1
-[10:15:57] [Server thread/INFO]: [TreeMe] Enabling TreeMe v1.4.3
-[10:15:57] [Server thread/INFO]: Running delayed init tasks
-[10:15:57] [Server thread/INFO]: Done (8.104s)! For help, type "help"
-[10:15:57] [Server thread/INFO]: Timings Reset
-[10:15:58] [Craft Scheduler Thread - 3 - GlassDropper/INFO]: [GlassDropper] There is not a new update available.
-[10:16:46] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[10:16:49] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[10:16:53] [Server thread/INFO]: --------- Help: Index ---------------------------
-[10:16:53] [Server thread/INFO]: Use /help [n] to get page n of help.
-[10:16:53] [Server thread/INFO]: Aliases: Lists command aliases
-[10:16:53] [Server thread/INFO]: Bukkit: All commands for Bukkit
-[10:16:53] [Server thread/INFO]: Minecraft: All commands for Minecraft
-[10:16:53] [Server thread/INFO]: TreeMe: All commands for TreeMe
-[10:16:53] [Server thread/INFO]: /advancement: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /attribute: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /ban: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /ban-ip: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /banlist: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /bossbar: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /clear: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /clone: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /compass: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /credits: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /data: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /datapack: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /debug: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /demo: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /deop: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /difficulty: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /effect: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /enchant: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /execute: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /experience: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /fill: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /forceload: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /function: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /gamemode: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /gamerule: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /give: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /help: Shows the help menu
-[10:16:53] [Server thread/INFO]: /item: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /jfr: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /kick: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /kill: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /list: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /locate: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /locatebiome: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /loot: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /me: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /msg: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /mspt: View server tick times
-[10:16:53] [Server thread/INFO]: /op: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /paper: Paper related commands
-[10:16:53] [Server thread/INFO]: /pardon: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /particle: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /perf: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /ping: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /placefeature: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /playsound: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
-[10:16:53] [Server thread/INFO]: /pufferfish: Pufferfish related commands
-[10:16:53] [Server thread/INFO]: /purpur: Purpur related commands
-[10:16:53] [Server thread/INFO]: /recipe: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
-[10:16:53] [Server thread/INFO]: /restart: Restarts the server
-[10:16:53] [Server thread/INFO]: /save-all: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /save-off: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /save-on: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /say: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /schedule: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /scoreboard: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /seed: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /setblock: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /spectate: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /spigot: Spigot related commands
-[10:16:53] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /stop: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /stopsound: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /summon: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /tag: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /team: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /teammsg: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /teleport: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /tell: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /tellraw: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /time: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
-[10:16:53] [Server thread/INFO]: /title: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /tm: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /tp: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
-[10:16:53] [Server thread/INFO]: /tpsbar: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /treeme: Control personal usage of TreeMe
-[10:16:53] [Server thread/INFO]: /trigger: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /uptime: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
-[10:16:53] [Server thread/INFO]: /w: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /weather: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /whitelist: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /worldborder: A Mojang provided command.
-[10:16:53] [Server thread/INFO]: /xp: A Mojang provided command.
-[10:16:55] [Server thread/INFO]: Saving the game (this may take a moment!)
-[10:16:56] [Server thread/INFO]: Saved the game
-[10:16:59] [Server thread/INFO]: Stopping the server
-[10:16:59] [Server thread/INFO]: Stopping server
-[10:16:59] [Server thread/INFO]: [TreeMe] Disabling TreeMe v1.4.3
-[10:16:59] [Server thread/INFO]: [GlassDropper] Disabling GlassDropper v2.1.1
-[10:16:59] [Server thread/INFO]: [MineChest] Disabling MineChest v0.1.0-alpha.2
-[10:16:59] [Server thread/INFO]: [MineChest] MineChest disabled!
-[10:16:59] [Server thread/INFO]: [MoreFood] Disabling MoreFood v1.0
-[10:16:59] [Server thread/INFO]: [MoreFood] MoreFood disabled. Thank you for using this :3
-[10:16:59] [Server thread/INFO]: Saving players
-[10:17:00] [Server thread/INFO]: Saving worlds
-[10:17:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[10:17:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[10:17:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[10:17:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[10:17:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:17:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:17:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[10:17:13] [Server thread/INFO]: Flushing Chunk IO
-[10:17:13] [Server thread/INFO]: Closing Thread Pool
-[10:17:13] [Server thread/INFO]: Closing Server
+[19:26:21] [ServerMain/INFO]: Building unoptimized datafixer
+[19:26:23] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:26:27] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[19:26:29] [ServerMain/INFO]: Loaded 7 recipes
+[19:26:30] [Server thread/INFO]: Starting minecraft server version 1.19
+[19:26:30] [Server thread/INFO]: Loading properties
+[19:26:30] [Server thread/INFO]: This server is running Purpur version git-Purpur-1689 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: e7d3f07 on HEAD)
+[19:26:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:26:31] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:26:32] [Server thread/WARN]: [Pufferfish] To improve performance, timings have been disabled by default
+[19:26:32] [Server thread/WARN]: [Pufferfish] You can still use timings by using /timings on, but they will not start on server startup unless you set timings.really-enabled to true in paper.yml
+[19:26:32] [Server thread/WARN]: [Pufferfish] If you would like to disable this message, either set timings.really-enabled to true or timings.enabled to false.
+[19:26:32] [Server thread/WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
+[19:26:32] [Server thread/WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
+[19:26:32] [Server thread/WARN]: [Pufferfish] If you have already added this flag, then SIMD operations are not supported on your JVM or CPU.
+[19:26:32] [Server thread/WARN]: [Pufferfish] Debug: Java: 17.0.1, test run: true
+[19:26:32] [Server thread/INFO]: Default game type: SURVIVAL
+[19:26:32] [Server thread/INFO]: Generating keypair
+[19:26:32] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:26:33] [Server thread/INFO]: Using default channel type
+[19:26:33] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[19:26:33] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:26:34] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_19_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[19:26:39] [Server thread/WARN]: Legacy plugin MoreFood v1.0 does not specify an api-version.
+[19:26:41] [Server thread/INFO]: [MoreFood] Loading MoreFood v1.0
+[19:26:41] [Server thread/INFO]: [MineChest] Loading MineChest v0.1.0-alpha.2
+[19:26:41] [Server thread/INFO]: [GlassDropper] Loading GlassDropper v2.1.1
+[19:26:41] [Server thread/INFO]: [TreeMe] Loading TreeMe v1.4.3
+[19:26:45] [Server thread/INFO]: [spark] Loading spark v1.9.23
+[19:26:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:26:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:26:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:26:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:26:45] [Server thread/WARN]: You will not be offered any support as long as the server allows offline-mode players to join.
+[19:26:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:26:45] [Server thread/INFO]: Preparing level "world"
+[19:26:45] [Server thread/WARN]: Failed to parse level-type default, defaulting to minecraft:normal
+[19:27:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:27:38] [Server thread/INFO]: Time elapsed: 1265 ms
+[19:27:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:27:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:27:38] [Server thread/INFO]: Time elapsed: 404 ms
+[19:27:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:27:39] [Server thread/INFO]: Time elapsed: 495 ms
+[19:27:39] [Server thread/INFO]: [MoreFood] Enabling MoreFood v1.0*
+[19:27:39] [Server thread/INFO]: [MoreFood] MoreFood started! Thank you for downloading that :3
+[19:27:39] [Server thread/INFO]: [MoreFood] MoreFood don't gets a config! Creating new...
+[19:27:40] [Server thread/INFO]: [MoreFood] MoreFood: Milk Chocolate Bar created!
+[19:27:40] [Server thread/INFO]: [MoreFood] MoreFood: Dark Chocolate Bar created!
+[19:27:40] [Server thread/INFO]: [MoreFood] MoreFood: Hot Chocolate created!
+[19:27:40] [Server thread/INFO]: [MoreFood] MoreFood: Chocolate Cake created!
+[19:27:40] [Server thread/INFO]: [MoreFood] MoreFood: Coffee created!
+[19:27:40] [Server thread/INFO]: [MoreFood] MoreFood: Coffee With Milk created!
+[19:27:40] [Server thread/INFO]: [MoreFood] MoreFood: Energy Drink created!
+[19:27:40] [Server thread/INFO]: [MineChest] Enabling MineChest v0.1.0-alpha.2
+[19:27:40] [Server thread/INFO]: [MineChest] MineChest loaded!
+[19:27:40] [Server thread/INFO]: [GlassDropper] Enabling GlassDropper v2.1.1
+[19:27:40] [Server thread/INFO]: [TreeMe] Enabling TreeMe v1.4.3
+[19:27:40] [Server thread/INFO]: [spark] Enabling spark v1.9.23
+[19:27:45] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[19:27:46] [Server thread/INFO]: Running delayed init tasks
+[19:27:46] [Server thread/INFO]: Done (75.489s)! For help, type "help"
+[19:27:46] [Server thread/INFO]: Timings Reset
+[19:27:48] [Craft Scheduler Thread - 4 - GlassDropper/INFO]: [GlassDropper] There is not a new update available.
+[19:29:49] [Server thread/INFO]: Set the time to 0
+[19:29:54] [Server thread/INFO]: Saving the game (this may take a moment!)
+[19:29:57] [Server thread/INFO]: Saved the game
+[19:29:57] [Server thread/INFO]: Stopping the server
+[19:29:57] [Server thread/INFO]: Stopping server
+[19:29:57] [Server thread/INFO]: [spark] Disabling spark v1.9.23
+[19:29:57] [Server thread/INFO]: [TreeMe] Disabling TreeMe v1.4.3
+[19:29:57] [Server thread/INFO]: [GlassDropper] Disabling GlassDropper v2.1.1
+[19:29:57] [Server thread/INFO]: [MineChest] Disabling MineChest v0.1.0-alpha.2
+[19:29:57] [Server thread/INFO]: [MineChest] MineChest disabled!
+[19:29:57] [Server thread/INFO]: [MoreFood] Disabling MoreFood v1.0
+[19:29:57] [Server thread/INFO]: [MoreFood] MoreFood disabled. Thank you for using this :3
+[19:29:57] [Server thread/INFO]: Saving players
+[19:29:57] [Server thread/INFO]: Saving worlds
+[19:29:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:30:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:30:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:30:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:30:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:30:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:30:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:30:07] [Server thread/INFO]: Flushing Chunk IO
+[19:30:07] [Server thread/INFO]: Closing Thread Pool
+[19:30:07] [Server thread/INFO]: Closing Server
