@@ -18,7 +18,11 @@ settings:
     allow-infinity-and-mending-together: false
     allow-infinity-on-crossbow: false
     allow-looting-on-shears: false
-    allow-unsafe-enchants: false
+    anvil:
+      allow-unsafe-enchants: false
+      allow-inapplicable-enchants: true
+      allow-incompatible-enchants: true
+      allow-higher-enchants-levels: true
   allow-water-placement-in-the-end: true
   username-valid-characters: ^[a-zA-Z0-9_.]*$
   blocks:
@@ -114,6 +118,7 @@ settings:
     enderman:
       short-height: false
   network:
+    kick-for-out-of-order-chat: true
     max-joins-per-second: false
     upnp-port-forwarding: false
   logger:
@@ -124,10 +129,17 @@ settings:
     suppress-unrecognized-recipe-errors: false
   tps-catchup: true
   server-mod-name: Purpur
-config-version: 29
+config-version: 30
 world-settings:
   default:
+    settings:
+      entity:
+        shared-random: true
     blocks:
+      sculk_shrieker:
+        can-summon-default: false
+      coral:
+        die-outside-water: true
       enchantment-table:
         lapis-persists: false
       chest:
@@ -790,6 +802,7 @@ world-settings:
         takes-damage-from-water: false
         always-drop-exp: false
       skeleton:
+        bow-accuracy: 14 - difficulty * 4
         feed-wither-roses: 0
         controllable: true
         ridable: false
@@ -1324,6 +1337,8 @@ world-settings:
         replant-crops: false
         replant-nether-warts: false
     gameplay-mechanics:
+      arrow:
+        movement-resets-despawn-counter: true
       mob-last-hurt-by-player-time: 100
       projectile-offset:
         bow: 1.0
@@ -1452,6 +1467,7 @@ world-settings:
             candles: false
             campfires: false
       mob-spawning:
+        ignore-creative-players: false
         village-cats: default
         raid-patrols: default
         phantoms: default
