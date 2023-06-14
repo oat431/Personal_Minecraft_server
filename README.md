@@ -13,13 +13,11 @@ Saving memory with my friend, I guess?
 
 4. change the directory to the repo and run the command "java -jar purpur.jar --nogui."
 
-5. give public IPv4 to your friend
+5. give public IPv4 to your friend and let's play!!
 
-6. you are now good to go
+my personal recommendation is Azure Virtual machine 8 Gbs and picks the nearest region of your (I choose Singapore)
 
-my personal recommendation is Azure Virtual machine 8 Gbs and picks the nearest region of you (I choose Singapore)
-
-Now it on 1.18.2 Purpur server launcher
+Now it on 1.19.2 Purpur server launcher
 
 ## To run the minecraft server
 
