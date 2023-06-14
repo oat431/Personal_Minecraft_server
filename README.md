@@ -17,7 +17,7 @@ Saving memory with my friend, I guess?
 
 my personal recommendation is Azure Virtual machine 8 Gbs and picks the nearest region of your (I choose Singapore)
 
-Now it on 1.19.2 Purpur server launcher
+Now it on 1.20.1 Purpur server launcher
 
 ## To run the minecraft server
 
