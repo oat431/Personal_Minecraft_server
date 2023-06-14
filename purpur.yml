@@ -10,6 +10,46 @@
 
 verbose: false
 settings:
+  clamp-attributes: true
+  block-fall-multipliers:
+    minecraft:hay_block:
+      damage: 0.2
+    minecraft:white_bed:
+      distance: 0.5
+    minecraft:gray_bed:
+      distance: 0.5
+    minecraft:cyan_bed:
+      distance: 0.5
+    minecraft:blue_bed:
+      distance: 0.5
+    minecraft:green_bed:
+      distance: 0.5
+    minecraft:orange_bed:
+      distance: 0.5
+    minecraft:black_bed:
+      distance: 0.5
+    minecraft:yellow_bed:
+      distance: 0.5
+    minecraft:lime_bed:
+      distance: 0.5
+    minecraft:brown_bed:
+      distance: 0.5
+    minecraft:light_gray_bed:
+      distance: 0.5
+    minecraft:magenta_bed:
+      distance: 0.5
+    minecraft:purple_bed:
+      distance: 0.5
+    minecraft:light_blue_bed:
+      distance: 0.5
+    minecraft:pink_bed:
+      distance: 0.5
+    minecraft:red_bed:
+      distance: 0.5
+  blast-resistance-overrides: {}
+  fix-projectile-looting-transfer: false
+  fix-network-serialized-items-in-creative: false
+  limit-armor: true
   food-properties: {}
   disable-give-dropping: false
   enchantment:
@@ -18,10 +58,22 @@ settings:
     allow-infinity-and-mending-together: false
     allow-infinity-on-crossbow: false
     allow-looting-on-shears: false
-    allow-unsafe-enchants: false
+    anvil:
+      allow-unsafe-enchants: false
+      allow-inapplicable-enchants: true
+      allow-incompatible-enchants: true
+      allow-higher-enchants-levels: true
   allow-water-placement-in-the-end: true
   username-valid-characters: ^[a-zA-Z0-9_.]*$
   blocks:
+    cave_vines:
+      max-growth-age: 25
+    kelp:
+      max-growth-age: 25
+    twisting_vines:
+      max-growth-age: 25
+    weeping_vines:
+      max-growth-age: 25
     disable-mushroom-updates: false
     disable-note-block-updates: false
     disable-chorus-plant-updates: false
@@ -57,6 +109,18 @@ settings:
       only-broadcast-to-affected-player: false
   lagging-threshold: 19.0
   command:
+    rambar:
+      title: <gray>Ram<yellow>:</yellow> <used>/<xmx> (<percent>)
+      overlay: NOTCHED_20
+      progress-color:
+        good: GREEN
+        medium: YELLOW
+        low: RED
+      text-color:
+        good: <gradient:#55ff55:#00aa00><text></gradient>
+        medium: <gradient:#ffff55:#ffaa00><text></gradient>
+        low: <gradient:#ff5555:#aa0000><text></gradient>
+      tick-interval: 20
     fill:
       max-area: 32768
     tpsbar:
@@ -93,6 +157,9 @@ settings:
       second: '%02d second'
       seconds: '%02d seconds'
   messages:
+    afk-broadcast-use-display-name: false
+    ram-command-output: '<green>Ram Usage: <used>/<xmx> (<percent>)'
+    rambar-command-output: <green>Rambar toggled <onoff> for <target>
     tpsbar-command-output: <green>Tpsbar toggled <onoff> for <target>
     death-message:
       stonecutter: <player> has sawed themself in half
@@ -114,9 +181,11 @@ settings:
     enderman:
       short-height: false
   network:
+    kick-for-out-of-order-chat: true
     max-joins-per-second: false
     upnp-port-forwarding: false
   logger:
+    suppress-library-loader: false
     suppress-sent-expired-chat: false
     suppress-setblock-in-far-chunk-errors: false
     suppress-init-legacy-material-errors: false
@@ -124,10 +193,21 @@ settings:
     suppress-unrecognized-recipe-errors: false
   tps-catchup: true
   server-mod-name: Purpur
-config-version: 29
+config-version: 32
 world-settings:
   default:
+    settings:
+      entity:
+        shared-random: true
     blocks:
+      sculk_shrieker:
+        can-summon-default: false
+      coral:
+        die-outside-water: true
+      nether_wart:
+        affected-by-bonemeal: false
+      sugar_cane:
+        affected-by-bonemeal: false
       enchantment-table:
         lapis-persists: false
       chest:
@@ -142,7 +222,7 @@ world-settings:
         explode: true
         explosion-power: 5.0
         explosion-fire: true
-        explosion-effect: DESTROY
+        explosion-effect: BLOCK
       weeping_vines:
         max-growth-age: 25
       big_dripleaf:
@@ -187,16 +267,17 @@ world-settings:
           nether: 10
           not-nether: 30
       end-crystal:
+        cramming-amount: 0
         baseless:
           explode: true
           explosion-power: 6.0
           explosion-fire: false
-          explosion-effect: DESTROY
+          explosion-effect: BLOCK
         base:
           explode: true
           explosion-power: 6.0
           explosion-fire: false
-          explosion-effect: DESTROY
+          explosion-effect: BLOCK
       dragon_egg:
         teleport: true
       magma-block:
@@ -255,10 +336,12 @@ world-settings:
       observer:
         disable-clock: false
       anvil:
+        use-mini-message: false
         iron-ingots-used-for-repair: 0
         obsidian-used-for-damage: 0
         allow-colors: false
       beacon:
+        allow-effects-with-tinted-glass: false
         effect-range:
           level-1: 20
           level-2: 30
@@ -271,17 +354,39 @@ world-settings:
         explode-on-villager-sleep: false
         explosion-power: 5.0
         explosion-fire: true
-        explosion-effect: DESTROY
+        explosion-effect: BLOCK
       campfire:
         lit-when-placed: true
       cactus:
+        affected-by-bonemeal: false
         breaks-from-solid-neighbors: true
     mobs:
+      camel:
+        ridable-in-water: false
+        attributes:
+          max_health:
+            min: 32.0
+            max: 32.0
+          jump_strength:
+            min: 0.42
+            max: 0.42
+          movement_speed:
+            min: 0.09
+            max: 0.09
+        breeding-delay-ticks: 6000
+      sniffer:
+        ridable: false
+        ridable-in-water: true
+        controllable: true
+        attributes:
+          max_health: 14.0
+        breeding-delay-ticks: 6000
       warden:
         ridable: false
         ridable-in-water: false
         controllable: true
       allay:
+        respect-nbt: []
         ridable: false
         ridable-in-water: false
         controllable: true
@@ -391,6 +496,13 @@ world-settings:
         ridable-in-water: false
         ridable-max-y: 256.0
         attributes:
+          follow_range: 16.0
+          knockback_resistance: 0.0
+          movement_speed: 0.6
+          flying_speed: 0.6
+          armor: 0.0
+          armor_toughness: 0.0
+          attack_knockback: 0.0
           max_health: 6.0
         takes-damage-from-water: false
         always-drop-exp: false
@@ -456,6 +568,7 @@ world-settings:
         takes-damage-from-water: false
         always-drop-exp: false
       creeper:
+        encircle-target: false
         controllable: true
         ridable: false
         ridable-in-water: false
@@ -542,6 +655,7 @@ world-settings:
         takes-damage-from-water: false
         always-drop-exp: false
       glow_squid:
+        rainglow-mode: rainbow
         controllable: true
         ridable: false
         attributes:
@@ -724,6 +838,7 @@ world-settings:
         can-breed: false
         always-drop-exp: false
       piglin:
+        head-visibility-percent: 0.5
         controllable: true
         ridable: false
         ridable-in-water: false
@@ -790,6 +905,7 @@ world-settings:
         takes-damage-from-water: false
         always-drop-exp: false
       skeleton:
+        bow-accuracy: 14 - difficulty * 4
         feed-wither-roses: 0
         controllable: true
         ridable: false
@@ -1150,6 +1266,7 @@ world-settings:
         takes-damage-from-water: false
         always-drop-exp: false
     ridable-settings:
+      use-dismounts-underwater-tag: true
       babies-are-ridable: true
       untamed-tamables-are-ridable: true
       use-night-vision: false
@@ -1212,6 +1329,15 @@ world-settings:
           minecraft:mangrove_wood:
             drops: {}
             into: minecraft:stripped_mangrove_wood
+          minecraft:cherry_log:
+            drops: {}
+            into: minecraft:stripped_cherry_log
+          minecraft:cherry_wood:
+            drops: {}
+            into: minecraft:stripped_cherry_wood
+          minecraft:bamboo_block:
+            drops: {}
+            into: minecraft:stripped_bamboo_block
         waxables:
           minecraft:waxed_weathered_cut_copper_stairs:
             into: minecraft:weathered_cut_copper_stairs
@@ -1324,6 +1450,11 @@ world-settings:
         replant-crops: false
         replant-nether-warts: false
     gameplay-mechanics:
+      arrow:
+        movement-resets-despawn-counter: true
+      clamp-explosion-radius: true
+      mending-multiplier: 1.0
+      milk-clears-beneficial-effects: true
       mob-last-hurt-by-player-time: 100
       projectile-offset:
         bow: 1.0
@@ -1364,6 +1495,10 @@ world-settings:
         spectral-arrows: false
         tipped-arrows: false
       player:
+        teleport-on-nether-ceiling-damage: false
+        burp-delay: 10
+        portal-wait-time: 80
+        creative-portal-wait-time: 1
         exp-pickup-delay-ticks: 2
         allow-void-trading: false
         netherite-fire-resistance:
@@ -1433,6 +1568,8 @@ world-settings:
           fire: []
           lightning: []
         shears:
+          ignore-in-water: false
+          ignore-in-lava: false
           damage-if-sprinting: false
           sprinting-damage: 1.0
         ender-pearl:
@@ -1452,6 +1589,7 @@ world-settings:
             candles: false
             campfires: false
       mob-spawning:
+        ignore-creative-players: false
         village-cats: default
         raid-patrols: default
         phantoms: default
