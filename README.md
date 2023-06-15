@@ -1,5 +1,5 @@
 # Personal Minecraft server
-Saving memory with my friend, I guess?
+Saving memory with my friend, and my server experiment for open Minecraft server in some day.
 
 ## Guide if you want to open the server yourself
 
