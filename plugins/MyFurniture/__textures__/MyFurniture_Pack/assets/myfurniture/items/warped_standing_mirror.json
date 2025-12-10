@@ -1,0 +1,6 @@
+{
+  "model" : {
+    "type" : "minecraft:model",
+    "model" : "myfurniture:item/standing_mirrors/warped_standing_mirror"
+  }
+}

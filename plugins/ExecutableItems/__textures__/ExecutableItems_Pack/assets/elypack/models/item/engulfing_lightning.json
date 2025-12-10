@@ -1,0 +1,36 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "elypack:item/custom_textures/engulfing_lightning"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [35, 90, 0],
+			"translation": [0, 2.75, 1],
+			"scale": [1.75, 1.75, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [35, -90, 0],
+			"translation": [0, 2.75, 1],
+			"scale": [1.75, 1.75, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [75, 85, -95],
+			"translation": [4, 2, -0.5],
+			"scale": [1, 1, 0.7]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-115, -85, -85],
+			"translation": [4, 2, -0.5],
+			"scale": [1, 1, 0.7]
+		},
+		"ground": {
+			"scale": [1, 1, 0.7]
+		},
+		"fixed": {
+			"translation": [0, 0, -0.25],
+			"scale": [2, 2, 1]
+		}
+	}
+}

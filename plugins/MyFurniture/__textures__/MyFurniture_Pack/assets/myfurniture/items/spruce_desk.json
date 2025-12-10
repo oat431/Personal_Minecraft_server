@@ -1,0 +1,6 @@
+{
+  "model" : {
+    "type" : "minecraft:model",
+    "model" : "myfurniture:item/desks/spruce_desk"
+  }
+}

@@ -1,0 +1,82 @@
+displayFeatures:
+  itemModel: myfurniture:green_stove
+  scale: 1.0
+  # Whether the display will
+  # be aligned or not with
+  # the other blocks
+  aligned: false
+  # Customize the pitch
+  # rotation if needed
+  customPitch: 90
+  # Item Glowing effect
+  glow: false
+  # The amount of click
+  # required to break the EB
+  clickToBreak: 3
+  boundingBoxZones:
+    '0':
+      from:
+      - 0.0
+      - 0.0
+      - 0.0
+      to:
+      - 16.0
+      - 16.0
+      - 16.0
+    '1':
+      from:
+      - 0.0
+      - 16.0
+      - 14.0
+      to:
+      - 16.0
+      - 20.0
+      - 16.0
+    '2':
+      from:
+      - 1.0
+      - 1.0
+      - -1.0
+      to:
+      - 15.0
+      - 15.0
+      - 0.0
+    '3':
+      from:
+      - 2.0
+      - 13.0
+      - -2.0
+      to:
+      - 14.0
+      - 14.0
+      - -1.0
+  viewRange: 20.0
+titleFeatures:
+  # Active the title
+  activeTitle: false
+  # The title
+  title: []
+  titleAdjustment: 0.5
+interactionRange: 6.0
+# The list of executable items
+# that can break the block
+onlyBreakableWithEI: []
+# If the block is broken,
+# it will drop the block
+dropBlockIfItIsBroken: true
+dropType: IN_THE_INVENTORY
+# If the block is broken,
+# it will reset the internal datas
+# (Usage, and variables)
+resetInternalDatasWhenBroken: false
+# The activators / triggers
+activators: {}
+executableItem: green_stove
+sitFeatures:
+  # Player can sit
+  playerCanSit: false
+storageFeatures:
+  # Enable this features
+  enable: false
+config_3: true
+config_update: false

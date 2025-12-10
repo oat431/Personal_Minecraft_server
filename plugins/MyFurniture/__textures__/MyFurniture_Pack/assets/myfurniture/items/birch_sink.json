@@ -1,0 +1,6 @@
+{
+  "model" : {
+    "type" : "minecraft:model",
+    "model" : "myfurniture:item/sinks/wood_sinks/birch_sink"
+  }
+}

@@ -1,0 +1,35 @@
+{
+	"parent": "item/generated",
+	"textures": {
+	  "layer0": "elypack:item/pack1/biome_staff"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [45, 90, 0],
+			"translation": [0, 6.25, 1.5],
+			"scale": [1.7, 1.7, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [45, -90, 0],
+			"translation": [0, 6.25, 1.5],
+			"scale": [1.7, 1.7, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [70, 70, -80],
+			"translation": [3.5, 0, 0],
+			"scale": [1.7, 1.7, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-70, -70, -50],
+			"translation": [3.5, 0, 0],
+			"scale": [1.7, 1.7, 1]
+		},
+		"ground": {
+			"scale": [1.2, 1.2, 0.8]
+		},
+		"fixed": {
+			"translation": [0, 0, -0.75],
+			"scale": [2.5, 2.5, 1]
+		}
+	}	
+}

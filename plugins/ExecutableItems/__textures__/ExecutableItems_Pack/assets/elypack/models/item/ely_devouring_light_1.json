@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+	  "layer0": "elypack:item/pack1/devouring_light_1"
+	}
+}

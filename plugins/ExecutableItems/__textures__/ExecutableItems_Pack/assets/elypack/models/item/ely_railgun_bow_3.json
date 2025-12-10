@@ -1,0 +1,6 @@
+{
+	"parent": "item/bow",
+	"textures": {
+	  "layer0": "elypack:item/pack1/railgun_bow_3"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "model" : {
+    "type" : "minecraft:model",
+    "model" : "myfurniture:item/toilets/wood_toilets/spruce_toilet"
+  }
+}

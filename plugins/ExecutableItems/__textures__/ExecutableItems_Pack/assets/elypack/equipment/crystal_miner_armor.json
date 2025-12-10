@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "elypack:crystal_miner_1"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "elypack:crystal_miner_2"
+      }
+    ]
+  }
+}

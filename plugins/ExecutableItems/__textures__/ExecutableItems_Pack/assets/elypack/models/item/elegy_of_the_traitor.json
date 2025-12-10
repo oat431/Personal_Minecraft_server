@@ -1,0 +1,40 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "elypack:item/custom_textures/elegy_of_the_traitor"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [12, 90, 29],
+			"translation": [0, 2.5, 1.5],
+			"scale": [1.5, 1.5, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-12, -90, -59],
+			"translation": [0, 2.5, 1.5],
+			"scale": [1.5, 1.5, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 60],
+			"translation": [1.13, 4, 1.13],
+			"scale": [1.1, 1.1, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, -60],
+			"translation": [1.75, 4, 1.13],
+			"scale": [1.1, 1.1, 0.68]
+		},
+		"ground": {
+			"rotation": [-89.59, 5.01, -50.63],
+			"translation": [0, -3, 0]
+		},
+		"head": {
+			"translation": [0, -15.25, 3.75],
+			"scale": [2.5, 2.5, 1]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"scale": [4, 4, 1]
+		}
+	}
+}

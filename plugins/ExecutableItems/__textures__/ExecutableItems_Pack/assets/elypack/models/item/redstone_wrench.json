@@ -1,0 +1,12 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+	  "layer0": "elypack:item/custom_textures/redstone_wrench"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 4, 1]
+		}
+	}
+}

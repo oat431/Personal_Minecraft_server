@@ -1,0 +1,7 @@
+{
+  "credit" : "Made by betaklerik with Blockbench",
+  "parent" : "myfurniture:item/planters/acacia_planter",
+  "textures" : {
+    "texture" : "myfurniture:item/item/planters/dark_oak_planter"
+  }
+}

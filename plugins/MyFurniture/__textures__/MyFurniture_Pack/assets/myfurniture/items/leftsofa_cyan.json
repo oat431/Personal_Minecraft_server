@@ -1,0 +1,6 @@
+{
+  "model" : {
+    "type" : "minecraft:model",
+    "model" : "myfurniture:item/sofas/leftsofas/leftsofa_cyan"
+  }
+}

@@ -1,0 +1,35 @@
+{
+	"parent": "item/generated",
+	"textures": {
+	  "layer0": "elypack:item/pack1/cloud_piercer"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [45, 90, 0],
+			"translation": [0, 2, 1.25],
+			"scale": [1.7, 1.7, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-45, 90, 0],
+			"translation": [0, 2, 1.25],
+			"scale": [1.7, 1.7, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [30, 90, -50],
+			"translation": [6.25, 0, -0.5],
+			"scale": [1.7, 1.7, 0.9]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-150, -90, -130],
+			"translation": [6.25, 0, -0.5],
+			"scale": [1.7, 1.7, 0.9]
+		},
+		"ground": {
+			"scale": [1, 1, 0.7]
+		},
+		"fixed": {
+			"translation": [0, 0, -0.75],
+			"scale": [2.5, 2.5, 1]
+		}
+	}
+}

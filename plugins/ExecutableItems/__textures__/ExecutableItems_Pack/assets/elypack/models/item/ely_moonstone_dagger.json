@@ -1,0 +1,31 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "elypack:item/pack1/moonstone_dagger"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 60],
+			"translation": [0, 4.25, 2],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, -60],
+			"translation": [0, 4.25, 2],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 25],
+			"translation": [7, 1.25, -6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, -25],
+			"translation": [7, 1.25, -6]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

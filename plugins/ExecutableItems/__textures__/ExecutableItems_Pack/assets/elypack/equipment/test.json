@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "elypack:armor_layer_1"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "elypack:armor_layer_1"
+      }
+    ]
+  }
+}

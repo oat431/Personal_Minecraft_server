@@ -1,0 +1,118 @@
+displayFeatures:
+  itemModel: myfurniture:warped_toilet
+  scale: 1.0
+  # Whether the display will
+  # be aligned or not with
+  # the other blocks
+  aligned: false
+  # Customize the pitch
+  # rotation if needed
+  customPitch: 90
+  # Item Glowing effect
+  glow: false
+  # The amount of click
+  # required to break the EB
+  clickToBreak: 3
+  boundingBoxZones:
+    '0':
+      from:
+      - 2.0
+      - 7.0
+      - 9.0
+      to:
+      - 14.0
+      - 19.0
+      - 16.0
+    '1':
+      from:
+      - 3.0
+      - 5.0
+      - -2.0
+      to:
+      - 13.0
+      - 8.0
+      - 9.0
+    '2':
+      from:
+      - 4.0
+      - 1.0
+      - 1.0
+      to:
+      - 12.0
+      - 7.0
+      - 12.0
+    '3':
+      from:
+      - 3.0
+      - 0.0
+      - 0.0
+      to:
+      - 13.0
+      - 1.0
+      - 13.0
+    '4':
+      from:
+      - 3.0
+      - 8.0
+      - 8.0
+      to:
+      - 13.0
+      - 20.0
+      - 9.0
+    '5':
+      from:
+      - 2.0
+      - 8.0
+      - -3.0
+      to:
+      - 5.0
+      - 10.0
+      - 9.0
+    '6':
+      from:
+      - 11.0
+      - 8.0
+      - -3.0
+      to:
+      - 14.0
+      - 10.0
+      - 9.0
+    '7':
+      from:
+      - 5.0
+      - 8.0
+      - -3.0
+      to:
+      - 11.0
+      - 10.0
+      - 0.0
+  viewRange: 20.0
+titleFeatures:
+  # Active the title
+  activeTitle: false
+  # The title
+  title: []
+  titleAdjustment: 0.5
+interactionRange: 6.0
+# The list of executable items
+# that can break the block
+onlyBreakableWithEI: []
+# If the block is broken,
+# it will drop the block
+dropBlockIfItIsBroken: true
+dropType: IN_THE_INVENTORY
+# If the block is broken,
+# it will reset the internal datas
+# (Usage, and variables)
+resetInternalDatasWhenBroken: false
+# The activators / triggers
+activators: {}
+executableItem: warped_toilet
+sitFeatures:
+  # Player can sit
+  playerCanSit: false
+storageFeatures:
+  # Enable this features
+  enable: false
+config_3: true
+config_update: false

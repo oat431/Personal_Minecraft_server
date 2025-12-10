@@ -1,0 +1,7 @@
+{
+  "credit" : "Made by betaklerik with Blockbench",
+  "parent" : "myfurniture:item/sofas/leftsofas/leftsofa_black",
+  "textures" : {
+    "2" : "myfurniture:item/item/sofas/leftsofas/sofa_gray"
+  }
+}

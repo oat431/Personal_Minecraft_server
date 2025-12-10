@@ -1,0 +1,5 @@
+notWhitelistedWorld: '&cYou can''t place the furniture in this world.'
+permissionMessage: '&c&l[MyFurniture] &cYou do not have the permission to use this
+  furniture !'
+playerLimit: '&c&l[MyFurniture] &cYou have reached the limit of the furniture you
+  can place ! &7(&6%quantity%&7)'

@@ -1,0 +1,6 @@
+{
+  "model" : {
+    "type" : "minecraft:model",
+    "model" : "myfurniture:item/stoves/colored_stoves/blue_stove"
+  }
+}

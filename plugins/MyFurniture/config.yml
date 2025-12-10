@@ -1,0 +1,27 @@
+# ----------------------------------
+# -
+#       MyFurniture
+# -
+#         By: Ssomar
+# -
+# ----------------------------------
+# -
+# Players will need permission "mf.furniture.<ID>" to use the furniture
+# -
+# DISCORD HERE : https://discord.com/invite/TRmSwJaYNv
+# -
+checkVersionMsg: true
+whitelistedWorlds: []
+giveLimit: 100
+silentGive: true
+premiumEnableCooldownForOp: true
+
+displayDefaultScale: 1.0
+displayDefaultPitch: 90
+displayDefaultTransform: NONE
+
+selfHostPack: true # Set it to true to host the textures pack yourself
+texturesPackUrl: '' # Set it to "" to disable
+config_12_04_2024: true
+maxFurniturePlacedUsingCommand: 500
+downloadAndExtractAtNextRestart: false

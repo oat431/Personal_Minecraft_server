@@ -1,0 +1,7 @@
+{
+  "credit" : "Made by betaklerik with Blockbench",
+  "parent" : "myfurniture:item/toilets/wood_toilets/acacia_toilet",
+  "textures" : {
+    "texture" : "myfurniture:item/item/toilets/wood_toilets/mangrove_toilet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "elypack:item/custom_textures/bloodbath"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-45, -90, 0],
+			"translation": [0, 3, 2],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-45, 90, 0],
+			"translation": [0, 3, 2],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-20, -90, 0],
+			"translation": [3, 2.5, -2.75],
+			"scale": [1.15, 1.15, 1.15]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-20, 90, 0],
+			"translation": [3, 2.5, -2.75],
+			"scale": [1.15, 1.15, 1.15]
+		},
+		"ground": {
+			"translation": [0, 1.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0]
+		}
+	}
+}

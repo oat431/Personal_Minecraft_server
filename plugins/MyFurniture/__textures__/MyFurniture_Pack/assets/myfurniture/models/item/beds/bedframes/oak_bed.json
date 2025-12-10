@@ -1,0 +1,7 @@
+{
+  "credit" : "Made by betaklerik with Blockbench",
+  "parent" : "myfurniture:item/beds/bedframes/acacia_bed",
+  "textures" : {
+    "texture" : "myfurniture:item/item/beds/bedframes/oak_bed"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "credit" : "Made by betaklerik with Blockbench",
+  "texture_size" : [ 64, 48 ],
+  "textures" : {
+    "texture" : "myfurniture:item/item/stoves/colored_stoves/black_stove"
+  },
+  "elements" : [ {
+    "name" : "body",
+    "from" : [ 0, 0, 0 ],
+    "to" : [ 16, 16, 16 ],
+    "faces" : {
+      "north" : {
+        "uv" : [ 4, 7.66667, 8, 13 ],
+        "texture" : "#texture"
+      },
+      "east" : {
+        "uv" : [ 0, 7.66667, 4, 13 ],
+        "texture" : "#texture"
+      },
+      "south" : {
+        "uv" : [ 12, 7.66667, 16, 13 ],
+        "texture" : "#texture"
+      },
+      "west" : {
+        "uv" : [ 8, 7.66667, 12, 13 ],
+        "texture" : "#texture"
+      },
+      "up" : {
+        "uv" : [ 4, 2.33333, 8, 7.66667 ],
+        "texture" : "#texture"
+      },
+      "down" : {
+        "uv" : [ 8, 2.33333, 12, 7.66667 ],
+        "texture" : "#texture"
+      }
+    }
+  }, {
+    "name" : "dials",
+    "from" : [ 0, 16, 14 ],
+    "to" : [ 16, 20, 16 ],
+    "faces" : {
+      "north" : {
+        "uv" : [ 0.5, 0.66667, 4.5, 2 ],
+        "texture" : "#texture"
+      },
+      "east" : {
+        "uv" : [ 0, 0.66667, 0.5, 2 ],
+        "texture" : "#texture"
+      },
+      "south" : {
+        "uv" : [ 5, 0.66667, 9, 2 ],
+        "texture" : "#texture"
+      },
+      "west" : {
+        "uv" : [ 5, 0.66667, 4.5, 2 ],
+        "texture" : "#texture"
+      },
+      "up" : {
+        "uv" : [ 0.5, 0, 4.5, 0.66667 ],
+        "texture" : "#texture"
+      }
+    }
+  }, {
+    "name" : "oven",
+    "from" : [ 1, 1, -1 ],
+    "to" : [ 15, 15, 0 ],
+    "faces" : {
+      "north" : {
+        "uv" : [ 4.25, 8, 7.75, 12.66667 ],
+        "texture" : "#texture"
+      },
+      "east" : {
+        "uv" : [ 4.25, 8, 4.5, 12.66667 ],
+        "texture" : "#texture"
+      },
+      "west" : {
+        "uv" : [ 7.5, 8, 7.75, 12.66667 ],
+        "texture" : "#texture"
+      },
+      "up" : {
+        "uv" : [ 7.75, 8, 4.25, 8.33333 ],
+        "texture" : "#texture"
+      },
+      "down" : {
+        "uv" : [ 7.75, 12.33333, 4.25, 12.66667 ],
+        "texture" : "#texture"
+      }
+    }
+  }, {
+    "name" : "handle",
+    "from" : [ 2, 13, -2 ],
+    "to" : [ 14, 14, -1 ],
+    "faces" : {
+      "north" : {
+        "uv" : [ 4.5, 8.33333, 7.5, 8.66667 ],
+        "texture" : "#texture"
+      },
+      "east" : {
+        "uv" : [ 4.5, 8.33333, 4.75, 8.66667 ],
+        "texture" : "#texture"
+      },
+      "west" : {
+        "uv" : [ 7.25, 8.33333, 7.5, 8.66667 ],
+        "texture" : "#texture"
+      },
+      "up" : {
+        "uv" : [ 7.5, 8.33333, 4.5, 8.66667 ],
+        "texture" : "#texture"
+      },
+      "down" : {
+        "uv" : [ 7.5, 8.33333, 4.5, 8.66667 ],
+        "texture" : "#texture"
+      }
+    }
+  } ],
+  "display" : {
+    "thirdperson_righthand" : {
+      "rotation" : [ 25, 135, 0 ],
+      "translation" : [ -1.5, 0, -1.5 ],
+      "scale" : [ 0.5, 0.5, 0.5 ]
+    },
+    "thirdperson_lefthand" : {
+      "rotation" : [ 25, 135, 0 ],
+      "translation" : [ -1.5, 0, -1.5 ],
+      "scale" : [ 0.5, 0.5, 0.5 ]
+    },
+    "firstperson_righthand" : {
+      "rotation" : [ 0, 135, 0 ],
+      "translation" : [ 0, 2, 0 ],
+      "scale" : [ 0.75, 0.75, 0.75 ]
+    },
+    "firstperson_lefthand" : {
+      "rotation" : [ 0, 135, 0 ],
+      "translation" : [ 0, 2, 0 ],
+      "scale" : [ 0.75, 0.75, 0.75 ]
+    },
+    "ground" : {
+      "translation" : [ 0, 2, 0 ],
+      "scale" : [ 0.5, 0.5, 0.5 ]
+    },
+    "gui" : {
+      "rotation" : [ 30, 135, 0 ],
+      "translation" : [ 0, -1, 0 ],
+      "scale" : [ 0.55, 0.55, 0.55 ]
+    },
+    "fixed" : {
+      "translation" : [ 0, 0, 16 ],
+      "scale" : [ 2.01, 2.01, 2.01 ]
+    }
+  }
+}

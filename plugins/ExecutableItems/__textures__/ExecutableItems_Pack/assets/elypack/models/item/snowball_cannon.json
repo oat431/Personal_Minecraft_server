@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "elypack:item/custom_textures/snowball_cannon"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [5, 75, -40],
+			"translation": [-0.25, -1.75, -6.75],
+			"scale": [1.5, 1.5, 3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-5, -75, 40],
+			"translation": [-0.25, -1.75, -6.75],
+			"scale": [1.5, 1.5, 3]
+		},
+		"firstperson_righthand": {
+			"rotation": [-30, 80, 0],
+			"translation": [11.25, 1.5, -1.5],
+			"scale": [1.5, 1.5, 3]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-30, -90, 0],
+			"translation": [11.25, 1.5, -1.5],
+			"scale": [1.5, 1.5, 3]
+		},
+		"ground": {
+			"translation": [0, 2.25, 0],
+			"scale": [0.75, 0.75, 1]
+		}
+	}
+}

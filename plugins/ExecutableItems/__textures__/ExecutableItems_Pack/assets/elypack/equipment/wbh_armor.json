@@ -1,0 +1,9 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "elypack:wbh_armor"
+      }
+    ]
+  }
+}

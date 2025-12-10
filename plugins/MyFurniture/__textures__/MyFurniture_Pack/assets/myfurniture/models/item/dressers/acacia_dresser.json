@@ -1,0 +1,166 @@
+{
+  "credit" : "Made by betaklerik with Blockbench",
+  "texture_size" : [ 112, 48 ],
+  "textures" : {
+    "texture" : "myfurniture:item/item/dressers/acacia_dresser"
+  },
+  "elements" : [ {
+    "name" : "body",
+    "from" : [ -8, 2, 0 ],
+    "to" : [ 24, 14, 16 ],
+    "rotation" : {
+      "angle" : 0,
+      "axis" : "y",
+      "origin" : [ 0, 0, 16 ]
+    },
+    "faces" : {
+      "north" : {
+        "uv" : [ 7, 7, 2.42857, 11 ],
+        "texture" : "#texture"
+      },
+      "east" : {
+        "uv" : [ 9, 7, 6.71429, 11 ],
+        "texture" : "#texture"
+      },
+      "south" : {
+        "uv" : [ 13.85714, 7, 9.28571, 11 ],
+        "texture" : "#texture"
+      },
+      "west" : {
+        "uv" : [ 2.42857, 7, 0.14286, 11 ],
+        "texture" : "#texture"
+      }
+    }
+  }, {
+    "name" : "top",
+    "from" : [ -9, 14, -1 ],
+    "to" : [ 25, 16, 17 ],
+    "rotation" : {
+      "angle" : 0,
+      "axis" : "y",
+      "origin" : [ 0, 0, 16 ]
+    },
+    "faces" : {
+      "north" : {
+        "uv" : [ 7.42857, 6, 2.57143, 6.66667 ],
+        "texture" : "#texture"
+      },
+      "east" : {
+        "uv" : [ 10, 6, 7.42857, 6.66667 ],
+        "texture" : "#texture"
+      },
+      "south" : {
+        "uv" : [ 14.85714, 6, 10.28571, 6.66667 ],
+        "texture" : "#texture"
+      },
+      "west" : {
+        "uv" : [ 2.57143, 6, 0, 6.66667 ],
+        "texture" : "#texture"
+      },
+      "up" : {
+        "uv" : [ 2.57143, 6, 7.42857, 0 ],
+        "texture" : "#texture"
+      },
+      "down" : {
+        "uv" : [ 2.57143, 6, 7.42857, 0 ],
+        "texture" : "#texture"
+      }
+    }
+  }, {
+    "name" : "bottom",
+    "from" : [ -9, 0, -1 ],
+    "to" : [ 25, 2, 17 ],
+    "rotation" : {
+      "angle" : 0,
+      "axis" : "y",
+      "origin" : [ 0, 0, 16 ]
+    },
+    "faces" : {
+      "north" : {
+        "uv" : [ 7.42857, 6, 2.57143, 6.66667 ],
+        "texture" : "#texture"
+      },
+      "east" : {
+        "uv" : [ 10, 6, 7.42857, 6.66667 ],
+        "texture" : "#texture"
+      },
+      "south" : {
+        "uv" : [ 14.85714, 6, 10.28571, 6.66667 ],
+        "texture" : "#texture"
+      },
+      "west" : {
+        "uv" : [ 2.57143, 6, 0, 6.66667 ],
+        "texture" : "#texture"
+      },
+      "up" : {
+        "uv" : [ 2.57143, 6, 7.42857, 0 ],
+        "texture" : "#texture"
+      },
+      "down" : {
+        "uv" : [ 2.57143, 6, 7.42857, 0 ],
+        "texture" : "#texture"
+      }
+    }
+  }, {
+    "name" : "drawers",
+    "from" : [ -6, 2, -1 ],
+    "to" : [ 22, 14, 0 ],
+    "rotation" : {
+      "angle" : 0,
+      "axis" : "y",
+      "origin" : [ 0, 0, 16 ]
+    },
+    "faces" : {
+      "north" : {
+        "uv" : [ 6.71429, 7, 2.71429, 11 ],
+        "texture" : "#texture"
+      },
+      "east" : {
+        "uv" : [ 6.71429, 7, 6.57143, 11 ],
+        "texture" : "#texture"
+      },
+      "west" : {
+        "uv" : [ 2.85714, 7, 2.71429, 11 ],
+        "texture" : "#texture"
+      }
+    }
+  } ],
+  "display" : {
+    "thirdperson_righthand" : {
+      "rotation" : [ 25, -60, 0 ],
+      "translation" : [ 4.25, -1.25, 6.25 ],
+      "scale" : [ 0.5, 0.5, 0.5 ]
+    },
+    "thirdperson_lefthand" : {
+      "rotation" : [ 25, -60, 0 ],
+      "translation" : [ 0, 1.5, -0.5 ],
+      "scale" : [ 0.5, 0.5, 0.5 ]
+    },
+    "firstperson_righthand" : {
+      "rotation" : [ -15, -45, 0 ],
+      "translation" : [ 4, 0, 6 ],
+      "scale" : [ 0.75, 0.75, 0.75 ]
+    },
+    "firstperson_lefthand" : {
+      "rotation" : [ -15, -75, 0 ],
+      "translation" : [ 0, 0, -6 ],
+      "scale" : [ 0.75, 0.75, 0.75 ]
+    },
+    "ground" : {
+      "translation" : [ 0, 2, 0 ],
+      "scale" : [ 0.5, 0.5, 0.5 ]
+    },
+    "gui" : {
+      "rotation" : [ 30, -60, 0 ],
+      "scale" : [ 0.475, 0.475, 0.475 ]
+    },
+    "head" : {
+      "rotation" : [ 0, 180, 0 ]
+    },
+    "fixed" : {
+      "rotation" : [ 0, 180, 0 ],
+      "translation" : [ 16, 0, 16 ],
+      "scale" : [ 2.01, 2.01, 2.01 ]
+    }
+  }
+}
