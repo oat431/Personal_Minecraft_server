@@ -1,0 +1,4 @@
+# The max furniture rendered
+maxFurnitureRendered: 250
+viewDistanceFurniture: 150.0
+maxDistanceBoundingBoxCalculation: 5.0

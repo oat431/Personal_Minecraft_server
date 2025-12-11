@@ -1,10 +1,10 @@
 [
   {
-    "uuid": "d14be03a-9b63-42a6-8332-469eac4820df",
-    "name": "oat431"
-  },
-  {
     "uuid": "9e0bf3cd-7fa9-42d6-ae00-9e933a68f55c",
     "name": "DeerNGO"
+  },
+  {
+    "uuid": "d14be03a-9b63-42a6-8332-469eac4820df",
+    "name": "oat431"
   }
 ]
