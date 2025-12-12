@@ -1,20 +1,449 @@
-[15:51:48] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-87-generic (amd64)
-[15:51:48] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.10-2531-HEAD@b7b7ba2 (1970-01-01T00:00:00Z) for Minecraft 1.21.10
-[15:51:48] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:51:50] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
-[15:51:50] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[02:14:29] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-87-generic (amd64)
+[02:14:29] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.10-2531-HEAD@b7b7ba2 (1970-01-01T00:00:00Z) for Minecraft 1.21.10
+[02:14:30] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:14:31] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
+[02:14:31] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - Veinminer (2.5.1)
-[15:51:50] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
- - CalcMod (1.4.2+paper.1.21.9-pre2), ExecutableItems (7.25.10.16), Geyser-Spigot (2.9.1-SNAPSHOT), MyFurniture (1.25.12.7), PerspectiveLock (1.0), SCore (5.25.10.16), SkinsRestorer (15.9.0), TreeFeller (1.26.3), floodgate (2.2.5-SNAPSHOT (b121-55a85ec))
-[15:51:54] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[15:51:54] [ServerMain/ERROR]: Failed to start the minecraft server
-net.minecraft.util.DirectoryLock$LockException: /home/mcadmin/Personal_Minecraft_server/./world/session.lock: already locked (possibly by other Minecraft instance?)
-	at net.minecraft.util.DirectoryLock$LockException.alreadyLocked(DirectoryLock.java:100) ~[purpur-1.21.10.jar:1.21.10-2531-b7b7ba2]
-	at net.minecraft.util.DirectoryLock.create(DirectoryLock.java:30) ~[purpur-1.21.10.jar:1.21.10-2531-b7b7ba2]
-	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:436) ~[purpur-1.21.10.jar:1.21.10-2531-b7b7ba2]
-	at net.minecraft.world.level.storage.LevelStorageSource.validateAndCreateAccess(LevelStorageSource.java:351) ~[purpur-1.21.10.jar:1.21.10-2531-b7b7ba2]
-	at net.minecraft.server.Main.main(Main.java:190) ~[purpur-1.21.10.jar:1.21.10-2531-b7b7ba2]
-	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[purpur-1.21.10.jar:1.21.10-2531-b7b7ba2]
-	at org.bukkit.craftbukkit.Main.main(Main.java:250) ~[purpur-1.21.10.jar:1.21.10-2531-b7b7ba2]
-	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
-	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[02:14:31] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (10):
+ - CalcMod (1.4.2+paper.1.21.9-pre2), ExecutableItems (7.25.10.16), Geyser-Spigot (2.9.1-SNAPSHOT), MyFurniture (1.25.12.7), PerspectiveLock (1.0), SCore (5.25.10.16), SkinsRestorer (15.9.0), TreeFeller (1.26.3), ViaVersion (5.5.1), floodgate (2.2.5-SNAPSHOT (b121-55a85ec))
+[02:14:36] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[02:14:38] [ServerMain/INFO]: Loaded 1461 recipes
+[02:14:38] [ServerMain/INFO]: Loaded 1574 advancements
+[02:14:38] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[02:14:38] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 387.2ms
+[02:14:39] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[02:14:39] [Server thread/INFO]: Loading properties
+[02:14:39] [Server thread/INFO]: This server is running Purpur version 1.21.10-2531-HEAD@b7b7ba2 (1970-01-01T00:00:00Z) (Implementing API version 1.21.10-R0.1-SNAPSHOT)
+[02:14:39] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[02:14:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:14:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:14:39] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[02:14:40] [Server thread/INFO]: Default game type: SURVIVAL
+[02:14:40] [Server thread/INFO]: Generating keypair
+[02:14:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:14:40] [Server thread/INFO]: Using epoll channel type
+[02:14:40] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[02:14:40] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loading 1 libraries... please wait
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-all/4.1.118.Final/netty-all-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-buffer/4.1.118.Final/netty-buffer-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-codec/4.1.118.Final/netty-codec-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-codec-dns/4.1.118.Final/netty-codec-dns-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-codec-haproxy/4.1.118.Final/netty-codec-haproxy-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-codec-http/4.1.118.Final/netty-codec-http-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-codec-http2/4.1.118.Final/netty-codec-http2-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-codec-memcache/4.1.118.Final/netty-codec-memcache-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-codec-mqtt/4.1.118.Final/netty-codec-mqtt-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-codec-redis/4.1.118.Final/netty-codec-redis-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-codec-smtp/4.1.118.Final/netty-codec-smtp-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-codec-socks/4.1.118.Final/netty-codec-socks-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-codec-stomp/4.1.118.Final/netty-codec-stomp-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-codec-xml/4.1.118.Final/netty-codec-xml-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-common/4.1.118.Final/netty-common-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-handler/4.1.118.Final/netty-handler-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-transport-native-unix-common/4.1.118.Final/netty-transport-native-unix-common-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-handler-proxy/4.1.118.Final/netty-handler-proxy-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-handler-ssl-ocsp/4.1.118.Final/netty-handler-ssl-ocsp-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-resolver/4.1.118.Final/netty-resolver-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-resolver-dns/4.1.118.Final/netty-resolver-dns-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-transport/4.1.118.Final/netty-transport-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-transport-rxtx/4.1.118.Final/netty-transport-rxtx-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-transport-sctp/4.1.118.Final/netty-transport-sctp-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-transport-udt/4.1.118.Final/netty-transport-udt-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-transport-classes-epoll/4.1.118.Final/netty-transport-classes-epoll-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-transport-classes-kqueue/4.1.118.Final/netty-transport-classes-kqueue-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-resolver-dns-classes-macos/4.1.118.Final/netty-resolver-dns-classes-macos-4.1.118.Final.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-x86_64.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-aarch_64.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-riscv64.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-transport-native-kqueue/4.1.118.Final/netty-transport-native-kqueue-4.1.118.Final-osx-x86_64.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-transport-native-kqueue/4.1.118.Final/netty-transport-native-kqueue-4.1.118.Final-osx-aarch_64.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-resolver-dns-native-macos/4.1.118.Final/netty-resolver-dns-native-macos-4.1.118.Final-osx-x86_64.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/io/netty/netty-resolver-dns-native-macos/4.1.118.Final/netty-resolver-dns-native-macos-4.1.118.Final-osx-aarch_64.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [MyFurniture] Loading 2 libraries... please wait
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [MyFurniture] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackson-databind-2.13.4.2.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [MyFurniture] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [MyFurniture] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [MyFurniture] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/java3d/j3d-core/1.3.1/j3d-core-1.3.1.jar
+[02:14:40] [Server thread/INFO]: [SpigotLibraryLoader] [MyFurniture] Loaded library /home/mcadmin/Personal_Minecraft_server/libraries/java3d/vecmath/1.3.1/vecmath-1.3.1.jar
+[02:14:41] [Server thread/INFO]: [SCore] Loading server plugin SCore v5.25.10.16
+[02:14:41] [Server thread/INFO]: [ExecutableItems] Loading server plugin ExecutableItems v7.25.10.16
+[02:14:41] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b121-55a85ec)
+[02:14:41] [Server thread/INFO]: [floodgate] Took 842ms to boot Floodgate
+[02:14:41] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.5.1
+[02:14:41] [Server thread/INFO]: [ViaVersion] ViaVersion 5.5.1 is now loaded. Registering protocol transformers and injecting...
+[02:14:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[02:14:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[02:14:43] [Server thread/INFO]: [MyFurniture] Loading server plugin MyFurniture v1.25.12.7
+[02:14:43] [Server thread/INFO]: [MyFurniture] PacketEvents not found; loading it dynamically...
+[02:14:43] [Server thread/INFO]: [MyFurniture] Loading library packetevents-spigot
+[02:14:45] [Server thread/INFO]: [MyFurniture] Downloaded library https://repo.codemc.io/repository/maven-snapshots/com/github/retrooper/packetevents-spigot/2.10.0-SNAPSHOT/packetevents-spigot-2.10.0-20251017.233904-7.jar
+[02:15:03] [Server thread/INFO]: [MyFurniture] Loading library adventure-api
+[02:15:03] [Server thread/INFO]: [MyFurniture] Loading library annotations
+[02:15:03] [Server thread/INFO]: [MyFurniture] Loading library adventure-nbt
+[02:15:03] [Server thread/INFO]: [MyFurniture] Loading library adventure-key
+[02:15:03] [Server thread/INFO]: [MyFurniture] Loading library examination-api
+[02:15:03] [Server thread/INFO]: [MyFurniture] Loading library examination-string
+[02:15:03] [Server thread/INFO]: [MyFurniture] Loading library packetevents-api
+[02:15:06] [Server thread/INFO]: [MyFurniture] Downloaded library https://repo.codemc.io/repository/maven-snapshots/com/github/retrooper/packetevents-api/2.10.0-SNAPSHOT/packetevents-api-2.10.0-20251017.233904-7.jar
+[02:15:06] [Server thread/INFO]: [MyFurniture] Loading library packetevents-netty-common
+[02:15:06] [Server thread/INFO]: [MyFurniture] Downloaded library https://repo.codemc.io/repository/maven-snapshots/com/github/retrooper/packetevents-netty-common/2.10.0-SNAPSHOT/packetevents-netty-common-2.10.0-20251017.233904-7.jar
+[02:15:07] [Server thread/INFO]: [TreeFeller] Loading server plugin TreeFeller v1.26.3
+[02:15:07] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.9.0
+[02:15:07] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.9.1-SNAPSHOT
+[02:15:07] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[02:15:07] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[02:15:07] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.5.1
+[02:15:07] [Server thread/INFO]: [Veinminer] Detected platform: Purpur
+[02:15:08] [Server thread/INFO]: [PerspectiveLock] Loading server plugin PerspectiveLock v1.0
+[02:15:08] [Server thread/INFO]: [CalcMod] Loading server plugin CalcMod v1.4.2+paper.1.21.9-pre2
+[02:15:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:15:08] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.9.0
+[02:15:08] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.10.
+[02:15:09] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[02:15:09] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[02:15:09] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.5.1
+[02:15:09] [Server thread/INFO]: Preparing level "world"
+[02:15:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:15:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[02:15:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[02:15:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[02:15:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[02:15:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[02:15:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:15:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.9.0
+[02:15:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 1565b8f
+[02:15:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[02:15:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:15:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[02:15:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[02:15:10] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is up to date
+[02:15:10] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[02:15:10] [Server thread/INFO]: Preparing spawn area: 100%
+[02:15:10] [Server thread/INFO]: Prepared spawn area in 1 ms
+[02:15:10] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[02:15:10] [Server thread/INFO]: Prepared spawn area in 0 ms
+[02:15:10] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[02:15:10] [Server thread/INFO]: Prepared spawn area in 0 ms
+[02:15:10] [Server thread/INFO]: Done preparing level "world" (0.837s)
+[02:15:10] [Server thread/INFO]: [SCore] Enabling SCore v5.25.10.16
+[02:15:10] [Server thread/INFO]: SCore The library part of SCore is initializing ... (by SCore)
+[02:15:10] [Server thread/INFO]: SCore ExecutableItems hooked !  (7.25.10.16) Load After
+[02:15:10] [Server thread/INFO]: SCore MyFurniture hooked !  (1.25.12.7) Load After
+[02:15:10] [Server thread/INFO]: SCore Locale setup: EN
+[02:15:10] [Server thread/INFO]: SCore Language of the editor setup on EN
+[02:15:10] [Server thread/INFO]: SCore will connect to the database hosted: In Local
+[02:15:10] [Server thread/INFO]: SCore Connection to the db...
+[02:15:10] [Server thread/INFO]: SCore will connect to the database hosted: In Local
+[02:15:10] [Server thread/INFO]: SCore Creating table SecurityOP if not exists...
+[02:15:10] [Server thread/INFO]: SCore Creating table Commands if not exists...
+[02:15:10] [Server thread/INFO]: SCore Creating table Cooldowns if not exists...
+[02:15:10] [Server thread/INFO]: SCore Creating table Commands Player if not exists...
+[02:15:10] [Server thread/INFO]: SCore Creating table Commands Entity if not exists...
+[02:15:10] [Server thread/INFO]: SCore Creating table Commands Block if not exists...
+[02:15:10] [Server thread/INFO]: SCore Creating table UsePerDay if not exists...
+[02:15:10] [Server thread/INFO]: SCore SCore loaded 0 delayed commands saved
+[02:15:10] [Server thread/INFO]: ================ SCore ================
+[02:15:10] [Server thread/INFO]: SCore is running on Folia
+[02:15:10] [Server thread/INFO]: SCore is running on Paper or fork
+[02:15:10] [Server thread/INFO]: SCore Version of the server 1.21.10-2531-b7b7ba2 (MC: 1.21.10) !
+[02:15:10] [Server thread/INFO]: SCore Language for in-game messages setup on EN
+[02:15:11] [Server thread/INFO]: SCore SCore loaded 1 variables from local files !
+[02:15:11] [Server thread/INFO]: ================ SCore ================
+[02:15:11] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v7.25.10.16
+[02:15:11] [Server thread/INFO]: ================ ExecutableItems ================
+[02:15:11] [Server thread/INFO]: Injector com.ssomar.score.pack.custom.PackHttpInjector registered (TPack selfhosting)
+[02:15:16] [Server thread/INFO]: ExecutableItems Amount of Executable Items configurations loaded: 360
+[02:15:16] [Server thread/INFO]: ExecutableItems Items with display conditions :  
+[02:15:16] [Server thread/INFO]: ================ ExecutableItems ================
+[02:15:16] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b121-55a85ec)
+[02:15:16] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.5.1
+[02:15:16] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.9-1.21.10 (773)
+[02:15:16] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[02:15:16] [Server thread/WARN]: [ViaVersion] ViaVersion only supports newer client versions. Use ViaBackwards to allow older versions (ViaRewind for 1.7/1.8) to join.
+[02:15:16] [Server thread/WARN]: [ViaVersion] Get setup help at https://viaversion.com/setup or download ViaBackwards/ViaRewind directly at https://ci.viaversion.com/
+[02:15:16] [Server thread/WARN]: [ViaVersion] Need more help? Join our Discord at https://viaversion.com/discord
+[02:15:16] [Server thread/INFO]: [MyFurniture] Enabling MyFurniture v1.25.12.7
+[02:15:16] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[02:15:16] [Server thread/INFO]: ================ MyFurniture ================
+[02:15:17] [Server thread/INFO]: Injector com.ssomar.score.pack.custom.PackHttpInjector registered (TPack selfhosting)
+[02:15:17] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.10.0+ce43c2ba8-SNAPSHOT) | Latest release: (2.11.0)
+[02:15:17] [Server thread/INFO]: MyFurniture Amount of Furniture configurations loaded: 277
+[02:15:17] [Server thread/INFO]: ================ MyFurniture ================
+[02:15:17] [Server thread/INFO]: [TreeFeller] Enabling TreeFeller v1.26.3
+[02:15:17] [Server thread/INFO]: [TreeFeller] TreeFeller has been enabled! (Version 1.26.3) by ThizThizzyDizzy
+[02:15:17] [Server thread/INFO]: [TreeFeller] Server version: 1.21.10-R0.1-SNAPSHOT
+[02:15:17] [Server thread/INFO]: [TreeFeller] Loaded global values:
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Startup Logs: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Default Enabled: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Scan Distance: 256
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 6
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 6
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Required Logs: 4
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Required Leaves: 10
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Max Logs: 250
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Max Height: 5
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Allow Partial: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Allow Partial Tool: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Player Leaves: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Ignore Leaf Data: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Require Cross Section: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Force Distance Check: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Decorations: [snow, vines, cocoa, weeping vines, moss, pale moss carpet, pale hanging moss]
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 6
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Min Vertical Log Ratio: 0.5
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Cutting Animation: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Anim Delay: 1
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Replant Saplings: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Use Tree Saplings: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Use Inventory Saplings: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Spawn Saplings: 0
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Sapling Timeout: 50
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Grass: [PODZOL, GRASS_BLOCK, DIRT]
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Root Distance: 6
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Log Behavior: BREAK
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaf Behavior: BREAK
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Fall Hurt Amount: 2.0
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Fall Hurt Max: 40
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Directional Fall Behavior: RANDOM
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Overridables: [FERN, WATER, LARGE_FERN, AIR, TALL_GRASS, CAVE_AIR, SEAGRASS, TALL_SEAGRASS]
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Lock Fall Cardinal: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Directional Fall Velocity: 0.35
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Vertical Fall Velocity: 0.05
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Explosive Fall Velocity: 0.0
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Random Fall Velocity: 0.0
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Fall Delay: 0
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Respect Unbreaking: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Respect Unbreakable: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Damage Mult: 1.0
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Stacked Tools: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaf Fortune: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaf Silk Touch: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Log Fortune: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Log Silk Touch: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leave Stump: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Rotate Logs: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Drop Conversions: {DARK_OAK_WOOD=DARK_OAK_LOG, SPRUCE_WOOD=SPRUCE_LOG, JUNGLE_WOOD=JUNGLE_LOG, WARPED_HYPHAE=WARPED_STEM, PALE_OAK_WOOD=PALE_OAK_LOG, CHERRY_WOOD=CHERRY_LOG, BIRCH_WOOD=BIRCH_LOG, CRIMSON_HYPHAE=CRIMSON_STEM, MANGROVE_WOOD=MANGROVE_LOG, OAK_WOOD=OAK_LOG, ACACIA_WOOD=ACACIA_LOG}
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Block Conversions: {MUDDY_MANGROVE_ROOTS=MUD}
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaf Drop Chance: 1.0
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Log Drop Chance: 1.0
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Effects: []
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Consumed Food Base: 0.0
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Consumed Food Logs: 0.0
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Consumed Food Leaves: 0.0
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Consumed Health Base: 0.0
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Consumed Health Logs: 0.0
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Consumed Health Leaves: 0.0
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Prevent Breakage: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Enable Adventure: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Enable Survival: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Enable Creative: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - With Sneak: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Without Sneak: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - World Blacklist: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Cascade: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Parallel Cascade Limit: 1
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Cascade Check Limit: 64
+[02:15:17] [Server thread/INFO]: [TreeFeller] - MMOCore Trunk XP: {woodcutting=1.0}
+[02:15:17] [Server thread/INFO]: [TreeFeller] - MMOCore Leaves XP: {woodcutting=0.0}
+[02:15:17] [Server thread/INFO]: [TreeFeller] - MMOCore Tree XP: {woodcutting=0.0}
+[02:15:17] [Server thread/INFO]: [TreeFeller] - MMOCore Emulate Regen: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Compatibility MMOCore: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Compatibility Jobs: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - MCMMO Double Drops: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO Classic: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Compatibility CoreProtect: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Compatibility WorldGuard: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Compatibility GriefPrevention: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Compatibility Towny: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - OreRegenerator Regen Delay: 1200
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Compatibility OreRegenerator: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Compatibility Drop2Inventory: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - EcoSkills Trunk XP: {Woodcutting=1.0}
+[02:15:17] [Server thread/INFO]: [TreeFeller] - EcoSkills Leaves XP: {woodcutting=0.0}
+[02:15:17] [Server thread/INFO]: [TreeFeller] - EcoSkills Tree XP: {woodcutting=0.0}
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Compatibility EcoSkills: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - EcoJobs Apply Multipliers: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Compatibility EcoJobs: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock Legacy: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Compatibility Lands: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Compatibility PlaceholderAPI: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Compatibility SaberFactions: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - AureliumSkills Trunk XP: {foraging=1.0}
+[02:15:17] [Server thread/INFO]: [TreeFeller] - AureliumSkills Leaves XP: {foraging=0.0}
+[02:15:17] [Server thread/INFO]: [TreeFeller] - AureliumSkills Apply Modifiers: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Compatibility AureliumSkills: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - AuraSkills Trunk XP: {auraskills/foraging=1.0}
+[02:15:17] [Server thread/INFO]: [TreeFeller] - AuraSkills Leaves XP: {auraskills/foraging=0.0}
+[02:15:17] [Server thread/INFO]: [TreeFeller] - AuraSkills Apply Modifiers: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Compatibility AuraSkills: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Compatibility BlockRegen: false
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Compatibility Prism: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaves: OAK_LEAVES
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Sapling: [OAK_SAPLING]
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:15:17] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Trunk: BIRCH_LOG, BIRCH_WOOD
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaves: BIRCH_LEAVES
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Sapling: [BIRCH_SAPLING]
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:15:17] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Trunk: SPRUCE_LOG, SPRUCE_WOOD
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaves: SPRUCE_LEAVES
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Sapling: [SPRUCE_SAPLING]
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[02:15:17] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Trunk: JUNGLE_LOG, JUNGLE_WOOD
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaves: JUNGLE_LEAVES
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Sapling: [JUNGLE_SAPLING]
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[02:15:17] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Trunk: DARK_OAK_LOG, DARK_OAK_WOOD
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaves: DARK_OAK_LEAVES
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Sapling: [DARK_OAK_SAPLING]
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[02:15:17] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Trunk: ACACIA_LOG, ACACIA_WOOD
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaves: ACACIA_LEAVES
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Sapling: [ACACIA_SAPLING]
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:15:17] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaves: AZALEA_LEAVES, FLOWERING_AZALEA_LEAVES
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Sapling: [FLOWERING_AZALEA, AZALEA]
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:15:17] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Trunk: MANGROVE_LOG, MANGROVE_WOOD
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaves: MANGROVE_ROOTS, MANGROVE_LEAVES
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 16
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 16
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Required Logs: 3
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 16
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Max Trunks: 16
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Sapling: [MANGROVE_PROPAGULE]
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Roots: [MANGROVE_ROOTS]
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Root Distance: 16
+[02:15:17] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Trunk: CHERRY_LOG, CHERRY_WOOD
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaves: CHERRY_LEAVES
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Sapling: [CHERRY_SAPLING]
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:15:17] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Trunk: PALE_OAK_LOG, PALE_OAK_WOOD
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaves: PALE_OAK_LEAVES
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Sapling: [PALE_OAK_SAPLING]
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[02:15:17] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Trunk: CRIMSON_STEM, CRIMSON_HYPHAE
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaves: NETHER_WART_BLOCK, SHROOMLIGHT
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Sapling: [CRIMSON_FUNGUS]
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Grass: [CRIMSON_NYLIUM]
+[02:15:17] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Trunk: WARPED_STEM, WARPED_HYPHAE
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaves: WARPED_WART_BLOCK, SHROOMLIGHT
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Sapling: [WARPED_FUNGUS]
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:15:17] [Server thread/INFO]: [TreeFeller] - Grass: [WARPED_NYLIUM]
+[02:15:17] [Server thread/INFO]: [TreeFeller] Loaded tool: WOODEN_AXE
+[02:15:17] [Server thread/INFO]: [TreeFeller] Loaded tool: STONE_AXE
+[02:15:17] [Server thread/INFO]: [TreeFeller] Loaded tool: IRON_AXE
+[02:15:17] [Server thread/INFO]: [TreeFeller] Loaded tool: GOLDEN_AXE
+[02:15:17] [Server thread/INFO]: [TreeFeller] Loaded tool: DIAMOND_AXE
+[02:15:17] [Server thread/INFO]: [TreeFeller] Loaded tool: NETHERITE_AXE
+[02:15:17] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.9.1-SNAPSHOT
+[02:15:18] [Server thread/INFO]: [PerspectiveLock] Enabling PerspectiveLock v1.0
+[02:15:18] [Server thread/INFO]: [CalcMod] Enabling CalcMod v1.4.2+paper.1.21.9-pre2
+[02:15:18] [Server thread/INFO]: [spark] Starting background profiler...
+[02:15:19] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[02:15:19] [Server thread/INFO]: [Geyser-Spigot] 
+[02:15:19] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.9.1-b999 (git-master-dbed595)
+[02:15:19] [Server thread/INFO]: [Geyser-Spigot] 
+[02:15:19] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[02:15:22] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[02:15:22] [Server thread/INFO]: [Geyser-Spigot] Done (3.736s)! Run /geyser help for help!
+[02:15:22] [Server thread/INFO]: Starting GS4 status listener
+[02:15:22] [Server thread/INFO]: Thread Query Listener started
+[02:15:22] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[02:15:23] [Server thread/INFO]: Running delayed init tasks
+[02:15:23] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[02:15:23] [Server thread/INFO]: Done (54.304s)! For help, type "help"
+[02:15:23] [ForkJoinPool.commonPool-worker-4/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.21.130. Download it here: https://geysermc.org/download
+[02:17:47] [Server thread/INFO]: Stopping server
+[02:17:47] [Server thread/INFO]: [CalcMod] Disabling CalcMod v1.4.2+paper.1.21.9-pre2
+[02:17:47] [Server thread/INFO]: [PerspectiveLock] Disabling PerspectiveLock v1.0
+[02:17:47] [Server thread/INFO]: [Veinminer] Disabling Veinminer v2.5.1
+[02:17:47] [Worker-Main-1/INFO]: Loaded 1461 recipes
+[02:17:47] [Worker-Main-1/INFO]: Loaded 1574 advancements
+[02:17:47] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.9.1-SNAPSHOT
+[02:17:47] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[02:17:47] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[02:17:47] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.9.0
+[02:17:47] [Server thread/INFO]: [TreeFeller] Disabling TreeFeller v1.26.3
+[02:17:47] [Server thread/INFO]: [TreeFeller] TreeFeller has been disabled! (Version 1.26.3) by ThizThizzyDizzy
+[02:17:47] [Server thread/INFO]: [MyFurniture] Disabling MyFurniture v1.25.12.7
+[02:17:47] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
+[02:17:47] [Server thread/INFO]: Injector com.ssomar.score.pack.custom.PackHttpInjector unregistered (TPack selfhosting)
+[02:17:47] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.5.1
+[02:17:47] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[02:17:47] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.5-SNAPSHOT (b121-55a85ec)
+[02:17:47] [Server thread/INFO]: [ExecutableItems] Disabling ExecutableItems v7.25.10.16
+[02:17:47] [Server thread/INFO]: Injector com.ssomar.score.pack.custom.PackHttpInjector unregistered (TPack selfhosting)
+[02:17:47] [Server thread/INFO]: [SCore] Disabling SCore v5.25.10.16
+[02:17:47] [Server thread/INFO]: SCore Save UsagePerDay....
+[02:17:47] [Server thread/INFO]: SCore Save UsagePerDay done !
+[02:17:47] [Server thread/INFO]: SCore Save Commands...
+[02:17:47] [Server thread/INFO]: SCore Save Commands done !
+[02:17:47] [Server thread/INFO]: SCore Save Cooldowns...
+[02:17:47] [Server thread/INFO]: SCore 0 cooldowns saved
+[02:17:47] [Server thread/INFO]: SCore Save Cooldowns done !
+[02:17:47] [Server thread/INFO]: SCore Run delayed saving tasks...
+[02:17:47] [Server thread/INFO]: SCore Run delayed saving tasks done !
+[02:17:47] [Server thread/INFO]: SCore Clear scheduled tasks...
+[02:17:47] [Server thread/INFO]: SCore Clear scheduled tasks done !
+[02:17:47] [Server thread/INFO]: Saving players
+[02:17:47] [Server thread/INFO]: Saving worlds
+[02:17:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:17:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[02:17:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[02:17:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[02:17:47] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[02:17:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[02:17:47] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[02:17:47] [WebSocketConnectReadThread-138/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[02:17:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:17:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[02:17:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[02:17:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[02:17:47] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[02:17:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[02:17:47] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[02:17:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:17:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[02:17:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[02:17:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[02:17:47] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[02:17:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[02:17:47] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[02:17:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:17:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:17:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:17:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:17:47] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[02:17:47] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[02:17:47] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[02:17:47] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
